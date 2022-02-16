@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="text" style="position: relative;">
+            <h1>Text to label:</h1>
+
+            <p id='text_with_spans' style="position: absolute;  z-index: 100;">{{data}}</p>
+            <p style="position: absolute;">{{data}}</p>
+
+
+        </div>
+
+
+        <div id="user_input">
+            <h1>User Input:</h1>
+            Select:
+            <div id="tags">
+                <!-- <button type="button" class="btn btn-primary" id="person_tag">Person</button> -->
+                <button type="button" class="btn btn-primary" id="number_tag">Number</button>
+                <!-- <button type="button" class="btn btn-primary" id="company_tag">Company</button>
+                <button type="button" class="btn btn-primary" id="role_tag">Role</button> -->
+                <button type="button" class="btn btn-primary" id="metric_tag">Metric</button>
+                <!-- <button type="button" class="btn btn-primary" id="communication_tag">Communication</button>
+                <button type="button" class="btn btn-primary" id="state_tag">State</button>
+                <button type="button" class="btn btn-primary" id="organisation_tag">Organisation</button>
+                <button type="button" class="btn btn-primary" id="product_tag">Product</button>
+                <button type="button" class="btn btn-primary" id="period_tag">Period</button>
+                <button type="button" class="btn btn-primary" id="date_tag">Date</button>
+                <button type="button" class="btn btn-primary" id="outside_fator">Outside Factor</button> -->
+            </div>
+            Current Annotation:
+            <div id="workboard">
+
+            </div>
+            <button type="button" class="btn submit" id="submit_triplet">Add Triplet</button>
+            <br>
+            <div id="triplet_list_div">
+                <ul id="triplet_list">
+
+                </ul>
+
+
+            </div>
+            <div>
+
+                <button type="button" class="btn danger submit" id="submit_all_triplets">Submit All Triplets</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div id="info_box">
+        <span id="dataset">{{dataset}}</span>
+        <span id="identifier">{{id}}</span>
+    </div>
+    <a id="delete_button"><button type="button" id="delete_paragraph" class="btn btn-dark">Delete Paragraph <span style="font-size: 10px;">❌</span></button></a>
+    <a href="."><button type="button" id="next_paragraph" class="btn btn-dark">Next Paragraph ➡️</button></a>
+    
+</body>
+<script src="/static/js/main.js"></script>
+
+
+</html>

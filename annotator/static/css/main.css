@@ -1,0 +1,159 @@
+
+
+#main{
+    position: relative;
+    display: grid;
+    grid-template-areas: 'text1 user_input';
+    grid-template-columns: 1fr 1fr;
+}
+
+#person_tag{
+    background: blue;
+}
+#company_tag{
+    background: blueviolet;
+}
+#number_tag{
+    background: olivedrab;
+}
+#role_tag{
+    background: darkcyan;
+}
+#metric_tag{
+    background: lightseagreen;
+}
+#communication_tag{
+    background: darkgreen;
+}
+#state_tag{
+    background: darkkhaki;
+}
+
+#organisation_tag{
+    background: darkorange;
+}
+#product_tag{
+    background: darkred;
+}
+#date_tag{
+    background: darkgoldenrod;
+}
+#period_tag{
+    background: darkmagenta;
+}
+#outside_factor_tag{
+    background: darkslategrey;
+}
+
+
+.period{
+    text-decoration: underline;
+    text-decoration-color: darkmagenta;
+}
+
+.outside_factor{
+    text-decoration: underline;
+    text-decoration-color: darkslategray;
+}
+
+.person{
+    text-decoration: underline;
+  -webkit-text-decoration-color: blue; /* Safari */  
+  text-decoration-color: blue;
+}
+.company{
+    text-decoration: underline;
+  -webkit-text-decoration-color: blueviolet; /* Safari */  
+  text-decoration-color: blueviolet;
+}
+.number{
+    text-decoration: underline;
+  -webkit-text-decoration-color: olivedrab; /* Safari */  
+  text-decoration-color: olivedrab;
+}
+.role{
+    text-decoration: underline;
+  -webkit-text-decoration-color: darkcyan; /* Safari */  
+  text-decoration-color: darkcyan;
+}
+.metric{
+    text-decoration: underline;
+  -webkit-text-decoration-color: lightseagreen; /* Safari */  
+  text-decoration-color: lightseagreen;
+}
+.communication{
+    text-decoration: underline;
+  -webkit-text-decoration-color: darkgreen; /* Safari */  
+  text-decoration-color: darkgreen;
+}
+.state{
+    text-decoration: underline;
+  -webkit-text-decoration-color: darkkhaki; /* Safari */  
+  text-decoration-color: darkkhaki;
+}
+
+.organisation{
+    text-decoration: underline;
+  -webkit-text-decoration-color: darkorange; /* Safari */  
+  text-decoration-color: darkorange;
+}
+
+.product{
+    text-decoration: underline;
+  -webkit-text-decoration-color: darkred; /* Safari */  
+  text-decoration-color: darkred;
+}
+
+
+
+
+
+#main #text {
+    grid-area: text1;
+    
+
+    margin: 5px;
+}
+
+#main div{
+    padding: 20px;
+}
+
+#main #user_input {
+    grid-area: user_input;
+    margin: 5px;
+    max-width: 70%;
+}
+
+#main #user_input div {
+    padding: 10px;
+}
+
+#main #user_input .btn {
+    margin: 2px;
+}
+
+#main #user_input .submit {
+    display: block;
+    float: right;
+}
+
+#main #user_input #workboard{
+    min-height: 58px;
+}
+
+#next_paragraph{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+} 
+
+#delete_paragraph{
+    position: absolute;
+    right: 280px;
+    bottom: 100px;
+} 
+
+#main #user_input #triplet_list_div{
+    margin-top: 30px;
+}
