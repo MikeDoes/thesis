@@ -6,7 +6,6 @@ app = Flask(__name__, static_url_path='/static/')
 
 def choose_paragraph():
     reviewed = os.listdir('crowd_source_input/')
-
     for dataset in os.listdir('unlabeled_data/'):
         for identifier in os.listdir('unlabeled_data/' + dataset+ '/'):
             # Checks for available datasets
