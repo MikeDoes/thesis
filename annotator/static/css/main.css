@@ -6,6 +6,9 @@
     grid-template-areas: 'text1 user_input';
     grid-template-columns: 1fr 1fr;
 }
+#main h1{
+    padding-top: 10px;
+}
 
 #person_tag{
     background: blue;
@@ -116,7 +119,7 @@
 }
 
 #main div{
-    padding: 20px;
+    padding: 50px;
 }
 
 #main #user_input {

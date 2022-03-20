@@ -201,6 +201,7 @@ function submit_triplets(triplet_list){
     xhttp_request.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             console.log('success')
+            location.reload()
         }
     }
     xhttp_request.open("POST", "/add_triplets", true);
