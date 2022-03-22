@@ -16,6 +16,8 @@ function getSelectionText(relation) {
 
     displayed_paragraph = document.getElementById('text').children[1]
     underlined_paragraph = document.getElementById('text').children[2]
+    document.getElementById('text').children[2].style.opacity = 0
+    
     underlined_paragraph.innerText = displayed_paragraph.innerText
 
     /* Appending the underline list */

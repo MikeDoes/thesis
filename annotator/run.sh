@@ -1,3 +1,4 @@
+mkdir "crowd_source_input"
 parentdir="$(dirname "$(pwd)")"
 dataset="/datasets/financial_alphabet_2021/"
 dataset_dir=$parentdir$dataset
