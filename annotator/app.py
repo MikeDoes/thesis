@@ -10,7 +10,7 @@ def choose_paragraph():
         for identifier in os.listdir('unlabeled_data/' + dataset+ '/'):
             # Checks for available datasets
             identifier = identifier.split('.json')[0]
-            print(dataset, identifier)
+            
             found = False
 
             for user_input in reviewed:
