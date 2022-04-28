@@ -5,6 +5,9 @@ import numpy as np
 from tqdm import tqdm
 import json
 
+def clean_string(string):
+    return string.replace(' - ', ' ').replace(' .', '.').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')
+
 # Reading the file:
 file_name = 'train' #all, train, test
 
@@ -46,14 +49,14 @@ for sent_id in tqdm(df['sent_id'].unique()):
         head = run_subset[(run_subset['label']=='A0-B') | (run_subset['label']=='A0-I')]['word']
     
         head = ' '.join(list(head))
-        head = head.replace(' - ', ' ').replace(' .', '').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')
+        head = clean_string(head)
         
         
         relation = run_subset[(run_subset['label']=='P-B') | (run_subset['label']=='P-I')]['word']
         relation = ' '.join(list(relation))
         
 
-        relation = relation.replace(' - ', ' ').replace(' .', '').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')
+        relation = clean_string(relation)
         
         # tails
         # argument 1
@@ -65,7 +68,7 @@ for sent_id in tqdm(df['sent_id'].unique()):
             tail = run_subset[(run_subset['label']==f'A{j}-B') | (run_subset['label']==f'A{j}-I')]['word'] 
 
             tail = ' '.join(list(tail))
-            tail = tail.replace(' - ', ' ').replace(' .', '').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')
+            tail = clean_string(tail)
             
             dataset['labels'][index-1] += [(head, relation, tail)]
 
@@ -75,7 +78,7 @@ for sent_id in tqdm(df['sent_id'].unique()):
     word_list = run_subset['word']
     sentence = ' '.join(word_list)
 
-    dataset['text'] += [sentence.replace(' - ', ' ').replace(' .', '').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')]
+    dataset['text'] += [clean_string(sentence)]
 
 with open(f'{file_name}_sequence_sequences.json', 'w') as f:
     json.dump(dataset, f)
