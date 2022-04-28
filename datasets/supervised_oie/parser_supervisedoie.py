@@ -6,10 +6,10 @@ from tqdm import tqdm
 import json
 
 def clean_string(string):
-    return string.replace(' - ', ' ').replace(' .', '.').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')
+    return string.replace(' - ', ' ').replace(' .', '.').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$').replace(' %', '%')
 
 # Reading the file:
-file_name = 'train' #all, train, test
+file_name = 'test' #all, train, test
 
 with open(f'{file_name}.oie.conll') as f:
     headers = f.readline().replace('\n', '')
@@ -80,5 +80,5 @@ for sent_id in tqdm(df['sent_id'].unique()):
 
     dataset['text'] += [clean_string(sentence)]
 
-with open(f'{file_name}_sequence_sequences.json', 'w') as f:
+with open(f'parsed/{file_name}_sequence_sequences.json', 'w') as f:
     json.dump(dataset, f)

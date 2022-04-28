@@ -1,10 +1,10 @@
 import json
 
 def clean_string(string):
-    return string.replace(' - ', ' ').replace(' .', '.').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$')
+    return string.replace(' - ', ' ').replace(' .', '.').replace(' ,', ',').replace(' n\'t', 'n\'t').replace(' \'s', '\'s').replace(' )', ')').replace('( ', '(').replace('$ ', '$').replace(' %', '%')
 
 
-with open('all.json') as f:
+with open('test.json') as f:
     data = json.load(f)
 
 dataset = {
@@ -28,5 +28,5 @@ for sentence_key in data:
 
             dataset['labels'][index-1] += [[head, relation, tail]]
 
-with open('all_sequence_sequences.json', 'w') as f:
+with open('test_sequence_sequences.json', 'w') as f:
     json.dump(dataset, f)
