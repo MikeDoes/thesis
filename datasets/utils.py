@@ -1,9 +1,5 @@
 
-def load_openie_dataset():
-    import json
-    import torch    
+def load_dataset(path):
     # Loading the Open IE dataset into the PyTorch DataLoader
-    with open('datasets/oie2016/data.json') as json_file:
-        data = json.load(json_file)
-
-    return data
+    
+    return ''
