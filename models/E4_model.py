@@ -3,35 +3,68 @@
 import os
 import openai
 import json
+from tqdm import tqdm
 
 def load_dataset(path):
   with open(path) as f:
     data = json.load(f)
   return data
 
+
+def forward(prompt_string):
+  openai.api_key = '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'
+  response = openai.Completion.create(
+    engine="text-davinci-002",
+    prompt=prompt_string,
+    temperature=0,
+    max_tokens=200,
+    top_p=1,
+    frequency_penalty=0.0,
+    presence_penalty=0.0,
+    stop=["\n"]
+  )
+  return response
+
 train_data = load_dataset('datasets/supervised_oie/parsed/train_sequence_sequences.json')
 test_data = load_dataset('datasets/supervised_oie/parsed/test_sequence_sequences.json')
+# missing_indices = list(range(len(test_data['text'])))
 
-prompt_string = ""  
-for i in range(12):
-  prompt_string += 'Text:' + train_data['text'][i] +'\n'
-  prompt_string += 'Facts:' + train_data['text'][i] +'\n\n'
+evaluations_1 = load_dataset('models/results/E4_1.json')
 
-prompt_string += 'Text:' + test_data['text'][0] +'\n'+'Facts:'
+missing_indices = []
+maximum_length = 0
+for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
+  if predicted_label["choices"][0]["text"] == "":
+    missing_indices += [i]
+  else:
+    maximum_length = max(len(test_data["text"][i]), maximum_length)
 
-openai.api_key = ''
 
-response = openai.Completion.create(
-  engine="text-davinci-002",
-  prompt="I am a highly intelligent question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. If you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with \"Unknown\".\n\nQ: What is human life expectancy in the United States?\nA: Human life expectancy in the United States is 78 years.\n\nQ: Who was president of the United States in 1955?\nA: Dwight D. Eisenhower was president of the United States in 1955.\n\nQ: Which party did he belong to?\nA: He belonged to the Republican Party.\n\nQ: What is the square root of banana?\nA: Unknown\n\nQ: How does a telescope work?\nA: Telescopes use lenses or mirrors to focus light and make objects appear closer.\n\nQ: Where were the 1992 Olympics held?\nA: The 1992 Olympics were held in Barcelona, Spain.\n\nQ: How many squigs are in a bonk?\nA: Unknown\n\nQ: Where is the Valley of Kings?\nA:",
-  temperature=0,
-  max_tokens=200,
-  top_p=1,
-  frequency_penalty=0.0,
-  presence_penalty=0.0,
-  stop=["\n"]
-)
+prompt_string_train = ""  
+for i in range(8):
+    prompt_string_train += 'Q:' + train_data['text'][i] +'\n'
+    prompt_string_train += 'A:' + str(train_data['labels'][i]) +'\n\n'
 
-print('Response Dict: \n', response.__dict__)
-print('GPT-3 response: \n', response)
-print('Labeled response: \n', test_data['text'][0])
+
+# Iterating over the test_data
+maximum_length = 0
+
+predicted_labels = []
+try:
+  for i in tqdm(missing_indices):
+    sentence = test_data['text'][i]
+    
+    prompt_string = prompt_string_train + 'Q:' + sentence +'\n'+'A:'
+    response = forward(prompt_string)
+    predicted_labels += [response]
+    
+  
+except:
+  print('breaking out the loop')
+
+dump = {'hyperparameters': 'engine="text-davinci-002", prompt=prompt_string, temperature=0, max_tokens=359, top_p=1, frequency_penalty=0.0, presence_penalty=0.0, stop=["\n"]', 
+        'predicted_labels': predicted_labels,
+        'missed_labels': missing_indices}
+
+with open(f'models/results/E4_2.json', 'w') as f:
+    json.dump(dump, f)

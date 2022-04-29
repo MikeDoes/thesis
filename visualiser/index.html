@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Telephasic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -14,10 +9,11 @@
 	<script type="text/javascript" src="assets/js/vis-network.min.js"></script>
 	<style type="text/css">
 		#mynetwork {
-			height: 70vh;
-			border: 1px solid rgba(50,50,50, 0.9);
+			height: 70vh;/* 
+			border: 1px solid rgba(50,50,50, 0.9); */
 			background-color: rgba(255, 255, 255, 0.9);
-			border-radius: 50px;
+			border-radius: 0px;
+			box-shadow: 0 4px 8px 0 rgb(53 105 128 / 30%), 0 6px 20px 0 rgb(165 200 213 / 41%);
 		}
 		.title {
 			color: white;
@@ -80,17 +76,9 @@
 						<li>
 							<a>Choose Dataset</a>
 							<ul>
-								<li><a href="?dataset=bob_dylan">OIE2016</a></li>
+								<li><a href="#">OIE2016 (all)</a></li>
 								
-								<!-- <li>
-									<a href="#">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-									</ul>
-								</li> -->
+								
 							</ul>
 						</li>
 
@@ -98,12 +86,15 @@
 							<a>Choose Method</a>
 							<ul>
 								<li class="title">Dataset</li>
-								<li><a href="?model=dataset">OIE2016 Labels</a></li>
+								<li><a href="?model=all_dataset">OIE2016 Labels (all)</a></li>
+								<li><a href="?model=train_dataset">OIE2016 Labels (train)</a></li>
+								<li><a href="?model=test_dataset">OIE2016 Labels (test)</a></li>
+								<li><a href="?model=spanoie_dataset">OIE2016 Labels spanoie (test)</a></li>
 								<li class="title">Experimental</li>
 								<li><a href="">E1 - Translator (supervised)</a></li>
 								<li><a href="">E2 - Autoencoder (unsupervised)</a></li>
 								<li><a href="">E3 - Autoencoder with syntax help (unsupervised)</a></li>
-								<li><a href="">E4 - GPT-3 (zero-shot)</a></li>
+								<li><a href="?model=e4">E4 - GPT-3 (zero-shot)</a></li>
 								<li class="title">Control</li>
 								<li><a href="">C1 - OpenIE 5.1 </a></li>
 								<li><a href="">C2 - RNN OIE (supervised)</a></li>
@@ -303,73 +294,27 @@
 
 
 	<script type="text/javascript">
-		//Getting Cookies
-		function get_dataset_from_cookie(){
-			if(document.cookie.includes('dataset')){
-				dataset =  document.cookie.split('dataset=')[1].split('&')[0]
-				return dataset
-			}
-			else{
-				return null
-			}
-		}
-		function get_model_from_cookie(){
-			if(document.cookie.includes('model')){
-				model =  document.cookie.split('model=')[1].split('&')[0]
-				return model
-			}
-			else{
-				return null
-			}
-		}
-
+	
 		//Getting parameters
         var url_string = window.location.href;
         var url = new URL(url_string);
 
 		var dataset, model
-        var param_dataset = url.searchParams.get("dataset");
-		var param_model = url.searchParams.get("model");
-		var cookie_dataset = get_dataset_from_cookie()
-		var cookie_model = get_model_from_cookie()
-		
-		
-		// Getting Dataset Logic
-        if(param_dataset == null){
-			if(cookie_dataset){
-				dataset = cookie_dataset
-			}
-			else {
-				dataset = 'oie2016'
-			}
+		dataset = 'oie2016'
+		model = 'all_dataset'
+
+		if (url.searchParams.get("dataset") != null){
+			dataset = url.searchParams.get("dataset");
+		}
+		if (url.searchParams.get("model") != null){
+			model = url.searchParams.get("model");
 		}
 		
-		else{
-			dataset = param_dataset
-			var new_cookie = ''
-			new_cookie += 'dataset='+param_dataset+'&'
-			
-			document.cookie = new_cookie
-		}
-
-
-		// Getting Model Logic
-        if(param_model == null){
-			if(cookie_model){
-				model = cookie_model
-			}
-			else{
-				model = 'dataset'
-			}
-		}
-		else{
-			model = param_model
-			var new_cookie = ''
-			new_cookie += 'model='+param_model+'&'
-			
-			document.cookie = new_cookie
-		}	
-
+		
+		
+		
+				
+	
 
 
 
@@ -413,7 +358,6 @@
 			}
 
 			/* Attribute edges */
-			console.log(triplets_array[0][1])
 			for (let i = 0; i < triplets_array.length; i++) {
 				object_edges.push({
 				from: node_list.indexOf(triplets_array[i][0]), to: node_list.indexOf(triplets_array[i][2]), label: triplets_array[i][1], 
