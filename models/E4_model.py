@@ -3,6 +3,7 @@
 import os
 import openai
 import json
+from prompt_toolkit import prompt
 from tqdm import tqdm
 
 def load_dataset(path):
@@ -29,8 +30,9 @@ train_data = load_dataset('datasets/supervised_oie/parsed/train_sequence_sequenc
 test_data = load_dataset('datasets/supervised_oie/parsed/test_sequence_sequences.json')
 # missing_indices = list(range(len(test_data['text'])))
 
-evaluations_1 = load_dataset('models/results/E4_1.json')
+evaluations_1 = load_dataset('models/results/E4_partial.json')
 
+prompt_strings = []
 missing_indices = []
 maximum_length = 0
 for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
@@ -55,7 +57,9 @@ try:
     sentence = test_data['text'][i]
     
     prompt_string = prompt_string_train + 'Q:' + sentence +'\n'+'A:'
-    response = forward(prompt_string)
+    #response = forward(prompt_string)
+    prompt_strings += [prompt_string]
+    response = ''
     predicted_labels += [response]
     
   
@@ -64,6 +68,7 @@ except:
 
 dump = {'hyperparameters': 'engine="text-davinci-002", prompt=prompt_string, temperature=0, max_tokens=359, top_p=1, frequency_penalty=0.0, presence_penalty=0.0, stop=["\n"]', 
         'predicted_labels': predicted_labels,
+        'prompt_text': prompt_strings,
         'missed_labels': missing_indices}
 
 with open(f'models/results/E4_2.json', 'w') as f:
