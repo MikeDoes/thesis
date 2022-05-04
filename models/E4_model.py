@@ -11,55 +11,48 @@ def load_dataset(path):
     data = json.load(f)
   return data
 
+def pre_process(text):
+  text = str(text)
+  text = text.replace('[', '(').replace(']', ')').replace('``','\'\'')
+  return text
 
 def forward(prompt_string):
-  openai.api_key = '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'
+  openai.api_key = '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'
   response = openai.Completion.create(
     engine="text-davinci-002",
     prompt=prompt_string,
-    temperature=0,
-    max_tokens=200,
-    top_p=1,
-    frequency_penalty=0.0,
-    presence_penalty=0.0,
-    stop=["\n"]
+    n=3,
+    max_tokens=358,
+    frequency_penalty=0,
+    presence_penalty=0,
+    temperature=0.95,
+    stop=["\n\n"]
   )
   return response
 
 train_data = load_dataset('datasets/supervised_oie/parsed/train_sequence_sequences.json')
 test_data = load_dataset('datasets/supervised_oie/parsed/test_sequence_sequences.json')
-# missing_indices = list(range(len(test_data['text'])))
-
-evaluations_1 = load_dataset('models/results/E4_partial.json')
-
-prompt_strings = []
-missing_indices = []
-maximum_length = 0
-for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
-  if predicted_label["choices"][0]["text"] == "":
-    missing_indices += [i]
-  else:
-    maximum_length = max(len(test_data["text"][i]), maximum_length)
-
 
 prompt_string_train = ""  
 for i in range(8):
-    prompt_string_train += 'Q:' + train_data['text'][i] +'\n'
-    prompt_string_train += 'A:' + str(train_data['labels'][i]) +'\n\n'
-
+    prompt_string_train += 'In the sentence: ' + pre_process(test_data['text'][i]) +'\n'
+    prompt_string_train += 'The facts are: ' + ', '.join(['(' + pre_process(j[0]) + ', ' + pre_process(j[1]) + ', ' + pre_process(j[2]) + ')' for j in train_data['labels'][i]]) + '\n\n'
 
 # Iterating over the test_data
-maximum_length = 0
-
+prompt_strings = []
 predicted_labels = []
+
 try:
-  for i in tqdm(missing_indices):
+  for i in tqdm(range(len(test_data['text']))):
     sentence = test_data['text'][i]
     
-    prompt_string = prompt_string_train + 'Q:' + sentence +'\n'+'A:'
-    #response = forward(prompt_string)
-    prompt_strings += [prompt_string]
-    response = ''
+    prompt_string = prompt_string_train + 'In the sentence: ' + pre_process(sentence) +'\n'
+    
+    response = forward(prompt_string)
+
+
+    # Updating the result dump
+    prompt_strings += ['In the sentence: ' + pre_process(sentence) +'\n']
     predicted_labels += [response]
     
   
@@ -69,7 +62,7 @@ except:
 dump = {'hyperparameters': 'engine="text-davinci-002", prompt=prompt_string, temperature=0, max_tokens=359, top_p=1, frequency_penalty=0.0, presence_penalty=0.0, stop=["\n"]', 
         'predicted_labels': predicted_labels,
         'prompt_text': prompt_strings,
-        'missed_labels': missing_indices}
+        'prompt_train_text': prompt_string_train}
 
-with open(f'models/results/E4_2.json', 'w') as f:
+with open(f'models/results/E4_3.json', 'w') as f:
     json.dump(dump, f)
