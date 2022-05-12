@@ -15,7 +15,7 @@ def pre_process(text):
   return text
 
 def forward(prompt_string):
-  openai.api_key = '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'
+  openai.api_key = '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'
   response = openai.Completion.create(
     engine="text-davinci-002",
     prompt=prompt_string,
@@ -33,7 +33,7 @@ test_data = load_dataset('datasets/span_oie2016/test_sequence_sequences.json')
 
 prompt_string_train = ""  
 for i in range(8):
-    prompt_string_train += 'In the sentence: ' + pre_process(test_data['text'][i]) +'\n'
+    prompt_string_train += 'In the sentence: ' + pre_process(train_data['text'][i]) +'\n'
     prompt_string_train += 'The facts are: ' + ', '.join(['(' + pre_process(j[0]) + ', ' + pre_process(j[1]) + ', ' + pre_process(j[2]) + ')' for j in train_data['labels'][i]]) + '\n\n'
 
 # Iterating over the test_data
@@ -54,13 +54,13 @@ try:
     predicted_labels += [response]
     
   
-except:
-  print('breaking out the loop')
+except Exception as e:
+    print("Exception caught:" + str(e))
 
 dump = {'hyperparameters': 'engine="text-davinci-002", prompt=prompt_string, temperature=0, max_tokens=359, top_p=1, frequency_penalty=0.0, presence_penalty=0.0, stop=["\n"]', 
         'predicted_labels': predicted_labels,
         'prompt_text': prompt_strings,
         'prompt_train_text': prompt_string_train}
 
-with open(f'models/results/E4_.json', 'w') as f:
+with open(f'models/results/E4_reoie2016.json', 'w') as f:
     json.dump(dump, f)

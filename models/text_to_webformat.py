@@ -6,8 +6,8 @@ def load_dataset(path):
   return data
 
 
-test_data = load_dataset('datasets/supervised_oie/parsed/test_sequence_sequences.json')
-result_data = load_dataset('models/results/E4_3.json')
+test_data = load_dataset('datasets/span_oie2016/test_sequence_sequences.json')
+result_data = load_dataset('models/results/E4_ReOIE2016.json')
 
 predicted_labels = []
 for i, text in enumerate(result_data['predicted_labels']):
@@ -26,6 +26,6 @@ for i, text in enumerate(result_data['predicted_labels']):
 
 test_data['labels'] = predicted_labels
 
-file_name = 'oie2016_e4'
+file_name = 'reoie2016_e4'
 with open(f'visualiser/datasets/{file_name}.json', 'w') as f:
     json.dump(test_data, f)
