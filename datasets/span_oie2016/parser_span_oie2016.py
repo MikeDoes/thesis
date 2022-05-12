@@ -24,7 +24,7 @@ for sentence_key in data:
                 break
 
             tail = clean_string(triple[f"arg{j}"])
-            if '' in [head, tail, relation]: break
+            if j!=1 and '' in [head, tail, relation]: break
 
             dataset['labels'][index-1] += [[head, relation, tail]]
 

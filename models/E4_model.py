@@ -1,9 +1,7 @@
 # This model is a zero-shot GPT-3 using the OpenAI application point interface
-
-import os
+\
 import openai
 import json
-from prompt_toolkit import prompt
 from tqdm import tqdm
 
 def load_dataset(path):
@@ -17,7 +15,7 @@ def pre_process(text):
   return text
 
 def forward(prompt_string):
-  openai.api_key = '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'
+  openai.api_key = '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'
   response = openai.Completion.create(
     engine="text-davinci-002",
     prompt=prompt_string,
@@ -31,7 +29,7 @@ def forward(prompt_string):
   return response
 
 train_data = load_dataset('datasets/supervised_oie/parsed/train_sequence_sequences.json')
-test_data = load_dataset('datasets/supervised_oie/parsed/test_sequence_sequences.json')
+test_data = load_dataset('datasets/span_oie2016/test_sequence_sequences.json')
 
 prompt_string_train = ""  
 for i in range(8):
@@ -64,5 +62,5 @@ dump = {'hyperparameters': 'engine="text-davinci-002", prompt=prompt_string, tem
         'prompt_text': prompt_strings,
         'prompt_train_text': prompt_string_train}
 
-with open(f'models/results/E4_3.json', 'w') as f:
+with open(f'models/results/E4_.json', 'w') as f:
     json.dump(dump, f)
