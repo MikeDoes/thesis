@@ -5,7 +5,7 @@ def load_dataset(path):
     data = json.load(f)
   return data
 
-data = load_dataset('models/results/reoie2016_e4.json')
+data = load_dataset('visualiser/datasets/oie2016_spanoie_dataset.json')
 data['extraction'] = []
 for i, sentence in enumerate(data['text']):
     
@@ -39,6 +39,6 @@ for i, sentence in enumerate(data['text']):
             'tails': tails
         }]
 
-file_name = 'metrics_e4re'
+file_name = 'reoie2016'
 with open(f'models/results/{file_name}.json', 'w') as f:
     json.dump(data, f)
