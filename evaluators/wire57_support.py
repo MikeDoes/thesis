@@ -43,6 +43,7 @@ def eval_system(annotations, predictions):
 # TODO:
 # - Implement half points for part-misplaced words.
 # - Deal with prepositions possibly being the first token of an arg, especially for arg2.
+# - Permutation of arg 2+
 #   > It's fully ok for "any" prep to be last word of ref_rel or first_word of pred_arg
 
 

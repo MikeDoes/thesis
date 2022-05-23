@@ -51,7 +51,7 @@ def main():
             f.write(str(raw_match_scores[0]))
         with open("raw_scores/"+extractor+"_rec_scores.dat", "w") as f:
             f.write(str(raw_match_scores[1]))
-        # Don't they have to index the 0th ? They do.
+        # Don't they have to index the 0th ? They do not since there is extra processing going on in the eval sytem function.
         prec, rec = metrics['precision'], metrics['recall']
         f1_score = f1(prec, rec)
         exactmatch_prec = metrics['exactmatches_precision'][0] / metrics['exactmatches_precision'][1]
