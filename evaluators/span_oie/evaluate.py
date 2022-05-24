@@ -1,6 +1,5 @@
 from src.evaluate_support import compare, lexical_match
 from src.readers import read_predictions, read_annotations
-from src.matcher import Matcher
 
 predictions = read_predictions("../data/metrics_e4re.json")
 annotations = read_annotations("../data/Re-OIE2016.json")
