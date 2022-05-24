@@ -1,5 +1,4 @@
 # This model is a zero-shot GPT-3 using the OpenAI application point interface
-\
 import openai
 import json
 from tqdm import tqdm
