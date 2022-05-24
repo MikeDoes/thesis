@@ -1,7 +1,13 @@
 # This model is a zero-shot GPT-3 using the OpenAI application point interface
+from cgi import test
 import openai
 import json
 from tqdm import tqdm
+
+MAX_PROMPT_LENGTH = 4096
+output_file = 'models/E4/results/benchie_en.json'
+input_file_train = 'visualiser/datasets/oie2016_spanoie_dataset.json'
+input_file_test = 'datasets/benchie/annotations/benchie_en.json'
 
 def load_dataset(path):
   with open(path) as f:
@@ -27,8 +33,8 @@ def forward(prompt_string):
   )
   return response
 
-train_data = load_dataset('datasets/supervised_oie/parsed/train_sequence_sequences.json')
-test_data = load_dataset('datasets/span_oie2016/test_sequence_sequences.json')
+train_data = load_dataset(input_file_train)
+test_data = load_dataset(input_file_test)
 
 prompt_string_train = ""  
 for i in range(8):
@@ -39,8 +45,15 @@ for i in range(8):
 prompt_strings = []
 predicted_labels = []
 
+# Assert that the prompt tokens are smaller than 4096
+for i in range(len(test_data['text'])):
+  prompt_string = prompt_string_train + 'In the sentence: ' + pre_process(test_data['text'][i]) +'\n'
+  assert 0 < len(prompt_string) < MAX_PROMPT_LENGTH
+
+
 try:
   for i in tqdm(range(len(test_data['text']))):
+    
     sentence = test_data['text'][i]
     
     prompt_string = prompt_string_train + 'In the sentence: ' + pre_process(sentence) +'\n'
@@ -49,9 +62,8 @@ try:
 
 
     # Updating the result dump
-    prompt_strings += ['In the sentence: ' + pre_process(sentence) +'\n']
+    prompt_strings += [sentence]
     predicted_labels += [response]
-    
   
 except Exception as e:
     print("Exception caught:" + str(e))
@@ -59,7 +71,8 @@ except Exception as e:
 dump = {'hyperparameters': 'engine="text-davinci-002", prompt=prompt_string, temperature=0, max_tokens=359, top_p=1, frequency_penalty=0.0, presence_penalty=0.0, stop=["\n"]', 
         'predicted_labels': predicted_labels,
         'prompt_text': prompt_strings,
-        'prompt_train_text': prompt_string_train}
+        'prompt_train_text': prompt_string_train, 
+        'text': test_data['text']}
 
-with open(f'models/results/E4_reoie2016.json', 'w') as f:
+with open(output_file, 'w') as f:
     json.dump(dump, f)

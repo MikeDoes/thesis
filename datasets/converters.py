@@ -5,16 +5,15 @@ def load_json(path):
         data = json.load(f)
     return data
 
-def reoie2016_to_visualisation(in_path='datasets/span_oie2016/test_sequence_sequences.json', out_path='visualiser/datasets/reoie2016_e4.json', result_data_path='models/results/E4_ReOIE2016.json')
+def reoie2016_to_visualisation(in_path='datasets/span_oie2016/test_sequence_sequences.json', out_path='visualiser/datasets/reoie2016_e4.json', result_data_path='models/results/E4_ReOIE2016.json'):
     test_data = load_json(in_path)
     result_data = load_json(result_data_path)
 
     predicted_labels = []
     for i, text in enumerate(result_data['predicted_labels']):
-    
-    print(text)
-    print(result_data['prompt_text'][i])
-    print('#####')
+        print(text)
+        print(result_data['prompt_text'][i])
+        print('#####')
 
     predicted_triple_list = []
 
@@ -68,12 +67,15 @@ def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_data
     with open(out_path, 'w') as f:
         json.dump(data, f)
 
-def prediction_text_to_visualiser():
+def prediction_text_to_visualiser(
+        test_dataset_path = 'models/E4/results/benchie_en.json',
+        results_path = 'models/E4/results/benchie_en.json',
+        output_path = 'visualiser/datasets/benchie_e4.json'):
     # Transforms output from language models to visualiser
-    data = load_json('datasets/supervised_oie/parsed/test_sequence_sequences.json')
+    data = load_json(test_dataset_path)
     # missing_indices = list(range(len(test_data['text'])))
 
-    evaluations_1 = load_json('models/results/E4_partial.json')
+    evaluations_1 = load_json(results_path)
 
     data['labels'] = []
 
@@ -95,5 +97,39 @@ def prediction_text_to_visualiser():
         data['labels'] += [new_triple_list]
 
     print(data['labels'])
-    with open(f'visualiser/datasets/oie2016_e4.json', 'w') as f:
+    with open(output_path, 'w') as f:
         json.dump(data, f)
+
+
+def benchie_to_visualiser(in_path='evaluators/benchie/data/gold/2_annotators/benchie_gold_annotations_en.txt', out_path='visualiser/datasets/benchie_en.json'):
+    with open(in_path) as f:
+        data = f.read()
+    
+    output = {
+        'text' : [],
+        'labels' : []
+    }
+
+    for sentence_batch in data.split('\n\n'):
+        sentence_id = sentence_batch.split('\t')[0].split(':')[1]
+        sentence_text = sentence_batch.split('\t')[1].split('\n')[0]
+        output['text'] += [sentence_text]
+        triple_list = []
+        
+        for i, cluster in enumerate(sentence_batch.split(f"{sentence_id}-->")):
+            if i == 0: continue
+            try:
+                triple = cluster.split('\n')[1]
+                triple = triple.split(' --> ')
+                triple_list += [triple]
+            except:
+                pass
+
+        output['labels'] += [triple_list]
+    
+    print(len(output['text']))
+    print(len(output['labels']))
+    with open(out_path, 'w') as f:
+        json.dump(output, f)
+    
+prediction_text_to_visualiser()
