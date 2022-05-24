@@ -76,7 +76,7 @@
 						<li>
 							<a>Choose Dataset</a>
 							<ul>
-								<li><a href="?">OIE2016 (all)</a></li>
+								<li><a href="?">(all)</a></li>
 								
 								
 							</ul>
@@ -86,16 +86,16 @@
 							<a>Choose Method</a>
 							<ul>
 								<li class="title">Dataset</li>
-								<li><a href="?model=all_dataset">OIE2016 Labels (all)</a></li>
-								<li><a href="?model=train_dataset">OIE2016 Labels (train)</a></li>
-								<li><a href="?model=test_dataset">OIE2016 Labels (test)</a></li>
-								<li><a href="?model=spanoie_dataset">OIE2016 Labels spanoie (test)</a></li>
+								<li><a href="?dataset_name=oie2016_all_dataset"> Labels (all)</a></li>
+								<li><a href="?dataset_name=oie2016_train_dataset"> Labels (train)</a></li>
+								<li><a href="?dataset_name=oie2016_test_dataset"> Labels (test)</a></li>
+								<li><a href="?dataset_name=oie2016_spanoie_dataset"> Labels spanoie (test)</a></li>
 								<li class="title">Experimental</li>
 								<li><a href="">E1 - Translator (supervised)</a></li>
 								<li><a href="">E2 - Autoencoder (unsupervised)</a></li>
 								<li><a href="">E3 - Autoencoder with syntax help (unsupervised)</a></li>
-								<li><a href="?model=e4">E4 - GPT-3 (zero-shot)</a></li>
-								<li><a href="?model=e4re">E4 - GPT-3 (zero-shot) (re-oie2016)</a></li>
+								<li><a href="?dataset_name=oie2016_e4">E4 - GPT-3 (zero-shot)</a></li>
+								<li><a href="?dataset_name=oie2016_e4re">E4 - GPT-3 (zero-shot) (re')</a></li>
 								<li class="title">Control</li>
 								<li><a href="">C1 - OpenIE 5.1 </a></li>
 								<li><a href="">C2 - RNN OIE (supervised)</a></li>
@@ -300,25 +300,23 @@
         var url_string = window.location.href;
         var url = new URL(url_string);
 
-		var dataset, model
-		dataset = 'oie2016'
-		model = 'all_dataset'
+		var dataset, model$
+		dataset = ''
+		dataset_name = 'oie2016_all_dataset'
 
-		if (url.searchParams.get("dataset") != null){
-			dataset = url.searchParams.get("dataset");
-		}
-		if (url.searchParams.get("model") != null){
-			model = url.searchParams.get("model");
+
+		if (url.searchParams.get("dataset_name") != null){
+			dataset_name = url.searchParams.get("dataset_name");
 		}
 		
 		
 		//Data
-		var dataset
+		var dataset_name
 
 		function get_data() {
 			const Http = new XMLHttpRequest();
 			
-			const url = 'datasets/' + dataset + '_' + model +'.json';
+			const url = 'datasets/' + dataset_name +'.json';
 			Http.open("GET", url);
 			Http.send();
 
