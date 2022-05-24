@@ -12,28 +12,30 @@ from sklearn.metrics import precision_recall_curve
 from sklearn.metrics import auc
 import re
 import logging
+import sys
 logging.basicConfig(level = logging.INFO)
 
-from generalReader import read_predictions
+from generalReader import GeneralReader
 
-from annotation_reader import AnnotationReader
+from goldReader import GoldReader
+from gold_relabel import Relabel_GoldReader
 from matcher import Matcher
 from operator import itemgetter
 
-from evaluate_support import lexical_match
-
 class Benchmark:
-    ''' Compare the gold OIE dataset against a prediction equivalent '''
-    def __init__(self, gold_filename):
-        ''' Load annotations for Open IE, this will serve to compare against using the compare function '''
+    ''' Compare the gold OIE dataset against a predicted equivalent '''
+    def __init__(self, gold_fn):
+        ''' Load gold Open IE, this will serve to compare against using the compare function '''
+        if gold_flag == "new":
+            gr = Relabel_GoldReader()
+        else:
+            gr = GoldReader()
+        gr.read(gold_fn)
+        self.gold = gr.oie
 
-        gr = AnnotationReader()
-        gr.read(gold_filename)
-        self.annotations = gr.oie
-
-    def compare(self, prediction, matching_function, output_file, error_file = None):
-        ''' Compare annotat=against prediction using a specified matching function.
-            Outputs PR curve to output_file '''
+    def compare(self, predicted, matchingFunc, output_fn, error_file = None):
+        ''' Compare gold against predicted using a specified matching function.
+            Outputs PR curve to output_fn '''
 
         y_true = []
         y_scores = []
@@ -41,49 +43,49 @@ class Benchmark:
 
         correctTotal = 0
         unmatchedCount = 0
-        prediction = self.normalizeDict(prediction)
-        annotations = self.normalizeDict(self.annotations)
+        predicted = Benchmark.normalizeDict(predicted)
+        gold = Benchmark.normalizeDict(self.gold)
 
-        for sent, sentence_level_annotations in annotations.items():
-            """ if sent not in prediction:
-                # The extractor didn't find any extractions for this sentence. So this is the extractor of extractions. Couldn't be more forward than this.
-                for _ in sentence_level_annotations:
-                    unmatchedCount += len(sentence_level_annotations)
-                    correctTotal += len(sentence_level_annotations)
-                continue """
+        for sent, goldExtractions in gold.items():
+            if sent not in predicted:
+                # The extractor didn't find any extractions for this sentence
+                for goldEx in goldExtractions:
+                    unmatchedCount += len(goldExtractions)
+                    correctTotal += len(goldExtractions)
+                continue
 
-            sentence_level_predictions = prediction[sent]
+            predictedExtractions = predicted[sent]
 
-            for annotation in sentence_level_annotations:
+            for goldEx in goldExtractions:
                 correctTotal += 1
                 found = False
 
-                for prediction in sentence_level_predictions:
-                    if output_file in prediction.matched:
-                        # This prediction extraction was already matched against a gold extraction
+                for predictedEx in predictedExtractions:
+                    if output_fn in predictedEx.matched:
+                        # This predicted extraction was already matched against a gold extraction
                         # Don't allow to match it again
                         continue
 
-                    if matching_function(annotation,
-                                    prediction,
+                    if matchingFunc(goldEx,
+                                    predictedEx,
                                     ignoreStopwords = True,
                                     ignoreCase = True):
 
                         y_true.append(1)
-                        y_scores.append(prediction.confidence)
-                        prediction.matched.append(output_file)
+                        y_scores.append(predictedEx.confidence)
+                        predictedEx.matched.append(output_fn)
                         found = True
                         break
 
                 if not found:
-                    errors.append(annotation.index)
+                    errors.append(goldEx.index)
                     unmatchedCount += 1
 
-            for prediction in [x for x in sentence_level_predictions if (output_file not in x.matched)]:
+            for predictedEx in [x for x in predictedExtractions if (output_fn not in x.matched)]:
                 # Add false positives
                 y_true.append(0)
-                y_scores.append(prediction.confidence)
-        # ???
+                y_scores.append(predictedEx.confidence)
+
         y_true = y_true
         y_scores = y_scores
 
@@ -105,7 +107,7 @@ class Benchmark:
                                       in errors]) + '\n')
 
         # write PR to file
-        with open(output_file, 'w') as fout:
+        with open(output_fn, 'w') as fout:
             fout.write('{0}\t{1}\n'.format("Precision", "Recall"))
             for cur_p, cur_r in sorted(zip(p, r), key = lambda cur: cur[1]):
                 fout.write('{0}\t{1}\n'.format(cur_p, cur_r))
@@ -176,17 +178,29 @@ def f_beta(precision, recall, beta = 1):
     return (1 + pow(beta, 2)) * (precision * recall) / ((pow(beta, 2) * precision) + recall)
 
 
-#f1 = lambda precision, recall: f_beta(precision, recall, beta = 1)
+f1 = lambda precision, recall: f_beta(precision, recall, beta = 1)
 
+gold_flag = sys.argv[1] # to choose whether to use OIE2016 or Re-OIE2016
+in_path = sys.argv[2] # input file
+out_path = sys.argv[3] # output file
 
 if __name__ == '__main__':
     
+    gold = gold_flag
+    matchingFunc = Matcher.lexicalMatch
     error_fn = "error.txt"
-    out_path = "results" # output file
-    benchmark = Benchmark("Re-OIE2016.json")  # to choose whether to use OIE2016 or Re-OIE2016
-    predictions = read_predictions("metrics_e4re.json") # input file
-
-    benchmark.compare(prediction=predictions,
-              matching_function=lexical_match,
-              output_file=out_path,
-              error_file=error_fn)
+        
+    if gold == "old":
+        gold_fn = "OIE2016.txt"
+    else:
+        gold_fn = "Re-OIE2016.json"
+    
+    b = Benchmark(gold_fn) 
+    s_fn = in_path
+    p = GeneralReader()
+    other_p = GeneralReader()
+    other_p.read(s_fn)
+    b.compare(predicted = other_p.oie,
+              matchingFunc = matchingFunc,
+              output_fn = out_path,
+              error_file = error_fn)

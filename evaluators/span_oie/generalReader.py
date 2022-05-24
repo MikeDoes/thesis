@@ -9,9 +9,9 @@ from oieReader import OieReader
 from extraction import Extraction
 import json
 
-def read_predicted(fn):
+def read_predictions(file_path):
     d = {}
-    with open(fn) as f:
+    with open(file_path) as f:
         data = json.load(f)
     
     for i, _ in enumerate(data['text']):
@@ -24,7 +24,7 @@ def read_predicted(fn):
             confidence = 1
             text = data['text'][i]
             
-            curExtraction = Extraction(pred = rel, head_pred_index=-1, sent = text, confidence = float(confidence))
+            curExtraction = Extraction(pred=rel, head_pred_index=-1, sent=text, confidence = float(confidence))
             # This is the head?
             curExtraction.addArg(head)
             

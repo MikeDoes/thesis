@@ -3,11 +3,6 @@ from nltk.translate.bleu_score import sentence_bleu
 from nltk.corpus import stopwords
 
 class Matcher:
-    # CONSTANTS
-    BLEU_THRESHOLD = 0.4
-    LEXICAL_THRESHOLD = 0.5 # Note: changing this value does not change the ordering of the tested systems
-    stopwords = stopwords.words('english') + list(string.punctuation)
-
     @staticmethod
     def bowMatch(ref, ex, ignoreStopwords, ignoreCase):
         """
@@ -81,14 +76,13 @@ class Matcher:
         return bleu > Matcher.BLEU_THRESHOLD
 
     @staticmethod
-    def lexicalMatch(annotation, prediction, ignoreStopwords, ignoreCase):
-        sentence_annotation = annotation.bow().split(' ')
-        sentence_example = prediction.bow().split(' ')
-        
+    def lexicalMatch(ref, ex, ignoreStopwords, ignoreCase):
+        sRef = ref.bow().split(' ')
+        sEx = ex.bow().split(' ')
         count = 0
 
-        for w1 in sentence_annotation:
-            for w2 in sentence_example:
+        for w1 in sRef:
+            for w2 in sEx:
                 if w1 == w2:
                     count += 1
 
@@ -104,7 +98,11 @@ class Matcher:
     def removeStopwords(ls):
         return [w for w in ls if w.lower() not in Matcher.stopwords]
 
-    
+    # CONSTANTS
+    BLEU_THRESHOLD = 0.4
+    LEXICAL_THRESHOLD = 0.5 # Note: changing this value didn't change the ordering of the tested systems
+    stopwords = stopwords.words('english') + list(string.punctuation)
+
 
 
 
