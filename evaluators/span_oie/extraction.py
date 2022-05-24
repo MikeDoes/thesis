@@ -13,27 +13,19 @@ class Extraction:
     Stores sentence, single predicate and corresponding arguments.
     """
     def __init__(self, pred, head_pred_index, sent, confidence, question_dist = '', index = -1, args=[]):
-        """ 
-        Pred: relation, but we expect it to be of size 2? one is for the words, the other for the indices?
-        Head_Pred_Index: word level index of the start of the relation?
-        sent: sentence (string)
-        confidence: confidence regarding the prediction
-        question_dist: '' by default. Not sure what it means
-        index = -1 by default. Not sure what this means either
-        """
         self.pred = pred
         self.head_pred_index = head_pred_index
-        self.sent = sent 
+        self.sent = sent
+        
         self.confidence = confidence
+        self.matched = []
+        self.questions = {}
         self.indsForQuestions = defaultdict(lambda: set())
         self.is_mwp = False
         self.question_dist = question_dist
         self.index = index
-        
-        self.args = []
-        self.matched = []
-        self.questions = {}
 
+        self.args = []
         for arg in args:
             self.addArg(arg)
 
@@ -106,7 +98,7 @@ class Extraction:
             ret = elem[0].rstrip().lstrip()
         else:
             ret = ' '.join(elem.words)
-        assert ret, f"empty element? {elem}"
+        assert ret, "empty element? {0}".format(elem)
         return ret
 
     def binarizeByIndex(self):
@@ -123,8 +115,7 @@ class Extraction:
         return []
 
     def bow(self):
-        extraction = [self.pred] + self.args
-        return ' '.join([self.elementToStr(elem) for elem in extraction])
+        return ' '.join([self.elementToStr(elem) for elem in [self.pred] + self.args])
 
     def getSortedArgs(self):
         """
