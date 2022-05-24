@@ -1,0 +1,5 @@
+-r models/requirements.txt
+-r evaluators/supervised_oie/requirements.txt
+-r evaluators/lsoie/requirements.txt
+-r evaluators/benchie/requirements.txt
+-r annotator/requirements.txt
