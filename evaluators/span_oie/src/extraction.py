@@ -1,5 +1,5 @@
 from sklearn.preprocessing import binarize
-from argument import Argument
+from .argument import Argument
 from operator import itemgetter
 from collections import defaultdict
 import nltk

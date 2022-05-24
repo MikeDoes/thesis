@@ -1,10 +1,9 @@
-from evaluate_support import compare, lexical_match
-from generalReader import read_predictions
-from gold_relabel import read_annotations
-from matcher import Matcher
+from src.evaluate_support import compare, lexical_match
+from src.readers import read_predictions, read_annotations
+from src.matcher import Matcher
 
-predictions = read_predictions("metrics_e4re.json")
-annotations = read_annotations("Re-OIE2016.json")
+predictions = read_predictions("data/metrics_e4re.json")
+annotations = read_annotations("data/Re-OIE2016.json")
 results = compare(
     predicted=predictions,
     annotations=annotations,

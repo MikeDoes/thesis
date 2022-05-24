@@ -16,23 +16,22 @@ def compare(predicted, annotations, matching_function):
     y_true = []
     y_scores = []
     errors = []
-
     correctTotal = 0
     unmatchedCount = 0
     predicted = normalizeDict(predicted)
     annotations = normalizeDict(annotations)
 
-    for sent, annotation_exctractions in annotations.items():
+    for sent, annotation_extractions in annotations.items():
         if sent not in predicted:
-            # The extractor didn't find any extractions for this sentence
-            for annotation_extrction in annotation_exctractions:
-                unmatchedCount += len(annotation_exctractions)
-                correctTotal += len(annotation_exctractions)
+            # The extractor did not find any extractions for this sentence. So what does this do?
+            for annotation_extraction in annotation_extractions:
+                unmatchedCount += len(annotation_extractions)
+                correctTotal += len(annotation_extractions)
             continue
 
         predictedExtractions = predicted[sent]
 
-        for annotation_extrction in annotation_exctractions:
+        for annotation_extraction in annotation_extractions:
             correctTotal += 1
             found = False
 
@@ -42,7 +41,7 @@ def compare(predicted, annotations, matching_function):
                     # Don't allow to match it again
                     continue
 
-                if matching_function(annotation_extrction,
+                if matching_function(annotation_extraction,
                                 predictedEx):
 
                     y_true.append(1)
@@ -52,7 +51,7 @@ def compare(predicted, annotations, matching_function):
                     break
 
             if not found:
-                errors.append(annotation_extrction.index)
+                errors.append(annotation_extraction.index)
                 unmatchedCount += 1
 
         for predictedEx in [x for x in predictedExtractions if ("result.txt" not in x.matched)]:
@@ -110,7 +109,7 @@ def normalizeDict(d):
     return dict([(normalizeKey(k), v) for k, v in d.items()])
 
 def normalizeKey(k):
-    return removePunct(PTB_unescape(k.replace(' ','')))
+    return removePunct(PTB_unescape(pre_process(k).replace(' ','')))
 
 def PTB_escape(s):
     for u, e in PTB_ESCAPES:
@@ -135,7 +134,7 @@ PTB_ESCAPES = [('(', '-LRB-'),
                 ('[', '-LSB-'),
                 (']', '-RSB-'),
                 ('{', '-LCB-'),
-                ('}', '-RCB-'),]
+                ('}', '-RCB-')]
 
 
 def f_beta(precision, recall, beta = 1):
@@ -145,12 +144,12 @@ def f_beta(precision, recall, beta = 1):
     beta = float(beta) # Make sure that results are in float
     return (1 + pow(beta, 2)) * (precision * recall) / ((pow(beta, 2) * precision) + recall)
 
-def lexical_match(annotation_exctraction, prediction_extraction, LEXICAL_THRESHOLD=0.5):
-        annotation_exctraction = annotation_exctraction.bow().split(' ')
+def lexical_match(annotation_extraction, prediction_extraction, LEXICAL_THRESHOLD=0.5):
+        annotation_extraction = annotation_extraction.bow().split(' ')
         prediction_extraction = prediction_extraction.bow().split(' ')
         count = 0
 
-        for w1 in annotation_exctraction:
+        for w1 in annotation_extraction:
             for w2 in prediction_extraction:
                 if w1 == w2:
                     count += 1
@@ -158,7 +157,12 @@ def lexical_match(annotation_exctraction, prediction_extraction, LEXICAL_THRESHO
         # We check how well does the extraction lexically cover the reference
         # Note: this is somewhat lenient as it doesn't penalize the extraction for
         #       being too long
-        coverage = float(count) / len(annotation_exctraction)
+        coverage = float(count) / len(annotation_extraction)
 
 
         return coverage > LEXICAL_THRESHOLD
+
+def pre_process(text):
+  text = str(text)
+  text = text.replace('[', '(').replace(']', ')').replace('``','\'\'')
+  return text
