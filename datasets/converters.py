@@ -68,7 +68,7 @@ def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_data
     with open(out_path, 'w') as f:
         json.dump(data, f)
 
-def prediction_text_to_visualiser(
+def gpt3_output_to_visualiser(
         test_dataset_path = 'models/E4/results/benchie_en.json',
         results_path = 'models/E4/results/benchie_en.json',
         output_path = 'visualiser/datasets/benchie_e4.json'):
@@ -79,6 +79,8 @@ def prediction_text_to_visualiser(
     evaluations_1 = load_json(results_path)
 
     data['labels'] = []
+
+    failed_interpretation = 0
 
     for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
         sentence_level_triple_list = []
@@ -117,6 +119,7 @@ def prediction_text_to_visualiser(
 
 
                         if not in_sentence:
+                            failed_interpretation += 1
                             continue
                         
                         triple = [args[0], args[1], args[2]]
@@ -129,8 +132,8 @@ def prediction_text_to_visualiser(
             
         data['labels'] += [sentence_level_triple_list]
 
-    print(sum([len(triple_list) for triple_list in data['labels']]))
-
+    print(''sum([len(triple_list) for triple_list in data['labels']]))
+    print(failed_interpretation)
 
     with open(output_path, 'w') as f:
         json.dump(data, f)
@@ -184,5 +187,5 @@ def visualisation_to_benchie(
     with open(out_path, 'w') as f:
         f.write(output_string)
 
-prediction_text_to_visualiser()
+gpt3_output_to_visualiser()
 visualisation_to_benchie()
