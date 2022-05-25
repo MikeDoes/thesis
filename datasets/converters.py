@@ -80,21 +80,24 @@ def prediction_text_to_visualiser(
     data['labels'] = []
 
     for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
-        triple_list = predicted_label["choices"][0]["text"]
-
-        try:
-            #remove the extra parenthesis
-            triple_list = triple_list[1:-1]
+        for j, _ in enumerate(predicted_label["choices"]):
             new_triple_list = []
-            for triple in triple_list.split(', ['):
-                new_triple = []
-                for argument in triple.split(', \''):
-                    new_triple += [str(argument).replace('\'', '').replace('\'', '').replace('[', '').replace(']','')]
-                new_triple_list += [new_triple]
-        except:
-            new_triple_list = [[["", "", ""]]]
+            try:
+                triple_list = predicted_label["choices"][j]["text"]
+                triple_list = triple_list.split('are: ')[1]
+                triple_list = triple_list.split('), (')
+                triple_list[0] = triple_list[0][1:]
+                triple_list[-1] = triple_list[-1][:-1]
+                triple_list = [arg.split(', ') for arg in triple_list if len(arg.split(', ')) == 3]
 
-        data['labels'] += [new_triple_list]
+            except:
+                #triple_list = [[["", "", ""]]]
+                pass
+
+            new_triple_list += [triple_list]
+            
+        data['labels'] += [triple_list]
+
 
     print(data['labels'])
     with open(output_path, 'w') as f:
@@ -132,4 +135,21 @@ def benchie_to_visualiser(in_path='evaluators/benchie/data/gold/2_annotators/ben
     with open(out_path, 'w') as f:
         json.dump(output, f)
     
-prediction_text_to_visualiser()
+
+def visualisation_to_benchie(
+        in_path='visualiser/datasets/benchie_e4.json', 
+        out_path='evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit.txt'):
+    data = load_json(in_path)
+    output_string = ''
+
+    for i, triple_list in enumerate(data['labels']):
+       for triple in triple_list:
+            try:
+               output_string += f'{i+1}  {triple[0]}  {triple[1]}  {triple[2]}\n'
+            except:
+                pass
+
+    with open(out_path, 'w') as f:
+        f.write(output_string)
+
+visualisation_to_benchie()
