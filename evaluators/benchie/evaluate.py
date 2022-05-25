@@ -11,7 +11,7 @@ benchie.load_gold_annotations(filename=gold_annotation_file)
 
 # Add OIE systems extractions
 benchie.add_oie_system_extractions(oie_system_name="clauseie", filename=clausie_extractions_file)
-#benchie.add_oie_system_extractions(oie_system_name="gpt3", filename=e4_extractions_file)
+benchie.add_oie_system_extractions(oie_system_name="gpt3", filename=e4_extractions_file)
 
 # Compute scores
 benchie.compute_precision()

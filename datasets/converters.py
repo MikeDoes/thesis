@@ -32,14 +32,15 @@ def reoie2016_to_visualisation(in_path='datasets/span_oie2016/test_sequence_sequ
 def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_dataset.json', out_path='models/results/reoie2016.json'):
     data = load_json(in_path)
     data['extraction'] = []
-    for i, sentence in enumerate(data['text']):
-        
+
+
+    for i, sentence in enumerate(data['text']):    
         triple_list = data['labels'][i]
         
         combinations = []
         for triple in triple_list:
             tails = []
-            if len(triple)<2:
+            if len(triple) < 2:
                 break
             combination = (triple[0], triple[1])
             if combination in combinations:
@@ -47,11 +48,11 @@ def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_data
             combinations += [combination]
 
             for triple_ in triple_list:
-                if len(triple_)<2:
+                if len(triple_) < 2:
                     break
                 if triple_[0] == combination[0] and triple_[1] == combination[1]:
                     
-                    if len(triple_)<3:
+                    if len(triple_) <3 :
                         tail = ''
                     else:  
                         tail = triple_[2]
@@ -80,26 +81,57 @@ def prediction_text_to_visualiser(
     data['labels'] = []
 
     for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
-        for j, _ in enumerate(predicted_label["choices"]):
-            new_triple_list = []
+        sentence_level_triple_list = []
+        sentence = data['text'][i]
+
+        for j, choice in enumerate(predicted_label["choices"]):
             try:
-                triple_list = predicted_label["choices"][j]["text"]
-                triple_list = triple_list.split('are: ')[1]
-                triple_list = triple_list.split('), (')
-                triple_list[0] = triple_list[0][1:]
-                triple_list[-1] = triple_list[-1][:-1]
-                triple_list = [arg.split(', ') for arg in triple_list if len(arg.split(', ')) == 3]
+                # We have to check if the words are in the text, if there are commas. Treat them as words?
+                choice_level_triple_list = choice["text"]
+                choice_level_triple_list = choice_level_triple_list.split('are: ')[1]
+                choice_level_triple_list = choice_level_triple_list.split('), (')
+                choice_level_triple_list[0] = choice_level_triple_list[0][1:]
+                choice_level_triple_list[-1] = choice_level_triple_list[-1][:-1]
+
+
+                for triple in choice_level_triple_list:
+                    if len(triple.split(', ')) > 3:
+                        pass
+                        #Figure out how to recover with more than 
+                    
+                    if len(triple.split(', ')) == 3:
+                        args = triple.split(', ')
+                        
+                        #Checks if words are in the sentence
+                        in_sentence = True
+                        for i, arg in enumerate(args):
+                            if arg[0]==' ':
+                                args[i] = args[i][1:]
+                            
+                            if arg[-1]==' ':
+                                args[i] = args[i][:-1]
+
+                            for word in arg:
+                                if word not in sentence or arg == '' or arg is None:
+                                    in_sentence = False
+
+
+                        if not in_sentence:
+                            continue
+                        
+                        triple = [args[0], args[1], args[2]]
+                        sentence_level_triple_list += [triple]
 
             except:
                 #triple_list = [[["", "", ""]]]
                 pass
 
-            new_triple_list += [triple_list]
             
-        data['labels'] += [triple_list]
+        data['labels'] += [sentence_level_triple_list]
+
+    print(sum([len(triple_list) for triple_list in data['labels']]))
 
 
-    print(data['labels'])
     with open(output_path, 'w') as f:
         json.dump(data, f)
 
@@ -145,11 +177,12 @@ def visualisation_to_benchie(
     for i, triple_list in enumerate(data['labels']):
        for triple in triple_list:
             try:
-               output_string += f'{i+1}  {triple[0]}  {triple[1]}  {triple[2]}\n'
+               output_string += f'{i+1}\t{triple[0]}\t{triple[1]}\t{triple[2]}\n'
             except:
                 pass
 
     with open(out_path, 'w') as f:
         f.write(output_string)
 
+prediction_text_to_visualiser()
 visualisation_to_benchie()
