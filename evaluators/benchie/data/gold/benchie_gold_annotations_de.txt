@@ -3527,7 +3527,7 @@ Coca-Cola Co. --> verkündete dass --> es [ein] Joint Venture mit seinem Abfüll
 Coca-Cola Co. --> verkündete dass es [ein] Joint Venture --> mit seinem Abfüll-Franchisenehmer in [diesem] Land erwägt
 Coca-Cola Co. --> verkündete dass es [ein] Joint Venture mit seinem Abfüll-Franchisenehmer --> in [diesem] Land erwägt
 
-sent_id:261	Als Ganzes betrachtet, sagte Herr Lane, werden die unter den vorgeschlagenen Regeln geforderten Einreichungen ,,mindestens so effektiv, wenn nicht sogar noch effektiver, für Investoren sein, die Transaktionen verfolgen. ''
+sent_id:261	Als Ganzes betrachtet, sagte Herr Lane, werden die unter den vorgeschlagenen Regeln geforderten Einreichungen, mindestens so effektiv, wenn nicht sogar noch effektiver, für Investoren sein, die Transaktionen verfolgen. ''
 261--> Cluster 1:
 [die] [geforderten] Einreichungen --> werden --> mindestens so effektiv
 [die] [geforderten] Einreichungen --> werden mindestens --> so effektiv

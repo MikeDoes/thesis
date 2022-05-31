@@ -5,7 +5,7 @@ import json
 from tqdm import tqdm
 
 MAX_PROMPT_LENGTH = 4096
-output_file = 'models/E4/results/benchie_en.json'
+output_file = 'models/E4/results/benchie_en_seperation_2_commas.json'
 input_file_train = 'visualiser/datasets/oie2016_spanoie_dataset.json'
 input_file_test = 'datasets/benchie/annotations/benchie_en.json'
 
@@ -37,9 +37,13 @@ train_data = load_dataset(input_file_train)
 test_data = load_dataset(input_file_test)
 
 prompt_string_train = ""  
+
+#To seperate within the sentence
+seperation_token = ",,"
+
 for i in range(8):
     prompt_string_train += 'In the sentence: ' + pre_process(train_data['text'][i]) +'\n'
-    prompt_string_train += 'The facts are: ' + ', '.join(['(' + pre_process(j[0]) + ', ' + pre_process(j[1]) + ', ' + pre_process(j[2]) + ')' for j in train_data['labels'][i]]) + '\n\n'
+    prompt_string_train += 'The facts are: ' + ', '.join(['(' + pre_process(j[0]) + seperation_token + pre_process(j[1]) + seperation_token + pre_process(j[2]) + ')' for j in train_data['labels'][i]]) + '\n\n'
 
 # Iterating over the test_data
 prompt_strings = []
@@ -64,7 +68,7 @@ try:
     # Updating the result dump
     prompt_strings += [sentence]
     predicted_labels += [response]
-  
+    
 except Exception as e:
     print("Exception caught:" + str(e))
 
