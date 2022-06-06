@@ -41,7 +41,7 @@ model.train(train_df=train_data,
 #model.load_model("t5","/content/outputs/simplet5-epoch-2-train-loss-0.9862-val-loss-1.2533", use_gpu=True
 
 forward = model.predict
-prompt_strings, predicted_labels = [], {'choices':[]}
+prompt_strings, predicted_labels = [], []
 
 prompt_string_train = ''
 
