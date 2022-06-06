@@ -41,20 +41,24 @@ model.train(train_df=train_data,
 #model.load_model("t5","/content/outputs/simplet5-epoch-2-train-loss-0.9862-val-loss-1.2533", use_gpu=True
 
 forward = model.predict
-prompt_strings, predicted_labels = [], []
+prompt_strings, predicted_labels = [], {'choices':[]}
 
 prompt_string_train = ''
 
 try:
   for i in tqdm(range(len(test_data['text']))):
+    predicted_labels['choices'][i] = []
     source_text = test_data['text'][i]
     prompt_string = prompt_string_train + source_pre_processing(source_text)
-    response = forward(prompt_string)
 
-    # Updating the results dictionary
-    prompt_strings += [source_text]
-    predicted_labels += [response]
+
+    for runs in range(3):
+        response = forward(prompt_string)
+        # Updating the results dictionary
+        predicted_labels['choices'][i] += [{'text':response}]
     
+    prompt_strings += [source_text]
+
 except Exception as e:
     print("Exception caught:" + str(e))
 
