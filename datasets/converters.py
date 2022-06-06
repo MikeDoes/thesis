@@ -70,7 +70,7 @@ def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_data
 
 def gpt3_output_to_visualiser(
         test_dataset_path = 'models/E4/results/benchie_en.json',
-        results_path = 'models/E4/results/benchie_en.json',
+        results_path = 'models/E4/results/benchie_en_seperation_2_commas.json',
         output_path = 'visualiser/datasets/benchie_e4.json'):
     # Transforms output from language models to visualiser
     data = load_json(test_dataset_path)
@@ -94,15 +94,15 @@ def gpt3_output_to_visualiser(
                 choice_level_triple_list = choice_level_triple_list.split('), (')
                 choice_level_triple_list[0] = choice_level_triple_list[0][1:]
                 choice_level_triple_list[-1] = choice_level_triple_list[-1][:-1]
-
+                
 
                 for triple in choice_level_triple_list:
-                    if len(triple.split(', ')) > 3:
+                    if len(triple.split(',,')) > 3:
                         pass
                         #Figure out how to recover with more than 
                     
-                    if len(triple.split(', ')) == 3:
-                        args = triple.split(', ')
+                    if len(triple.split(',,')) == 3:
+                        args = triple.split(',,')
                         
                         #Checks if words are in the sentence
                         in_sentence = True
@@ -132,7 +132,7 @@ def gpt3_output_to_visualiser(
             
         data['labels'] += [sentence_level_triple_list]
 
-    print(''sum([len(triple_list) for triple_list in data['labels']]))
+    print(sum([len(triple_list) for triple_list in data['labels']]))
     print(failed_interpretation)
 
     with open(output_path, 'w') as f:
@@ -179,8 +179,10 @@ def visualisation_to_benchie(
 
     for i, triple_list in enumerate(data['labels']):
        for triple in triple_list:
+            if len(triple) != 3 or triple[0]=='' or triple[1]=='' or triple[2]=='': continue
+
             try:
-               output_string += f'{i+1}\t{triple[0]}\t{triple[1]}\t{triple[2]}\n'
+                output_string += f'{i+1}\t{triple[0]}\t{triple[1]}\t{triple[2]}\n'
             except:
                 pass
 
