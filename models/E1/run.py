@@ -47,7 +47,7 @@ prompt_string_train = ''
 
 try:
   for i in tqdm(range(len(test_data['text']))):
-    predicted_labels['choices'][i] = []
+    predicted_labels['choices'] += []
     source_text = test_data['text'][i]
     prompt_string = prompt_string_train + source_pre_processing(source_text)
 
