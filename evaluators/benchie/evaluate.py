@@ -2,7 +2,7 @@ from src.benchie import Benchie
 
 # Define input files
 gold_annotation_file = "evaluators/benchie/data/gold/benchie_gold_annotations_en.txt"
-e4_extractions_file = "evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit.txt"
+e4_extractions_file = "evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit.txt"
 clausie_extractions_file = "evaluators/benchie/data/oie_systems_explicit_extractions/clausie_explicit.txt"
 
 # Load gold annotations to BenchIE

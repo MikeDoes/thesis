@@ -14,7 +14,7 @@ from models.utils import load_dataset, source_pre_processing, label_pre_processi
 SEPARATION_TOKEN = ",,"
 
 # Loading the data
-output_file = 'models/E1/results/benchie_en_seperation_2_commas.json'
+output_file = 'models/E1/results/benchie_en_separation_2_commas.json'
 input_file_train = 'visualiser/datasets/reoie2016_test.json'
 input_file_test = 'datasets/benchie/annotations/benchie_en.json'
 train_data = pd.DataFrame(load_dataset(input_file_train))
