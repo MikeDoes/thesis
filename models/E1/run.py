@@ -33,9 +33,9 @@ model = SimpleT5()
 model.from_pretrained(model_type="t5", model_name="t5-base")
 model.train(train_df=train_data,
             eval_df=test_data, 
-            source_max_token_len=512, 
-            target_max_token_len=512, 
-            batch_size=8, max_epochs=10, use_gpu=True)
+            source_max_token_len=200, 
+            target_max_token_len=350, 
+            batch_size=4, max_epochs=10, use_gpu=True)
 
 # Create Predictions
 #model.load_model("t5","/content/outputs/simplet5-epoch-2-train-loss-0.9862-val-loss-1.2533", use_gpu=True
