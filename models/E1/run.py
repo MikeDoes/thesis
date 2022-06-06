@@ -45,9 +45,9 @@ prompt_strings, predicted_labels = [], []
 
 prompt_string_train = ''
 
-try:
-  for i in tqdm(range(len(test_data['text']))):
+for i in tqdm(range(len(test_data['text']))):
     predicted_labels += [{'choices':[]}]
+
     source_text = test_data['text'][i]
     prompt_string = prompt_string_train + source_pre_processing(source_text)
 
@@ -55,12 +55,9 @@ try:
     for runs in range(3):
         response = forward(prompt_string)
         # Updating the results dictionary
-        predicted_labels[i]['choices'] += [{'text':response}]
-    
-    prompt_strings += [source_text]
+        predicted_labels[i]['choices'] += [ {'text':response[0]} ]
 
-except Exception as e:
-    print("Exception caught:" + str(e))
+    prompt_strings += [source_text]
 
 
 # Exporting results to JSON for further processing and visualisation
