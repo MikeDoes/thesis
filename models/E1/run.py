@@ -10,6 +10,9 @@ sys.path.append(r"{}".format(cwd))
 
 from models.utils import load_dataset, source_pre_processing, label_pre_processing, export_dict
 
+# CONSTANTS
+SEPARATION_TOKEN = ",,"
+
 # Loading the data
 output_file = 'models/E1/results/benchie_en_seperation_2_commas.json'
 input_file_train = 'visualiser/datasets/reoie2016_test.json'
@@ -19,11 +22,11 @@ test_data = pd.DataFrame(load_dataset(input_file_test))
 
 # Pre-processing for training
 # the library expects dataframe to have 2 columns: "source_text" and "target_text"
-train_data['source_text'] = [source_pre_processing(text) for text in train_data['source_text']]
-train_data['target_text'] = [label_pre_processing(text) for text in train_data['labels']]
+train_data['source_text'] = [source_pre_processing(text) for text in train_data['text']]
+train_data['target_text'] = [label_pre_processing(text, separation_token=SEPARATION_TOKEN) for text in train_data['labels']]
 
-test_data['source_text'] = [source_pre_processing(text) for text in test_data['source_text']]
-test_data['target_text'] = [label_pre_processing(text) for text in test_data['labels']]
+test_data['source_text'] = [source_pre_processing(text) for text in test_data['text']]
+test_data['target_text'] = [label_pre_processing(text, separation_token=SEPARATION_TOKEN) for text in test_data['labels']]
 
 #Training 
 model = SimpleT5()
