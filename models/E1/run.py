@@ -64,6 +64,6 @@ results = {'hyperparameters': 'model=t5-base, separator=,,',
         'predicted_labels': predicted_labels,
         'prompt_text': prompt_strings,
         'prompt_train_text': prompt_string_train, 
-        'text': test_data['text']}
+        'text': list(test_data['text'])}
 
 export_dict(output_file, results)
