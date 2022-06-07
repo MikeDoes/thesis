@@ -34,7 +34,7 @@ model.train(train_df=train_data,
             eval_df=test_data, 
             source_max_token_len=200, 
             target_max_token_len=350, 
-            batch_size=4, max_epochs=0, use_gpu=True)
+            batch_size=4, max_epochs=40, use_gpu=True)
 
 # Create Predictions
 #model.load_model("t5","/content/outputs/simplet5-epoch-2-train-loss-0.9862-val-loss-1.2533", use_gpu=True
@@ -51,7 +51,7 @@ for i in tqdm(range(len(test_data['text']))):
     prompt_string = prompt_string_train + source_pre_processing(source_text)
 
 
-    for runs in range(10):
+    for runs in range(20):
         response = forward(prompt_string)
         # Updating the results dictionary
         predicted_labels[i]['choices'] += [ {'text':response[0]} ]
