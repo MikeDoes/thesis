@@ -19,10 +19,11 @@
     </div>
 
     <script>
+      var metric
       function get_data() {
         const Http = new XMLHttpRequest();
-
-        const url = "model_results/t_5_grid_precision.json";
+        metric='precision'
+        const url = "model_results/t_5_grid_" + metric+".json";
         Http.open("GET", url);
         Http.send();
 
@@ -70,7 +71,7 @@
               nticks: 22,
             },
             zaxis: {
-              title: "Precision",
+              title: metric,
               titlefont: {
                 family: "Arial, Open Sans",
                 size: 22,

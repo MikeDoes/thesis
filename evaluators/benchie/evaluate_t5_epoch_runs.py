@@ -12,7 +12,7 @@ benchie.load_gold_annotations(filename=gold_annotation_file)
 # Add OIE systems extractions
 #benchie.add_oie_system_extractions(oie_system_name="clauseie", filename=clausie_extractions_file)
 
-number_epoch = 2
+number_epoch = 5
 number_choices = 4
 
 for i in range(number_choices):
