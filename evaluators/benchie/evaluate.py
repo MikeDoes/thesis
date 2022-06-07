@@ -12,7 +12,8 @@ benchie.load_gold_annotations(filename=gold_annotation_file)
 # Add OIE systems extractions
 #benchie.add_oie_system_extractions(oie_system_name="clauseie", filename=clausie_extractions_file)
 
-for i in range(15):
+number_epoch = 15
+for i in range(number_epoch):
     e1_extractions_file = f"evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit_{i}.txt"
     benchie.add_oie_system_extractions(oie_system_name=f"t5_epoch_{i}", filename=e1_extractions_file)
 

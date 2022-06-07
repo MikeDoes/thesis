@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results</title>
+  </head>
+  <body>
+    <div style="position: relative; height: 40vh; width: 40vw">
+      <canvas id="myChart"></canvas>
+    </div>
+    <div style="position: relative; height: 40vh; width: 40vw">
+      <canvas id="myChart2"></canvas>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.4/underscore-min.js"></script>
+
+  <script>
+      var myChart
+    function build_chart_1(responseText) {
+      dataset = JSON.parse(responseText);
+      precision = [];
+      recall = [];
+      f1 = [];
+      _.each(dataset, function (val) {
+        recall.push(val.recall);
+        precision.push(val.precision);
+        f1.push(val.f1);
+      });
+
+      const labels = Object.keys(dataset);
+      const data = {
+        labels: labels,
+        datasets: [
+          {
+            label: "Precision",
+            backgroundColor: "rgb(255, 99, 132)",
+            borderColor: "rgb(255, 99, 132)",
+            data: precision,
+          },
+          {
+            label: "Recall",
+            backgroundColor: "rgb(0, 99, 132)",
+            borderColor: "rgb(0, 99, 132)",
+            data: recall,
+          },
+          {
+            label: "F1",
+            backgroundColor: "rgb(255, 99, 0)",
+            borderColor: "rgb(255, 99, 0)",
+            data: f1,
+          },
+        ],
+      };
+
+      const config = {
+        type: "line",
+        data: data,
+        options: {
+          plugins: {
+            title: {
+              display: true,
+              text: "BenchIE Metrics",
+            },
+          },
+          scales: {
+              x: {
+                  display: true,
+                  title:{
+                      display:true,
+                      text:'Epoch'
+                  }
+              }
+          }
+          
+          
+        },
+      };
+
+       myChart = new Chart(document.getElementById("myChart"), config);
+    }
+    function build_chart_2(responseText) {
+      dataset = JSON.parse(responseText);
+      in_sentence_accuracy = [];
+      syntax_accuracy = [];
+      precision = [];
+
+      _.each(dataset, function (val) {
+        in_sentence_accuracy.push(val.in_sentence_accuracy);
+        syntax_accuracy.push(val.syntax_accuracy);
+        precision.push(val.precision);
+      });
+
+      const labels = Object.keys(dataset);
+
+      const data = {
+        labels: labels,
+        datasets: [
+          {
+            label: "Precision",
+            backgroundColor: "rgb(255, 99, 132)",
+            borderColor: "rgb(255, 99, 132)",
+            data: precision,
+          },
+          {
+            label: "Syntax Accuracy",
+            backgroundColor: "rgb(0, 99, 132)",
+            borderColor: "rgb(0, 99, 132)",
+            data: syntax_accuracy,
+          },
+
+          {
+            label: "Word in Sentence Accuracy",
+            backgroundColor: "rgb(255, 99, 0)",
+            borderColor: "rgb(255, 99, 0)",
+            data: in_sentence_accuracy,
+          },
+        ],
+      };
+
+      const config = {
+        type: "line",
+        data: data,
+        options: {
+          plugins: {
+            title: {
+              display: true,
+              text: "Language Model Metrics",
+            },
+          },
+          scales: {
+              x: {
+                  display: true,
+                  title:{
+                      display:true,
+                      text:'Epoch'
+                  }
+              }
+          }
+        },
+      };
+
+      const myChart = new Chart(document.getElementById("myChart2"), config);
+    }
+  </script>
+  <script>
+    var dataset;
+    var precision;
+    var recall;
+    var f1;
+
+    function get_data(model_name) {
+      const Http = new XMLHttpRequest();
+
+      const url = "model_results/" + model_name + ".json";
+      Http.open("GET", url);
+      Http.send();
+
+      Http.onreadystatechange = (e) => {
+        if (Http.readyState == 4 && Http.status == 200) {
+          build_chart_1(Http.responseText);
+          build_chart_2(Http.responseText);
+        }
+      };
+    }
+
+    get_data("t5_base");
+  </script>
+</html>

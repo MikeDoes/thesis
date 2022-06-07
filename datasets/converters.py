@@ -207,7 +207,8 @@ def visualisation_to_benchie(
 
 
 accuracies = {}
-for i in range(15):
+number_of_epoch = 15
+for i in range(number_of_epoch):
     accuracies_by_epoch = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
             results_path = f'models/E1/results/benchie_en_separation_2_commas_{i}.json',
             output_path = f'visualiser/datasets/benchie_e1_{i}.json')
