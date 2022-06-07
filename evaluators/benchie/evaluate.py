@@ -12,10 +12,10 @@ benchie.load_gold_annotations(filename=gold_annotation_file)
 # Add OIE systems extractions
 #benchie.add_oie_system_extractions(oie_system_name="clauseie", filename=clausie_extractions_file)
 
-number_epoch = 15
+number_epoch = 3
 for i in range(number_epoch):
-    e1_extractions_file = f"evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit_{i}.txt"
-    benchie.add_oie_system_extractions(oie_system_name=f"t5_epoch_{i}", filename=e1_extractions_file)
+    e1_extractions_file = f"evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit_choices_{i}.txt"
+    benchie.add_oie_system_extractions(oie_system_name=f"gpt_runs_{i}", filename=e1_extractions_file)
 
 # Compute scores
 
@@ -23,14 +23,14 @@ benchie.compute_precision()
 
 benchie.compute_recall()
 benchie.compute_f1()
-#benchie.print_scores()
+benchie.print_scores()
 
 def load_dataset(path):
   with open(path) as f:
     data = json.load(f)
   return data
 
-path = 'visualiser/model_results/t5_syntax_by_epoch.json'
+path = 'visualiser/model_results/t5_0epoch_by_runs.json'
 data = load_dataset(path)
 
 for model in benchie.scores:

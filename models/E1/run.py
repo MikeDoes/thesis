@@ -37,16 +37,21 @@ model.train(train_df=train_data,
             batch_size=4, max_epochs=40, use_gpu=True)
 
 # Create Predictions
-#model.load_model("t5","/content/outputs/simplet5-epoch-2-train-loss-0.9862-val-loss-1.2533", use_gpu=True
+for epoch in os.listdir('outputs'):
+  
+  model = SimpleT5()
+  model.load_model("t5",f"/content/thesis/outputs/{epoch}", use_gpu=True)
 
-forward = model.predict
-prompt_strings, predicted_labels = [], []
+  epoch = epoch.split('-')[2]
+  output_file = f'models/E1/results/benchie_en_separation_2_commas_{epoch}.json'
+  forward = model.predict
+  prompt_strings, predicted_labels = [], []
+  prompt_string_train = ''
+  test_data = pd.DataFrame(load_dataset(input_file_test))
 
-prompt_string_train = ''
 
-for i in tqdm(range(len(test_data['text']))):
+  for i in tqdm(range(len(test_data['text']))):
     predicted_labels += [{'choices':[]}]
-
     source_text = test_data['text'][i]
     prompt_string = prompt_string_train + source_pre_processing(source_text)
 
@@ -55,15 +60,14 @@ for i in tqdm(range(len(test_data['text']))):
         response = forward(prompt_string)
         # Updating the results dictionary
         predicted_labels[i]['choices'] += [ {'text':response[0]} ]
-
+    
     prompt_strings += [source_text]
 
+  # Exporting results to JSON for further processing and visualisation
+  results = {'hyperparameters': 'model=t5-base, separator=,,', 
+          'predicted_labels': predicted_labels,
+          'prompt_text': prompt_strings,
+          'prompt_train_text': prompt_string_train, 
+          'text': list(test_data['text'])}
 
-# Exporting results to JSON for further processing and visualisation
-results = {'hyperparameters': 'model=t5-base, separator=,,', 
-        'predicted_labels': predicted_labels,
-        'prompt_text': prompt_strings,
-        'prompt_train_text': prompt_string_train, 
-        'text': list(test_data['text'])}
-
-export_dict(output_file, results)
+  export_dict(output_file, results)

@@ -71,7 +71,8 @@ def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_data
 def model_output_to_visualiser(
         test_dataset_path = 'models/E4/results/benchie_en.json',
         results_path = 'models/E4/results/benchie_en_seperation_2_commas.json',
-        output_path = 'visualiser/datasets/benchie_e4.json'):
+        output_path = 'visualiser/datasets/benchie_e4.json',
+        max_number_runs = 999):
     # Transforms output from language models to visualiser
     data = load_json(test_dataset_path)
     # missing_indices = list(range(len(test_data['text'])))
@@ -135,7 +136,8 @@ def model_output_to_visualiser(
 
             except:
                 invalid_syntax_count += 1
-                
+            
+            if j >= (max_number_runs-1): break
 
             
         data['labels'] += [sentence_level_triple_list]
@@ -206,18 +208,23 @@ def visualisation_to_benchie(
         f.write(output_string)
 
 
-accuracies = {}
-number_of_epoch = 15
-for i in range(number_of_epoch):
-    accuracies_by_epoch = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
-            results_path = f'models/E1/results/benchie_en_separation_2_commas_{i}.json',
-            output_path = f'visualiser/datasets/benchie_e1_{i}.json')
+# By Epoch
 
-    accuracies[accuracies_by_epoch['model']] = accuracies_by_epoch
+
+accuracies = {}
+number_of_choices = 3
+for i in range(number_of_choices):
+    accuracies_by_runs = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
+            results_path = f'models/E4/results/benchie_en_separation_2_commas.json',
+            output_path = f'visualiser/datasets/benchie_en_e4_choices_{i}.json',
+            max_number_runs= i+1)
+
+    accuracies[str(i)] = accuracies_by_runs
     
 
-    visualisation_to_benchie(in_path=f'visualiser/datasets/benchie_e1_{i}.json', 
-            out_path=f'evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit_{i}.txt')
+    visualisation_to_benchie(in_path=f'visualiser/datasets/benchie_en_e4_choices_{i}.json', 
+            out_path=f'evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit_choices_{i}.txt')
 
-with open('visualiser/model_results/t5_syntax_by_epoch.json', 'w') as f:
+with open('visualiser/model_results/gpt3_syntax_by_runs.json', 'w') as f:
     json.dump(accuracies, f)
+

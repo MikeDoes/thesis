@@ -7,10 +7,10 @@
     <title>Results</title>
   </head>
   <body>
-    <div style="position: relative; height: 40vh; width: 40vw">
+    <div style="position: relative; height: 40vh; width: 40vw; border: 1px black solid; padding: 10px;">
       <canvas id="myChart"></canvas>
     </div>
-    <div style="position: relative; height: 40vh; width: 40vw">
+    <div style="position: relative; height: 40vh; width: 40vw; border: 1px black solid; padding: 10px;">
       <canvas id="myChart2"></canvas>
     </div>
   </body>
@@ -37,20 +37,20 @@
         datasets: [
           {
             label: "Precision",
-            backgroundColor: "rgb(255, 99, 132)",
-            borderColor: "rgb(255, 99, 132)",
+            backgroundColor: "#D02D30",
+            borderColor: "#D02D30",
             data: precision,
           },
           {
             label: "Recall",
-            backgroundColor: "rgb(0, 99, 132)",
-            borderColor: "rgb(0, 99, 132)",
+            backgroundColor: "#072A6C",
+            borderColor: "#072A6C",
             data: recall,
           },
           {
             label: "F1",
-            backgroundColor: "rgb(255, 99, 0)",
-            borderColor: "rgb(255, 99, 0)",
+            backgroundColor: "#07AD62",
+            borderColor: "#07AD62",
             data: f1,
           },
         ],
@@ -63,7 +63,7 @@
           plugins: {
             title: {
               display: true,
-              text: "BenchIE Metrics",
+              text: "T5-Base Results: BenchIE Metrics",
             },
           },
           scales: {
@@ -101,21 +101,21 @@
         datasets: [
           {
             label: "Precision",
-            backgroundColor: "rgb(255, 99, 132)",
-            borderColor: "rgb(255, 99, 132)",
+            backgroundColor: "#D02D30",
+            borderColor: "#D02D30",
             data: precision,
           },
           {
             label: "Syntax Accuracy",
-            backgroundColor: "rgb(0, 99, 132)",
-            borderColor: "rgb(0, 99, 132)",
+            backgroundColor: "#072A6C",
+            borderColor: "#072A6C",
             data: syntax_accuracy,
           },
 
           {
             label: "Word in Sentence Accuracy",
-            backgroundColor: "rgb(255, 99, 0)",
-            borderColor: "rgb(255, 99, 0)",
+            backgroundColor: "#07AD62",
+            borderColor: "#07AD62",
             data: in_sentence_accuracy,
           },
         ],
@@ -128,7 +128,7 @@
           plugins: {
             title: {
               display: true,
-              text: "Language Model Metrics",
+              text: "T5-Base Results: Post-Processing Metrics",
             },
           },
           scales: {
