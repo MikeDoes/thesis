@@ -189,8 +189,10 @@ def visualisation_to_benchie(
     with open(out_path, 'w') as f:
         f.write(output_string)
 
-gpt3_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
-        results_path = 'models/E1/results/benchie_en_separation_2_commas.json',
-        output_path = 'visualiser/datasets/benchie_e1.json')
-visualisation_to_benchie(in_path='visualiser/datasets/benchie_e1.json', 
-        out_path='evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit.txt')
+
+for i in range(15):
+    gpt3_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
+            results_path = f'models/E1/results/benchie_en_separation_2_commas_{i}.json',
+            output_path = f'visualiser/datasets/benchie_e1_{i}.json')
+    visualisation_to_benchie(in_path=f'visualiser/datasets/benchie_e1_{i}.json', 
+            out_path=f'evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit_{i}.txt')
