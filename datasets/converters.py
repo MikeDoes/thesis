@@ -68,7 +68,7 @@ def visualisation_to_reoie2016(in_path='visualiser/datasets/oie2016_spanoie_data
     with open(out_path, 'w') as f:
         json.dump(data, f)
 
-def gpt3_output_to_visualiser(
+def model_output_to_visualiser(
         test_dataset_path = 'models/E4/results/benchie_en.json',
         results_path = 'models/E4/results/benchie_en_seperation_2_commas.json',
         output_path = 'visualiser/datasets/benchie_e4.json'):
@@ -80,7 +80,11 @@ def gpt3_output_to_visualiser(
 
     data['labels'] = []
 
-    failed_interpretation = 0
+    not_in_sentence_prediction = 0
+    successful_parsing = 0
+    invalid_syntax_count, valid_syntax_count = 0, 0
+
+    accuracies_by_epoch = {}
 
     for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
         sentence_level_triple_list = []
@@ -119,24 +123,36 @@ def gpt3_output_to_visualiser(
 
 
                         if not in_sentence:
-                            failed_interpretation += 1
+                            not_in_sentence_prediction += 1
                             continue
+                        
+                        successful_parsing += 1
                         
                         triple = [args[0], args[1], args[2]]
                         sentence_level_triple_list += [triple]
+                
+                valid_syntax_count += 1
 
             except:
-                #triple_list = [[["", "", ""]]]
-                pass
+                invalid_syntax_count += 1
+                
 
             
         data['labels'] += [sentence_level_triple_list]
 
-    print(sum([len(triple_list) for triple_list in data['labels']]))
-    print(failed_interpretation)
+    in_sentence_accuracy = float(successful_parsing)/(successful_parsing+not_in_sentence_prediction)
+    syntax_accuracy = float(valid_syntax_count)/(valid_syntax_count + invalid_syntax_count)
+    
+    accuracies_by_epoch = {
+        'model':results_path.split('_')[-1].split('.')[0],
+        'in_sentence_accuracy':in_sentence_accuracy,
+        'syntax_accuracy':syntax_accuracy,
+    }
 
     with open(output_path, 'w') as f:
         json.dump(data, f)
+    
+    return accuracies_by_epoch
 
 
 def benchie_to_visualiser(in_path='evaluators/benchie/data/gold/2_annotators/benchie_gold_annotations_en.txt', out_path='visualiser/datasets/benchie_en.json'):
@@ -190,9 +206,17 @@ def visualisation_to_benchie(
         f.write(output_string)
 
 
+accuracies = {}
 for i in range(15):
-    gpt3_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
+    accuracies_by_epoch = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
             results_path = f'models/E1/results/benchie_en_separation_2_commas_{i}.json',
             output_path = f'visualiser/datasets/benchie_e1_{i}.json')
+
+    accuracies[accuracies_by_epoch['model']] = accuracies_by_epoch
+    
+
     visualisation_to_benchie(in_path=f'visualiser/datasets/benchie_e1_{i}.json', 
             out_path=f'evaluators/benchie/data/oie_systems_explicit_extractions/e1_explicit_{i}.txt')
+
+with open('visualiser/model_results/t5_syntax_by_epoch.json', 'w') as f:
+    json.dump(accuracies, f)
