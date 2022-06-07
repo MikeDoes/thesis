@@ -1,90 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
     <title>Document</title>
-    <script src='https://cdn.plot.ly/plotly-2.12.1.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
-</head>
+    <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  </head>
 
-<body>
-    <div id='myDiv'>
-        <!-- Plotly chart will be drawn inside this DIV -->
+  <body>
+    <div id="myDiv">
+      <!-- Plotly chart will be drawn inside this DIV -->
     </div>
 
     <script>
-        d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/api_docs/mt_bruno_elevation.csv', function (
-            err, rows) {
-            function unpack(rows, key) {
-                return rows.map(function (row) {
-                    return row[key];
-                });
-            }
+      function get_data() {
+        const Http = new XMLHttpRequest();
 
-            // Literally row by column, numbers are strings tho
+        const url = "model_results/t_5_grid_precision.json";
+        Http.open("GET", url);
+        Http.send();
 
-            var z_data = []
+        Http.onreadystatechange = (e) => {
+          if (Http.readyState == 4 && Http.status == 200) {
+            dataset = JSON.parse(Http.responseText);
+            build_graph(dataset);
+          }
+        };
+      }
 
+      // Literally row by column, numbers are strings tho
 
-            for (i = 0; i < 4; i++) {
-                z_data.push(unpack(rows, i));
-            }
+      function build_graph(dataset) {
+        
+        console.log(dataset)
+        var data = [
+          {
+            z: dataset,
+            type: "surface",
+          },
+        ];
 
-            console.log(z_data)
-            var data = [{
-                z: z_data,
-                type: 'surface'
-            }];
+        var layout = {
+          title: "Epoch vs Runs",
+          autosize: false,
+          width: 800,
+          height: 800,
+          scene: {
+            xaxis: {
+              title: "Runs",
+              titlefont: {
+                family: "Arial, Open Sans",
+                size: 22,
+              },
+              nticks: 39,
+              //range: [-200, 100],
+            },
+            yaxis: {
+              title: "Epochs",
+              titlefont: {
+                family: "Arial, Open Sans",
+                size: 22,
+              },
+              nticks: 22,
+            },
+            zaxis: {
+              title: "Precision",
+              titlefont: {
+                family: "Arial, Open Sans",
+                size: 22,
+              },
+            },
+          },
 
+          margin: {
+            l: 65,
+            r: 65,
+            b: 65,
+            t: 65,
+          },
+        };
+        Plotly.newPlot("myDiv", data, layout);
+      }
 
-            var layout = {
-                title: 'Epoch vs Runs',
-                autosize: false,
-                width: 800,
-                height: 800,
-                scene: {
-                    xaxis: {
-                        title: 'Epochs',
-                        titlefont: {
-                            family: 'Arial, Open Sans',
-                            size: 22
-                        },
-                        nticks: 39,
-                        //range: [-200, 100],
-
-                    },
-                    yaxis: {
-                        title: 'Runs',
-                        titlefont: {
-                            family: 'Arial, Open Sans',
-                            size: 22
-                        },
-                        nticks: 4,
-                    },
-                    zaxis: {
-                        title: 'Precision',
-                        titlefont: {
-                            family: 'Arial, Open Sans',
-                            size: 22
-                        }
-                    }
-
-                },
-
-                margin: {
-                    l: 65,
-                    r: 65,
-                    b: 65,
-                    t: 65,
-                }
-            };
-            Plotly.newPlot('myDiv', data, layout);
-        });
+      get_data()
     </script>
-</body>
-
+  </body>
 </html>
