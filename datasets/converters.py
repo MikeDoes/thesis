@@ -139,7 +139,7 @@ def model_output_to_visualiser(
             
             if j >= (max_number_runs-1): break
 
-            
+        sentence_level_triple_list = list(set(tuple(i) for i in sentence_level_triple_list))
         data['labels'] += [sentence_level_triple_list]
 
     in_sentence_accuracy = float(successful_parsing)/(successful_parsing+not_in_sentence_prediction)

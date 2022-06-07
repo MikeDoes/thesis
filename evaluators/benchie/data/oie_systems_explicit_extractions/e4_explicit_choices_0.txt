@@ -1,154 +1,152 @@
-1	He	served	as the first Prime Minister of Australia
 1	He	became	a founding justice of the High Court of Australia
+1	He	served	as the first Prime Minister of Australia
 2	Graner	cuffed him	to the bars of a cell window and left him there
 2	Graner	cuffed him	for nearly five hours
-3	It deals with	cases of fraud in relation to	direct taxes
 3	It deals with	cases of fraud in relation to	indirect taxes
+3	It deals with	cases of fraud in relation to	direct taxes
+3	It deals with	cases involving	CITES
+3	It deals with	cases involving	conflict diamonds
 3	It deals with	cases of fraud in relation to	tax credits
 3	It deals with	cases involving	United Nations trade sanctions
-3	It deals with	cases involving	conflict diamonds
-3	It deals with	cases involving	CITES
-4	St. Michael	was considered	to be the patron saint of colonial Maryland
 4	St. Michael	was considered	to be honored by the river being named for him
 4	the river	was named	for him
-5	The show	appear	as if the viewer was channel surfing through a multi-channel wasteland
-5	The show	appear	as happening upon spoof adverts
+4	St. Michael	was considered	to be the patron saint of colonial Maryland
 5	The show	appear	as short sketches
+5	The show	appear	as happening upon spoof adverts
+5	The show	appear	as if the viewer was channel surfing through a multi-channel wasteland
 5	The show	appear	as recurring show elements
 6	Several years later	the remaining trackage	was abandoned
-7	Dr. Jagan	was	personally involved in the organization of the strike
 7	Dr. Jagan	helped	to raise funds across the country
-8	In 1918	the municipality was renamed	Jones
-8	In 1918	the municipality was renamed	in honor of American congressman William Jones
-8	In 1918	the municipality was renamed	who authored the Philippine Autonomy Act of 1916 that provided for greater autonomy for the Philippines under American colonial rule
+7	Dr. Jagan	was	personally involved in the organization of the strike
 8	American congressman William Jones	authored	the Philippine Autonomy Act of 1916 that provided for greater autonomy for the Philippines under American colonial rule
-9	Instead of ablating the tissue	the laser	cuts
-9	Instead of ablating the tissue	the laser	cuts a portion of the prostate
+8	In 1918	the municipality was renamed	in honor of American congressman William Jones
+8	In 1918	the municipality was renamed	Jones
+8	In 1918	the municipality was renamed	who authored the Philippine Autonomy Act of 1916 that provided for greater autonomy for the Philippines under American colonial rule
 9	Instead of ablating the tissue	flushed	with irrigation fluid
-9	a portion of the prostate	is then cut into	smaller pieces
+9	Instead of ablating the tissue	the laser	cuts a portion of the prostate
 9	a portion of the prostate	is then cut into	flushed with irrigation fluid
-10	'' Kormoran ''	was	the only Axis ship to conduct attacks in Australian waters during 1941
-10	'' Kormoran ''	was	the last Axis surface raider to enter Australian waters until 1943
+9	a portion of the prostate	is then cut into	smaller pieces
+9	Instead of ablating the tissue	the laser	cuts
 10	the only Axis ship	conduct	attacks in Australian waters during 1941
 10	the last Axis surface raider	enter	Australian waters until 1943
-11	He and his friends	were	said to have made bombs for fun
+10	'' Kormoran ''	was	the only Axis ship to conduct attacks in Australian waters during 1941
+10	'' Kormoran ''	was	the last Axis surface raider to enter Australian waters until 1943
+11	He and his friends	were said to have made bombs	for fun
 11	He and his friends	were said	to have made bombs
 11	He and his friends	were said to have made	bombs
-11	He and his friends	were said to have made bombs	for fun
-12	A large gravestone	was erected	over 100 years after his death
+11	He and his friends	were	said to have made bombs for fun
 12	A large gravestone	was erected	in 1866
-13	In 1879	he was	re-elected U.S. Senator
+12	A large gravestone	was erected	over 100 years after his death
 13	In 1879	he was	tipped as a Presidential candidate
 13	he	died suddenly	after giving a speech in Chicago
-14	This led morning show host Ryan Cameron	to lobby	for a frequency change for WHTA
-14	This led morning show host Ryan Cameron	to lobby	by putting together a petition from listeners
+13	In 1879	he was	re-elected U.S. Senator
+14	putting together a petition from listeners	risk	of losing his job under Radio One's management
 14	This led morning show host Ryan Cameron	to lobby	at the risk of losing his job
 14	This led morning show host Ryan Cameron	to lobby	under Radio One's management
-14	putting together a petition from listeners	risk	of losing his job under Radio One's management
-15	Each of the programs	uses	a combination of funding priorities and geographic requirements to select grants
+14	This led morning show host Ryan Cameron	to lobby	for a frequency change for WHTA
+14	This led morning show host Ryan Cameron	to lobby	by putting together a petition from listeners
 15	f the programs	geographic requirements	to select grants
+15	Each of the programs	uses	a combination of funding priorities and geographic requirements to select grants
 15	Each of the programs	uses	described on the foundation's web site
-16	The Institut Constant de Rebecque	is	a Swiss free-market
-16	The Institut Constant de Rebecque	is	classical liberal and libertarian think tank
 16	The Institut Constant de Rebecque	is	founded in January 2005 in Lausanne
 16	The Institut Constant de Rebecque	is named after	writer and political philosopher Benjamin Constant
+16	The Institut Constant de Rebecque	is	a Swiss free-market
+16	The Institut Constant de Rebecque	is	classical liberal and libertarian think tank
 17	The main reason for this adoption over mainline gimp	was	its support for high bit depths
 17	The main reason for this adoption over mainline gimp	was	its support for high bit depths which can be required for film work
-18	They	have	a large range of possible power supplies
-18	They	can be	380V
-18	They	can be	1000V
 18	They	can be	even higher
-19	She	began	her film career
+18	They	have	a large range of possible power supplies
+18	They	can be	1000V
+18	They	can be	380V
 19	She	began	in the film '' A New Oath ''
-20	The brightest star in Serpens	is	a red giant
+19	She	began	her film career
 20	The brightest star in Serpens	is	of spectral type K2III
-20	The brightest star in Serpens	is	located approximately away
 20	The brightest star in Serpens	marks	the snake's heart
-21	This manual for warriors	describes	the necessity for understanding an opponent 's weaknesses
+20	The brightest star in Serpens	is	a red giant
+20	The brightest star in Serpens	is	located approximately away
 21	This manual for warriors	describes	the necessity for using spies
 21	This manual for warriors	describes	the necessity for striking in moments of weakness
-22	It	was	club policy to promote talent into the senior team
+21	This manual for warriors	describes	the necessity for understanding an opponent 's weaknesses
 22	It	was	adopted by Bill Dimovski
-25	300 soldiers of the 1st SS Battalion	were able	to reinforce the hotel
+22	It	was	club policy to promote talent into the senior team
 25	300 soldiers of the 1st SS Battalion	were able	to defeat several attacks on the building
 25	the 1st SS Battalion	defeat	several attacks on the building
-28	The culture of Bhutan	is fully reflected	in the capital city
-28	The culture of Bhutan	is fully reflected	in respect of literature
+25	300 soldiers of the 1st SS Battalion	were able	to reinforce the hotel
 28	The culture of Bhutan	is fully reflected	in respect of religion
-28	The culture of Bhutan	is fully reflected	in respect of customs
-28	The culture of Bhutan	is fully reflected	in respect of national dress code
-28	The culture of Bhutan	is fully reflected	in respect of the monastic practices of the monasteries
 28	The culture of Bhutan	is fully reflected	in respect of music
-28	The culture of Bhutan	is fully reflected	in respect of dance
+28	The culture of Bhutan	is fully reflected	in respect of customs
+28	The culture of Bhutan	is fully reflected	in the capital city
+28	The culture of Bhutan	is fully reflected	in respect of the monastic practices of the monasteries
+28	The culture of Bhutan	is fully reflected	in respect of national dress code
 28	The culture of Bhutan	is fully reflected	in respect of literature
+28	The culture of Bhutan	is fully reflected	in respect of dance
 29	was released	on	Marc 's own label
 29	was released	on	Frazzy Frog Music
-30	In England and Wales	as	an '' attempt ''
 30	In England and Wales	as	attempted murder
-30	an offence	is	an indictable offence
-30	an offence	carries	a maximum penalty
 30	a maximum penalty	of	life imprisonment
-31	Lugo and Lozano	were released	in 1993
+30	an offence	carries	a maximum penalty
+30	In England and Wales	as	an '' attempt ''
+30	an offence	is	an indictable offence
 31	Lugo and Lozano	continue to reside	in Venezuela
+31	Lugo and Lozano	were released	in 1993
 33	The school	was founded	in 1851
 33	The school	was founded	as the German-English Academy
 33	The school	was founded	by a group of Milwaukee German Americans
-34	They	held	the first Triangle workshop in 1982
 34	They	held	for thirty sculptors and painters
+34	They	held	the first Triangle workshop in 1982
 34	They	held	for thirty sculptors and painters from the US
-35	The town and surrounding villages	were hit by	two moderate earthquakes
-35	The town and surrounding villages	were hit by	within ten years
 35	two moderate earthquakes	within	ten years
+35	The town and surrounding villages	were hit by	within ten years
+35	The town and surrounding villages	were hit by	two moderate earthquakes
 36	She	received	her Master Degree in the field of Controls , Guidance and Instrumentation from I.I.T Madras
 36	She	received	her Ph.d degree from the department of Aerospace engineering
+37	she used	like	the fan dance
 37	The theatrical flourishes and unique gimmicks she used in her stage show	went beyond	established burlesque routines
 37	The theatrical flourishes and unique gimmicks she used in her stage show	went beyond	like the fan dance and balloon dance
-37	she used	like	the fan dance
 37	she used	like	balloon dance
 39	The Cathedral and the belfry	were	thoroughly renovated
 39	The Cathedral and the belfry	were	from 2006 to 2008
-40	When the band is not touring	Peter Bywaters offers	personal English as a second language tuition on a live-in basis at his home in Brighton
-40	When the band is not touring	Peter Bywaters offers	personal English as a second language tuition
 40	When the band is not touring	Peter Bywaters offers	personal English
 40	When the band is not touring	Peter Bywaters offers	on a live-in basis at his home in Brighton
-42	active service as a soldier	saw	He
-42	The Netherlands	saw	active service as a soldier for the Scottish forces
+40	When the band is not touring	Peter Bywaters offers	personal English as a second language tuition
+40	When the band is not touring	Peter Bywaters offers	personal English as a second language tuition on a live-in basis at his home in Brighton
 42	The Netherlands	saw	service as a soldier for the Scottish forces
 42	service as a soldier for the Scottish forces	for	The Netherlands
-43	The Nazis did however permit	a single dress rehearsal	in Salzburg
-43	The Nazis did however permit	a single dress rehearsal	conducted by Clemens Krauss
-43	The Nazis did however permit	a single dress rehearsal	in order that Strauss and an invited audience could hear the work performed
+42	The Netherlands	saw	active service as a soldier for the Scottish forces
+42	active service as a soldier	saw	He
+43	Strauss and an invited audience	could hear	the work performed
 43	Clemens Krauss	conducted	a single dress rehearsal
 43	Clemens Krauss	conducted	in order that Strauss and an invited audience could hear the work performed
-43	Strauss and an invited audience	could hear	the work performed
+43	The Nazis did however permit	a single dress rehearsal	conducted by Clemens Krauss
+43	The Nazis did however permit	a single dress rehearsal	in order that Strauss and an invited audience could hear the work performed
+43	The Nazis did however permit	a single dress rehearsal	in Salzburg
 44	This	is usually caused by	interacting inductive and capacitive elements in the oscillator
 44	This	is usually caused by	in the oscillator
 45	Sligo town	became	an incorporated municipal borough
 45	Sligo town	became	with a Royal Charter issued by the British King James I in 1613/14
-46	Tom McMorran	joined	the band
-46	Tom McMorran	joined	after Mark Portmann left
 46	Tom McMorran	joined	in August of that year
+46	Tom McMorran	joined	after Mark Portmann left
+46	Tom McMorran	joined	the band
 47	As she reads the articles	she also makes	veiled references and innuendo relating to the slang use of '' beaver ''
-48	23.8 %	were	made up of individuals
-48	13.0 %	had	someone living alone who was 65 years of age
 48	13.0 %	had someone living alone	who was 65 years of age or older
+48	13.0 %	had	someone living alone who was 65 years of age
+48	23.8 %	were	made up of individuals
 49	Overseas teams	would not return	to Russia until 1998
-49	Overseas teams	return	in 1998
 49	a youth tournament	was held	in Moscow
+49	Overseas teams	return	in 1998
 50	The British Army	had been	overstretched by the Crimean War
-50	The British Army	had been	mutiny in India had led to the responsibility for providing a garrison in the subcontinent from the Honourable East India Company to the Crown forces
 50	The British Army	had been	from the Honourable East India Company to the Crown forces
+50	The British Army	had been	mutiny in India had led to the responsibility for providing a garrison in the subcontinent from the Honourable East India Company to the Crown forces
 51	Just above seen	is	a replica of a Shiva lingam
 52	The ninth leaf	contains	a circular world map
 54	The power cepstrum of a signal	is defined as	the squared magnitude of the inverse Fourier transform of the logarithm of the squared magnitude of the Fourier transform of a signal
 55	lodge members	youth and adult	are active staff members of both Scout and Cub Scout camps
 55	lodge members	are active staff members	of both Scout and Cub Scout camps
-55	lodge members	are active staff members	of both Scout and Cub Scout camps
 55	youth and adult	are active staff members	of both Scout and Cub Scout camps
-56	From 1970 to 1985	Gideon Rodan	taught at the University of Connecticut School of Dental Medicine
+56	Gideon Rodan	switched over	to Merck
 56	Gideon Rodan	taught at	the University of Connecticut School of Dental Medicine
 56	Gideon Rodan	taught at	the University of Connecticut School of Dental Medicine until he switched over to Merck
-56	Gideon Rodan	switched over	to Merck
+56	From 1970 to 1985	Gideon Rodan	taught at the University of Connecticut School of Dental Medicine
 56	he	switched over	to Merck
 57	Porter 's three generic strategies	can be	applied to any size or form of business
 58	For patients who do not recover quickly	the protocol also includes	support groups and/or psychotherapy
@@ -156,96 +154,96 @@
 58	For patients who do not recover quickly	the protocol also includes	psychotherapy
 59	They	do n't possess	eyelids
 59	They	lick their eyeballs clean	in order to keep them moist
-60	They	acquired	the Charles City Western
 60	They	acquired	on December 31
+60	They	acquired	the Charles City Western
 60	They	acquired	on December 31 , 1963
 61	Hofmann	was born	in Salt Lake City
 61	Hofmann	was born	in Utah
+62	in 1962	as	an Independent candidate
 62	Salahuddin	won	from Patharghatti assembly seat
 62	Salahuddin	won	from Charminar constituency
-62	in 1962	as	an Independent candidate
 63	locals	speak	Minnan languages
-64	Childers 's biographer Andrew Boyle	noted	For the next ten years Childers 's book remained the most powerful contribution of any English writer to the debate on Britain 's alleged military unpreparedness
 64	For the next ten years Childers 's book	remained	the most powerful contribution of any English writer to the debate on Britain 's alleged military unpreparedness
-64	For the next ten years Childers 's book	writer	to the debate on Britain 's alleged military unpreparedness
 64	For the next ten years Childers 's book	writer	alleged military unpreparedness
+64	For the next ten years Childers 's book	writer	to the debate on Britain 's alleged military unpreparedness
+64	Childers 's biographer Andrew Boyle	noted	For the next ten years Childers 's book remained the most powerful contribution of any English writer to the debate on Britain 's alleged military unpreparedness
 65	the Brumbies won	47 to 38	in front of a record crowd at Canberra Stadium
 66	A different judge	ordered	the case reviewed
 66	A different judge	ordered	by a higher court
-67	As a result	environmental factors	are also understood to contribute heavily to the strength of intimate relationships
-67	environmental factors	contribute	heavily to the strength of intimate relationships
 67	factors	contribute	to the strength of intimate relationships
-68	For liquid-packed vessels	thermal relief valves	are generally characterized by the relatively small size of the valve necessary to provide protection from excess pressure caused by thermal expansion
+67	environmental factors	contribute	heavily to the strength of intimate relationships
+67	As a result	environmental factors	are also understood to contribute heavily to the strength of intimate relationships
 68	For liquid-packed vessels	thermal relief valves	provide protection from excess pressure caused by thermal expansion
+68	For liquid-packed vessels	thermal relief valves	are generally characterized by the relatively small size of the valve necessary to provide protection from excess pressure caused by thermal expansion
+69	a memorial service	attracted	controversy
 69	Callaghan 's decision on the Japanese pilot 's funeral	would receive	praise
 69	Callaghan 's decision on the Japanese pilot 's funeral	would receive	years later
-69	a memorial service	attracted	controversy
-70	she	became	ill with a severe cold or pneumonia
 70	After this she	became	very ill with a severe cold or pneumonia
-73	The 2005 model	introduced	a third row of seats
+70	she	became	ill with a severe cold or pneumonia
 73	The 2005 model	introduced	to the Pathfinder line
+73	The 2005 model	introduced	a third row of seats
 73	The 2005 model	introduced	to the Pathfinder line for the first time
 75	The very ease of acquiring Esperanto	might	accelerate the process
-76	He	stated	that Hauptmann looked different
 76	He	stated	that '' John '' was actually dead
 76	He	stated	that '' John '' was actually dead because he had been murdered by his confederates
-77	The RSNO	performs	throughout Scotland
+76	He	stated	that Hauptmann looked different
 77	The RSNO	performs	at such venues as the Glasgow Royal Concert Hall
-77	The RSNO	performs	at such venues as the Usher Hall
+77	The RSNO	performs	at such venues as the Perth Concert Hall
 77	The RSNO	performs	at such venues as the Caird Hall
 77	The RSNO	performs	at such venues as the Aberdeen Music Hall
-77	The RSNO	performs	at such venues as the Perth Concert Hall
 77	The RSNO	performs	at such venues as the Eden Court Inverness
-78	Alvarez	was reunited	with his family
+77	The RSNO	performs	at such venues as the Usher Hall
+77	The RSNO	performs	throughout Scotland
 78	Alvarez	was reunited	in New York
+78	Alvarez	was reunited	with his family
 79	The Anti-Monitor	began	to siphon the positive matter of New York City
 79	The Anti-Monitor	began	to create his Antimatter waves
-80	These tracks	have	been included on CD reissues of the album '' The Plan ''
 80	These tracks	have subsequently been included	on CD reissues of the album '' The Plan ''
-80	These tracks	have subsequently been included	on CD reissues
 80	These tracks	have subsequently been included	of the album '' The Plan ''
+80	These tracks	have subsequently been included	on CD reissues
+80	These tracks	have	been included on CD reissues of the album '' The Plan ''
 81	He	develops significance	as a recurrent character in the series
 81	He	develops significance	as friend to Dream
 81	He	appearing	in a total of seven issues spanning six hundred years
-82	Davis	released	about 25 singles
-82	Davis	released	during his seven years with Dakar
 82	Davis	released	most of them big R&B sellers
 82	most of them	produced	by Willie Henderson
-83	RedLetterMedia	delivered	a scathing video critique of the film
-83	RedLetterMedia	delivered	negative comparisons to The Three Stooges, Looney Tunes, and Home Alone
+82	Davis	released	during his seven years with Dakar
+82	Davis	released	about 25 singles
 83	2010	drawing	critique
 83	2010	drawing	comparisons
+83	RedLetterMedia	delivered	negative comparisons to The Three Stooges, Looney Tunes, and Home Alone
+83	RedLetterMedia	delivered	a scathing video critique of the film
 84	Within England and especially Scotland	there were	repeated attempts by the deposed House of Stewart to regain the throne
 84	Within England and especially Scotland	there were	severe uprisings
 85	These skills	were	readily proven
 85	These skills	were	when squadrons and personnel were mobilized and recalled back to active duty
-85	These skills	were	when squadrons and personnel were mobilized and recalled back to active duty during the Korean War
 85	These skills	were	during the Berlin Crisis
-86	For example	when two such hydrophobic particles come very close	the clathrate-like baskets surrounding them merge.
+85	These skills	were	when squadrons and personnel were mobilized and recalled back to active duty during the Korean War
 86	For example	two such hydrophobic particles	come very close
 86	For example	the clathrate-like baskets	surrounding them merge
-87	The doctor	suspects	love is behind Antiochus's suffering
+86	For example	when two such hydrophobic particles come very close	the clathrate-like baskets surrounding them merge.
 87	Erasistratus	suspects	love is behind Antiochus's suffering
-88	The Lletty Shenkin explosion of 1849	in particular	led to demands
+87	The doctor	suspects	love is behind Antiochus's suffering
 88	The Lletty Shenkin explosion of 1849	in particular	led to demands the local middle classes in Aberdare
+88	The Lletty Shenkin explosion of 1849	in particular	led to demands
 89	Lady Mary Wortley Montagu	observed	the practice
+89	Lady Mary Wortley Montagu	encountered	considerable resistance
+89	Lady Mary Wortley Montagu	attempted	to popularize it in Britain
 89	Lady Mary Wortley Montagu	observed	in Istanbul
 89	Lady Mary Wortley Montagu	attempted	to popularize it
-89	Lady Mary Wortley Montagu	attempted	to popularize it in Britain
-89	Lady Mary Wortley Montagu	encountered	considerable resistance
 90	The two companies	are teaming up	for the Future Vertical Lift prototype called SB-1 Defiant
 90	The two companies	are teaming up	where employees from both companies will work together
 91	He	had been	at the Battle of the Granicus River
 91	He	had believed	that Memnon's scorched Earth strategy would work here
 91	Memnon's scorched Earth strategy	would work	here
-92	The film	uses	some computer-generated graphics
 92	The film	uses	The northern lights in the scene where Inge walks through the fields to Olaf's house to take a bath
+92	The film	uses	some computer-generated graphics
 92	The film	uses	later in the film, the geese flying over Olaf's house
-93	Sweeney	sponsored	legislation
 93	Sweeney	signed	legislation into law
 93	legislation	provides	state pensions to surviving family members
-93	legislation	provides	firefighters and emergency services workers who die in the line of duty
 93	legislation	as well as	the law that removes the remarriage prohibition to receive death benefits for spouses of police officers and firefighters killed while serving the public good
+93	legislation	provides	firefighters and emergency services workers who die in the line of duty
+93	Sweeney	sponsored	legislation
 94	The latter	was	lifted only as the b-side of '' Keep on Loving Me ''
 95	The first single	features	performances by keyboardist Philippe Saisse
 95	The first single	features	vocalists Jasmine Roy and Rebeca Vega
@@ -253,556 +251,548 @@
 96	QVC Network Inc.	said	it completed its acquisition of CVN Cos.
 96	it	completed its acquisition	of CVN Cos.
 96	it	completed its acquisition	for about $ 423 million
-97	it	was	a direct response to his efforts to gain control of Datapoint
 97	Mr. Ackerman	contended	it was a direct response to his efforts to gain control of Datapoint
-98	Both companies	are	allies of Navigation Mixte
+97	it	was	a direct response to his efforts to gain control of Datapoint
 98	Both companies	are	allies of Navigation Mixte in its fight against a hostile takeover bid
 98	allies	fight	hostile takeover bid
+98	Both companies	are	allies of Navigation Mixte
 99	After a break of four years	he became	a Lord Justice of Appeal
 99	he	became	a Lord Justice of Appeal
-101	Paul Johanson	said	the company's chemical spray overcomes these problems
 101	Paul Johanson	said	the company's chemical spray is ''gentle on the female organ.''
 101	the company's chemical spray	overcomes	these problems
+101	Paul Johanson	said	the company's chemical spray overcomes these problems
 102	Ms. Waleson	is	a free - lance writer
 102	Ms. Waleson	is	based in New York
-103	Premark International Inc.	peddles	the M8.7sp Electronic Cycling Simulator
 103	the M8.7sp Electronic Cycling Simulator	is	a $ 2,000 stationary cycle
+103	Premark International Inc.	peddles	the M8.7sp Electronic Cycling Simulator
 104	Mrs. Marcos's trial	is expected	to begin in March
 106	The company	is expected to spend	about $ 30 million a year
-106	The company	is expected to spend	on its two - year corporate campaign
 106	The company	is expected to spend	on its two - year corporate campaign created by WPP Group's Ogilvy & Mather unit in New York
+106	The company	is expected to spend	on its two - year corporate campaign
 107	Great Northern Nekoosa	soared	$ 20.125 a share
-107	Great Northern Nekoosa	soared	to $ 62.875
 107	Great Northern Nekoosa	soared	substantially above the $ 58 a share Georgia - Pacific is offering
-109	That	compared	with an operating loss
+107	Great Northern Nekoosa	soared	to $ 62.875
 109	That	compared	with an operating loss of $ 1.9 million on sales of $ 27.4 million in the year - earlier period
+109	That	compared	with an operating loss
 109	an operating loss	on sales	of $ 27.4 million in the year - earlier period
-110	President Bush	said	that three members of his cabinet will lead a presidential mission to Poland
-110	to gauge how the U.S. can help the new non - Communist government 's economic changes	will lead	a presidential mission
 110	to gauge how the U.S. can help the new non - Communist government 's economic changes	will lead	the presidential mission to Poland
+110	to gauge how the U.S. can help the new non - Communist government 's economic changes	will lead	a presidential mission
+110	President Bush	said	that three members of his cabinet will lead a presidential mission to Poland
 111	his client	welcomed	the gamble
-112	One group of middle - aged manufacturing men	was supposed	to check out a trendy restaurant
 112	One group of middle - aged manufacturing men	was supposed	in the city
+112	One group of middle - aged manufacturing men	was supposed	to check out a trendy restaurant
 112	the company 's Zama plant outside Tokyo	check out	a trendy restaurant
-113	Boyer and Cohen	for instance	both still university researchers
 113	Boyer and Cohen	for instance	had to be talked into applying for a patent on their gene-splicing technique
 113	their gene-splicing technique	and then	the Patent Office refused to grant it
+113	Boyer and Cohen	for instance	both still university researchers
 114	His recent appearance at the Metropolitan Museum	dubbed,''A Musical Odyssey,''was	a case in point
-116	The brokerage firm	tracks	technology stocks
-116	The brokerage firm	tracks	with its Technology Index
 116	The brokerage firm	tracks	which appreciated only 10.59 % in the first nine months of this year
+116	The brokerage firm	tracks	with its Technology Index
+116	The brokerage firm	tracks	technology stocks
 116	Technology Index	appreciated only	10.59 % in the first nine months of this year
-118	We	rendezvoused	with our balloon
-118	We	rendezvoused	which had come to rest on a dirt road
 118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers
 118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft
-118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half - an - hour of non - flight activity
+118	We	rendezvoused	which had come to rest on a dirt road
+118	We	rendezvoused	with our balloon
 118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half - an - hour of non - flight activity -- that included the precision routine of yanking the balloon to the ground
-118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half - an - hour of non - flight activity -- that included the precision routine of yanking the balloon to the ground , punching all the air out of it
+118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half - an - hour of non - flight activity
 118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half - an - hour of non - flight activity -- that included the precision routine of yanking the balloon to the ground , punching all the air out of it , rolling it up and cramming it and the basket into the trailer
-119	A federation official	attributed	the decline to brisk demand from domestic industries
-119	A federation official	attributed	the decline to brisk demand from domestic industries backed by continuing economic expansion in Japan
+118	We	rendezvoused	which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half - an - hour of non - flight activity -- that included the precision routine of yanking the balloon to the ground , punching all the air out of it
 119	brisk demand from domestic industries	backed by continuing economic expansion in	Japan
+119	A federation official	attributed	the decline to brisk demand from domestic industries backed by continuing economic expansion in Japan
+119	A federation official	attributed	the decline to brisk demand from domestic industries
 120	which also are starting to try to open the market	could	help American companies
 121	A company spokesman	did n't know	Mr. Wakeman 's age
-122	The offering	Series 109	is backed by Freddie Mac 10 % securities
-122	The offering	is backed	by Freddie Mac 10 % securities
 122	The offering	is backed	by Freddie Mac
+122	The offering	Series 109	is backed by Freddie Mac 10 % securities
 122	The offering	is backed	10 % securities
-123	The 10.48 % yield	represents	a spread to the 20 - year Treasury
+122	The offering	is backed	by Freddie Mac 10 % securities
 123	The 10.48 % yield	represents	a spread to the 20 - year Treasury of 2.45 percentage points
-124	Orkem	said	it would fund the acquisition through internal resources
-124	France's third - largest chemical group	said	Orkem would fund the acquisition through internal resources
+123	The 10.48 % yield	represents	a spread to the 20 - year Treasury
 124	it	would fund	the acquisition through internal resources
+124	France's third - largest chemical group	said	Orkem would fund the acquisition through internal resources
+124	Orkem	said	it would fund the acquisition through internal resources
 124	it	would fund	the acquisition
 125	I	like meeting	the girls
+126	New York bonds	rose	1\/2 point yesterday
 126	which	have been	hammered
 126	which	have been	pending supply and reports that the city 's economy is growing weaker
-126	New York bonds	rose	1\/2 point yesterday
 127	Four other countries in Europe	have approved	Proleukin
 128	General Dynamics Corp.	was given	an $ 843 million Air Force contract
 128	General Dynamics Corp.	was given	for F - 16 aircraft and related equipment
-129	The divested Courtaulds textile operations	had	operating profit
 129	The divested Courtaulds textile operations	had	operating profit of # 50 million
-129	The divested Courtaulds textile operations	had	on # 980 million
-129	The divested Courtaulds textile operations	had	in revenue
 129	The divested Courtaulds textile operations	had	in the year ended March 31
+129	The divested Courtaulds textile operations	had	in revenue
+129	The divested Courtaulds textile operations	had	operating profit
+129	The divested Courtaulds textile operations	had	on # 980 million
 130	When it comes to busting ghosts	the Monroe, Conn., couple	are perfect demons
-130	When it comes to busting ghosts	the Monroe, Conn., couple	busting ghosts
 130	When it comes to busting ghosts	the couple	are perfect demons
+130	When it comes to busting ghosts	the Monroe, Conn., couple	busting ghosts
 130	When it comes to busting ghosts	the couple	busting ghosts
 131	A Coca - Cola spokesman	said	it is too early to say how the joint venture would be structured
 131	A Coca - Cola spokesman	said	or how much the company would invest in the transaction
 132	we	want	a plan
 132	we	want	satisfies creditors and at the end leaves a healthy Revco
 132	satisfies creditors and at the end	leaves	a healthy Revco
-134	Merrill also said it is lobbying for significant regulatory controls on program trading	including	tough margin -- or down - payment -- requirements and limits on price moves for program - driven financial futures
 134	it is lobbying for significant regulatory controls on program trading	tough margin	requirements and limits on price moves for program - driven financial futures
 134	it is lobbying for significant regulatory controls on program trading	tough margin	and limits on price moves for program - driven financial futures
-135	He	did	not go as far as he could have in tax reductions
+134	Merrill also said it is lobbying for significant regulatory controls on program trading	including	tough margin -- or down - payment -- requirements and limits on price moves for program - driven financial futures
 135	He	combined	them with increases in indirect taxes
-137	A Ford spokesman	said	the Dearborn , Mich. , auto maker is n't aware of any injuries caused by the windshield problem
-137	A Ford spokesman	said	is n't aware of any injuries caused by the windshield problem
-137	A Ford spokesman	said	n't aware of any injuries caused by the windshield problem
+135	He	did	not go as far as he could have in tax reductions
 137	the windshield problem	caused	injuries
-138	More big Japanese investors	are buying	U.S. mortgage-backed securities
+137	A Ford spokesman	said	is n't aware of any injuries caused by the windshield problem
+137	A Ford spokesman	said	the Dearborn , Mich. , auto maker is n't aware of any injuries caused by the windshield problem
+137	A Ford spokesman	said	n't aware of any injuries caused by the windshield problem
 138	More big Japanese investors	are buying	reversing a recent trend
+138	More big Japanese investors	are buying	U.S. mortgage-backed securities
 138	More big Japanese investors	reversing	a recent trend
 139	An alternative and more convincing explanation	confirmed	by recent events and a close inspection of the Gorbachev program
 139	An alternative and more convincing explanation	confirmed	by a close inspection of the Gorbachev program
-139	An alternative and more convincing explanation	confirmed	by recent events
 139	An alternative and more convincing explanation	confirmed	by events
-139	An alternative and more convincing explanation	confirmed	by recent events and a close inspection of the Gorbachev program
-139	An alternative and more convincing explanation	confirmed	by recent events and inspection of the Gorbachev program
+139	An alternative and more convincing explanation	confirmed	by recent events
 139	An alternative and more convincing explanation	confirmed	by recent events and a close inspection
-139	An alternative and more convincing explanation	confirmed	by recent events and a close inspection of the Gorbachev program
+139	An alternative and more convincing explanation	confirmed	by recent events and inspection of the Gorbachev program
 140	RU-486	is	being administered in France only under strict supervision
 140	RU-486	is	being administered in France only under strict supervision in the presence of a doctor
-141	President Bush	made	a final '' take - it - or - leave it '' offer
-141	President Bush	made	on the minimum wage
 141	President Bush	made	an increase to $ 4.25 an hour over three years
 141	President Bush	made	a lower wage for the first six months of a job
-142	For owners who have followed the recommended oil maintenance schedule	Mazda	will extend
+141	President Bush	made	a final '' take - it - or - leave it '' offer
+141	President Bush	made	on the minimum wage
 142	For owners who have followed the recommended oil maintenance schedule	Mazda	extend to five years or 60,000 miles
+142	For owners who have followed the recommended oil maintenance schedule	Mazda	will extend
 142	For owners who have followed the recommended oil maintenance schedule	Mazda	extend to five years or 60,000 miles the warranty term for engine damage due to abnormal engine oil deterioration
 142	to five years or 60,000 miles	the warranty term	for engine damage due to abnormal engine oil deterioration
 143	tax - exempt bonds	priced	to yield between 6.50 % to 7.88 %
 143	tax - exempt bonds	depending on	the maturity
-144	the lawyers	were	just as eager as the judge
 144	the lawyers	were	eager to wrap it up
+144	the lawyers	were	just as eager as the judge
 145	Their laboratory credentials	established	Boyer and Swanson headed for Wall Street
-145	Their laboratory credentials	established	in 1980
 145	Boyer and Swanson	headed	for Wall Street
+145	Their laboratory credentials	established	in 1980
 145	Boyer and Swanson	headed	in 1980
-146	Japan's No. 111	4.6%	bond due 1998 ended
-146	Japan's No. 111	4.6%	bond due 1998 ended the day
-146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens
-146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at
 146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at 95.11
-146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at 95.11 to
 146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at 95.11 to yield
-146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at 95.11 to yield 5.43%
 146	bond due 1998	ended	the day
-147	He accused Dow Jones	of	using unfair means to obtain the stock
+146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at 95.11 to yield 5.43%
+146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens
+146	Japan's No. 111	4.6%	bond due 1998 ended the day
+146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at 95.11 to
+146	Japan's No. 111	4.6%	bond due 1998 ended
+146	Japan's No. 111	4.6%	bond due 1998 ended the day on brokers screens at
 147	He accused Dow Jones	of	using unfair means
+147	He accused Dow Jones	of	using unfair means to obtain the stock
+147	He accused Dow Jones	of using unfair means to obtain the stock	at an unfair price
 147	Dow Jones	of	using unfair means to obtain the stock
 147	Dow Jones	of	obtaining the stock
-147	He accused Dow Jones	of using unfair means to obtain the stock	at an unfair price
 148	she	added	They're getting some major wins
-149	Armstrong World Industries Inc.	agreed	in principle
 149	Armstrong World Industries Inc.	agreed	to sell its carpet operations
 149	Armstrong World Industries Inc.	agreed	to Shaw Industries Inc .
-150	traders	buy	large amounts of stocks
-150	traders	sell	large amounts of stocks
-150	traders	buy	stock - index futures
-150	traders	sell	stock - index futures
-150	traders	buy	stock - index options
+149	Armstrong World Industries Inc.	agreed	in principle
 150	traders	sell	stock - index options
-151	this year	adds	70 people
+150	traders	buy	stock - index options
+150	traders	sell	large amounts of stocks
+150	traders	sell	stock - index futures
+150	traders	buy	large amounts of stocks
+150	traders	buy	stock - index futures
 151	this year	adds	60 people
-151	this year	adds	1,300 people
 151	this year	adds	to its 1,300 - member staff
+151	this year	adds	70 people
+151	this year	adds	1,300 people
+153	Dick Burke	says	it did n't take a rocket scientist to change a road bike into a mountain bike
 153	Trek	but	it did n't take a rocket scientist to change a road bike into a mountain bike
 153	Trek's president	says	it did n't take a rocket scientist to change a road bike into a mountain bike
-153	Dick Burke	says	it did n't take a rocket scientist to change a road bike into a mountain bike
+154	Charles O. Givens	of	ex - accountant
 154	Charles O. Givens	of Mount Vernon	Ind.
+154	Charles O. Givens	of	Ind. - investment broker - ex - accountant - and son of a former stable owner - bred Tennessee Walking Horses
+154	Charles O. Givens	of	Ind.
+154	Charles O. Givens	of	Ind. - investment broker - ex - accountant
 154	Charles O. Givens	of	Mount Vernon
 154	Charles O. Givens	of	Ind. - investment broker
-154	Charles O. Givens	of	Ind. - investment broker - ex - accountant
-154	Charles O. Givens	of	Ind. - investment broker - ex - accountant - and son of a former stable owner
 154	Charles O. Givens	of	Ind. - investment broker - ex - accountant - and son of a former stable owner - bred Tennessee Walking Horses for six years
-154	Charles O. Givens	of	Ind. - investment broker - ex - accountant - and son of a former stable owner - bred Tennessee Walking Horses
 154	Charles O. Givens	of	Ind. - investment broker - ex - accountant - and son of a former stable owner
-154	Charles O. Givens	of	Ind. - investment broker - ex - accountant
-154	Charles O. Givens	of	Ind. - investment broker
-154	Charles O. Givens	of	Ind.
-154	Charles O. Givens	of	ex - accountant
-155	Mr. Baker	heads	the Kentucky Association of Science Educators and Skeptics
 155	Skeptics	and	the Kentucky Association of Science Educators
-156	Declining issues	outnumbered	advancers
+155	Mr. Baker	heads	the Kentucky Association of Science Educators and Skeptics
 156	224	were	unchanged
-157	such a sale	could help	Armstrong reassure its investors and deter the Belzbergs
-157	such a sale	could help	reassure its investors
+156	Declining issues	outnumbered	advancers
 157	such a sale	could help	deter the Belzbergs
+157	such a sale	could help	reassure its investors
 157	who own a 9.85 % stake in the Lancaster , Pa. , company	deter	Armstrong
 157	who own a 9.85 % stake in the Lancaster , Pa. , company	reassure	investors
-158	He showed up with a carpenter 's level	carefully measured	every surface
+157	such a sale	could help	Armstrong reassure its investors and deter the Belzbergs
 158	He showed up with a carpenter 's level	showed	how the apparent shrinkage was caused by the perspective
-159	A cafeteria	is also	located on the sixth floor
+158	He showed up with a carpenter 's level	carefully measured	every surface
 159	A chapel	is also	located on the 14th floor
 159	A study hall	is also	located on the 15th floor
-160	A casting director at the time	told Scott	that he had wished that he 'd met him a week before
+159	A cafeteria	is also	located on the sixth floor
 160	A casting director at the time	was	casting for the '' G.I. Joe '' cartoon
+160	A casting director at the time	told Scott	that he had wished that he 'd met him a week before
 161	According to Samaritan tradition	however	the Samaritan ethnonym is not derived from the region of Samaria
-161	According to Samaritan tradition	however	the Samaritan ethnonym is not derived from the fact that they were the '' Guardians '' of the true Israelite religion
 161	According to Samaritan tradition	however	they were the '' Guardians '' of the true Israelite religion
+161	According to Samaritan tradition	however	the Samaritan ethnonym is not derived from the fact that they were the '' Guardians '' of the true Israelite religion
 162	Applying this technique	facilitates	the connection of the center of the foot with the lower abdomen
 163	the lower river	had to be dredged	three times in two years
 164	unable to leave behind her vigilante life	miscarried	her child
+165	a shrine	dedicated	under the title of '' Our Lady of the Sacred Heart ''
 165	Chevalier	fulfilled	his promise
 165	Chevalier	erected	a shrine
 165	a shrine	dedicated	to the honour of Mary
-165	a shrine	dedicated	under the title of '' Our Lady of the Sacred Heart ''
 166	Citizens for Responsibility and Ethics in Washington	filed	an Ethics Committee complaint
 166	Citizens for Responsibility and Ethics in Washington	filed	against Bond over his role in the ouster of Graves
 166	Bond	over his role in the ouster of	Graves
 168	During the morning and evening rush hours	some services run	direct to/from Paddington
 168	During the morning and evening rush hours	some services run	direct to/from Reading
-169	From the start of the first semester of 2010	the University	banned smoking
-169	From the start of the first semester of 2010	the University	banned smoking on any of its property
 169	From the start of the first semester of 2010	the University	banned smoking on any of its property, including inside and outside buildings in areas that were once designated as smoking areas
+169	From the start of the first semester of 2010	the University	banned smoking on any of its property
+169	From the start of the first semester of 2010	the University	banned smoking
+171	the game	ending	the game
 171	He	finds	himself in a desert
 171	He	finds	himself in a desert as a group of Neo Arcadians surround him
 171	a group of Neo Arcadians	surround	him
-171	the game	ending	the game
-172	He	played	Perker
 172	He	played	in the 1985 adaptation of '' The Pickwick Papers ''
-173	He	represented	the riding
-173	the riding	in	the Sudbury
+172	He	played	Perker
 173	the riding	in	Ontario
+173	He	represented	the riding
 173	the riding	in	the Sudbury , Ontario area
-174	He	was buried	in the Abbey of the Psalms mausoleum
+173	the riding	in	the Sudbury
 174	He	was buried	at the Hollywood Forever Cemetery
-175	Aiseau	was	a village dedicated to agriculture
+174	He	was buried	in the Abbey of the Psalms mausoleum
 175	Aiseau	was	a village dedicated to logging
-175	Aiseau	was	a village dedicated to the industry
-175	Historically	Aiseau	dedicated to agriculture
-175	Historically	Aiseau	dedicated to logging
 175	Historically	Aiseau	dedicated to the industry
-176	Hofmann	was	a below-average high school student
+175	Aiseau	was	a village dedicated to agriculture
+175	Aiseau	was	a village dedicated to the industry
+175	Historically	Aiseau	dedicated to logging
+175	Historically	Aiseau	dedicated to agriculture
+176	Hofmann	had	hobbies including stamp and coin collecting
+176	Hofmann	had	hobbies including electronics
 176	Hofmann	had	many hobbies
 176	Hofmann	had	hobbies including magic
-176	Hofmann	had	hobbies including electronics
 176	Hofmann	had	hobbies including chemistry
-176	Hofmann	had	hobbies including stamp and coin collecting
+176	Hofmann	was	a below-average high school student
 177	after pressure campaigns from various human rights groups	BAE Systems recently stated	it no longer produces land mines or cluster bombs
 177	it	recently stated	it no longer produces land mines or cluster bombs
 177	it	no longer produces	land mines or cluster bombs
 179	the second excitation pulse	is sent	prematurely
+179	the average magnetization vector	points	in a nonparallel direction
 179	the second excitation pulse	is sent	before the relaxation is complete
 179	the relaxation	is complete	giving suboptimal absorption and emission of the pulse
-179	the average magnetization vector	points	in a nonparallel direction
-180	In 1972	he won	from Yakutpura
-180	In 1972	he won	later in 1978
 180	In 1972	he won	again from Charminar
 180	later in 1978	he won	again from Charminar
+180	In 1972	he won	from Yakutpura
+180	In 1972	he won	later in 1978
 181	In 1972	researchers found	metallic conductivity
 181	In 1972	researchers found	in the charge-transfer complex TTF-TCNQ
+182	goals	including	replacing
 182	Sun	announced,''Project Indiana,''with	goals
 182	goals	including	providing
-182	goals	including	replacing
-183	In 2010	scam websites co-opted	a photograph of her
-183	In 2010	scam websites co-opted	to promote health treatments
-183	In 2010	scam websites co-opted	the ubiquitous '' 1 weird old tip '' belly fat diets
-183	In 2010	scam websites co-opted	and penny auctions
 183	Theuriau	was	initially unaware
-184	two organizations	regulate	university and collegiate athletics
+183	In 2010	scam websites co-opted	the ubiquitous '' 1 weird old tip '' belly fat diets
+183	In 2010	scam websites co-opted	to promote health treatments
+183	In 2010	scam websites co-opted	a photograph of her
+183	In 2010	scam websites co-opted	and penny auctions
 184	In Canada	there are	two organizations that regulate university and collegiate athletics
+184	two organizations	regulate	university and collegiate athletics
 184	In Canada	there are	university and collegiate athletics
 185	the Byrom Street cutting	was	a hitching and unhitching point for trains being cable hauled to Edge Hill via the Victoria Tunnel
 186	Holkins	stated	that he reserved the right to bring Carl back any time Krahulik goes to France
 186	Holkins	stated	in a news post
 186	Krahulik	goes	to France
-187	a Language A	occupies	a given territory
 187	another Language B	arrives	in the same territory
+187	a Language A	occupies	a given territory
 188	lineup at New York Police Department Greenwich Street Station	told	FBI Special Agent Turrou that Hauptmann was not '' John , '' the man to whom Condon claimed he passed the ransom money to in St. Raymond 's Cemetery
 189	UTA	ordered	77 Siemens S70 light rail vehicles from Siemens AG
 189	UTA	ordered	in order to support planned TRAX expansion
 190	most of Kabul 's economy	depended on	tourism
 190	most of Kabul 's economy	depended on	the 1960s and 70s
-191	he	advocated	strong prosecution of the Union War effort
 191	he	advocated	the end of slavery
+191	he	advocated	strong prosecution of the Union War effort
 191	he	advocated	civil rights for freed African Americans
 192	his chances of surviving	were thought	no better than 50-50
 193	It should be noted that these numbers	are	inclusive of any of the childminders own children
 194	Keats's long and expensive medical training with Hammond and at Guy's Hospital	led	his family to assume he would pursue a lifelong career in medicine
+194	Genuine desire	to become	a doctor
 194	Keats's long and expensive medical training with Hammond and at Guy's Hospital	led	his family to assume he would pursue a career in medicine
 194	Keats's long and expensive medical training with Hammond and at Guy's Hospital	seems	that at this point Keats had a genuine desire to become a doctor
-194	Genuine desire	to become	a doctor
-195	Kim	graduated from	Ballard High School
-195	Kim	graduated from	Oberlin College
 195	Kim	double-majored in	Government and English
+195	Kim	graduated from	Oberlin College
+195	Kim	graduated from	Ballard High School
 195	Kim	played for	the varsity lacrosse team
-196	Lemmy	believes	that if Will Reid Dick had not been there
 196	Lemmy	believes	they could have worked through the problems
+196	Lemmy	believes	that if Will Reid Dick had not been there
 196	Lemmy	believes	but ended up exchanging a few words and Clarke left the studio
+197	females	had	$ 32,679
 197	Males	had	a median income
 197	Males	had	$ 36,016
-197	females	had	$ 32,679
 198	the Mason City Division	continued	as usual
+199	Models	taking into account	likely occupation density
 199	Models	taking into account	the size and room number of the barrack blocks in the Gorgan Wall forts and likely occupation density
-199	Models	taking into account	the size and room number of the barrack blocks in the Gorgan Wall forts
 199	Models	taking into account	the size and room number
+199	figures	between	15,000 and 36,000 soldiers
+199	Models	taking into account	the Gorgan Wall forts
 199	Models	taking into account	the size
 199	Models	taking into account	room number
-199	Models	taking into account	the Gorgan Wall forts
-199	Models	taking into account	likely occupation density
 199	Models	taking into account	occupation density
 199	Models	produce	figures between 15,000 and 36,000 soldiers
-199	figures	between	15,000 and 36,000 soldiers
-200	Modernity	has been blended	without sacrificing on the traditional Buddhist ethos
+199	Models	taking into account	the size and room number of the barrack blocks in the Gorgan Wall forts
 200	Buddhist ethos	has been blended	without sacrificing on the traditional Buddhist ethos
-201	Of the rest of the population	there was	1 individual who belonged to the Christian Catholic faith
+200	Modernity	has been blended	without sacrificing on the traditional Buddhist ethos
 201	1	belonged	to the Christian Catholic faith
+201	Of the rest of the population	there was	1 individual who belonged to the Christian Catholic faith
 202	Hank McCoy	retains	the basic features of a normal human alongside a generally simian physiology equivalent to that of a Great Ape
 202	Hank McCoy	retains	the basic features of a normal human
-202	Hank McCoy	retains	generally simian physiology equivalent to that of a Great Ape
 202	Hank McCoy	generally simian physiology	equivalent to that of a Great Ape
-203	Pakistan Chrome Mines Ltd.	is	a mining company
+202	Hank McCoy	retains	generally simian physiology equivalent to that of a Great Ape
 203	Pakistan Chrome Mines Ltd.	is	incorporated in the Islamic Republic of Pakistan
-204	Parental investment	is	any expenditure of resources
-204	Parental investment	is	to benefit one offspring
+203	Pakistan Chrome Mines Ltd.	is	a mining company
 204	expenditure of resources	benefit	one offspring
+204	Parental investment	is	to benefit one offspring
+204	Parental investment	is	any expenditure of resources
 205	Plants have been planted	marking	parts of the foundations of the castle
-205	Plants have been planted	marking	so the positions of some of the buildings can still be inferred
 205	so the positions of some of the buildings	can still be	inferred
-207	She	died	of a heart attack
+205	Plants have been planted	marking	so the positions of some of the buildings can still be inferred
 207	She	died	in October 1915
+207	She	died	of a heart attack
 207	She	died	in October 1915 of a heart attack
+208	She	was taken in hand	at Deptford Dockyard
 208	She	was ordered	to be rebuilt
 208	She	was ordered	on 9 March 1724
-208	She	was taken in hand	at Deptford Dockyard
 208	She	was taken in hand	by Master Shipwright Richard Stacey
 209	Shea	was born	on September 5, 1900 in San Francisco, California
 209	Shea	was born	in San Francisco, California
-210	Superboy-Prime	seeing	an opportunity to defeat the now-weakened Anti-Monitor
 210	Superboy-Prime	flew	through the Anti-Monitor's chest
 210	Superboy-Prime	hurled	his shattered body into space
-211	The 2nd Battalion of the 13th Light Infantry	was raised	at Winchester
+210	Superboy-Prime	seeing	an opportunity to defeat the now-weakened Anti-Monitor
 211	The 2nd Battalion of the 13th Light Infantry	was raised	in January 1858
-213	The CRZ	was organized	in a meeting at Siliguri in the Indian State of West Bengal during August 2001
-213	The CRZ	was organized	by the Nepal and Indian members of the Naxalite movement
+211	The 2nd Battalion of the 13th Light Infantry	was raised	at Winchester
 213	The CRZ	was organized	by the Nepal and Indian members of the Naxalite movement in a meeting at Siliguri in the Indian State of West Bengal during August 2001
+213	The CRZ	was organized	by the Nepal and Indian members of the Naxalite movement
+213	The CRZ	was organized	in a meeting at Siliguri in the Indian State of West Bengal during August 2001
 214	The Steinbrenner family	added	a monument
-214	The Steinbrenner family	added	to Monument Park
 214	The Steinbrenner family	added	to honor Steinbrenner
 214	The Steinbrenner family	honor	Steinbrenner
-215	The Summer Programs Office	runs	these programs
+214	The Steinbrenner family	added	to Monument Park
 215	The Summer Programs Office	runs	many Wardlaw-Hartridge Students attend camp or classes over the summer
 215	Wardlaw-Hartridge Students	attend	camp or classes over the summer
-216	The Triple-A Baseball National Championship Game	was	established
+215	The Summer Programs Office	runs	these programs
 216	The Triple-A Baseball National Championship Game	was	established in 2006
-217	The Wilbur Cross Highway	formerly ended	in Sturbridge
+216	The Triple-A Baseball National Championship Game	was	established
 217	The Wilbur Cross Highway	formerly ended	locals sometimes call Haynes Street and portions of Mashapaug Road '' Old Route 15 ''
-218	'' Charleston Courier , ''	founded	in 1803
+217	The Wilbur Cross Highway	formerly ended	in Sturbridge
 218	'' Charleston Daily News , ''	founded	in 1865
+218	'' Charleston Courier , ''	founded	in 1803
 218	'' Charleston Daily News ''	,merged	to form the '' News and Courier ''
 219	The canal	was	dammed off from the river
 219	The canal	was	for most of the construction period
-220	The city	was founded	by the Western Town Lot Company
-220	The city	was founded	in 1880
 220	The city	was originally named	Nordland
+220	The city	was founded	by the Western Town Lot Company
 220	The city	was originally named	with the platted streets given Norwegian names
+220	The city	was founded	in 1880
 221	The community	is served by	the United States Postal Service Hinsdale Post Office
 221	the United States Postal Service Hinsdale Post Office	serves	the community
-222	The ensemble also	has	extensive recordings
 222	The ensemble also	has	extensive recordings with Deutsche Grammophon
-222	The ensemble also	has	extensive recordings with Dorian Recordings
+222	The ensemble also	has	extensive recordings with their own label
 222	The ensemble also	has	extensive recordings with Newport Classic
 222	The ensemble also	has	extensive recordings with Navona Records
-222	The ensemble also	has	extensive recordings with their own label
+222	The ensemble also	has	extensive recordings
+222	The ensemble also	has	extensive recordings with Dorian Recordings
 223	The failure of 1st Armored to arrive intact and deploy as a single entity	would have	important consequences in later action against German forces in Tunisia
-223	1st Armored	arrive intact and deploy	as a single entity
 223	1st Armored	deploy	as a single entity
-224	The first five laps	would be	added
-224	The first five laps	would be	to the second part of the race
+223	1st Armored	arrive intact and deploy	as a single entity
 224	The first five laps	would be	on aggregate
-226	The insurer	sponsored	the golf tournament known as the New Orleans Open
+224	The first five laps	would be	to the second part of the race
+224	The first five laps	would be	added
 226	The insurer	sponsored	the golf tournament
 226	The insurer	sponsored	the New Orleans Open beginning in 1981
-227	The lodge	open	mid-May to mid-October
+226	The insurer	sponsored	the golf tournament known as the New Orleans Open
 227	The lodge	open	with two weeks starting in the end of August reserved for the Dartmouth First-Year Trips
+227	The lodge	open	mid-May to mid-October
 227	two weeks	starting in the end of August	reserved for the Dartmouth First-Year Trips
 228	The permanent members	are	the provost
-228	The permanent members	are	the Carl H. Pforzheimer University Professor
 228	The permanent members	are	the deans or designees from the following Schools: the Faculty of Arts and Sciences, Harvard Business School, Harvard Law School, and Harvard Medical School.
-229	The pillars	are	according to Doric or Greek style
+228	The permanent members	are	the Carl H. Pforzheimer University Professor
+229	The pillars	are	in Tamil Nadu
 229	The pillars	are	according to the Meenakshi Temple at Madurai in Tamil Nadu
 229	The pillars	are	according to the Meenakshi Temple
-229	The pillars	are	in Tamil Nadu
+229	The pillars	are	according to Doric or Greek style
 230	The race	is	in mixed eights
 230	The race	is	usually held in late February / early March
-231	The rapids at the head of the South Fork	were	removed
 231	The rapids at the head of the South Fork	were	in 1908
+231	The rapids at the head of the South Fork	were	removed
+232	The redesigned 2006 Ram SRT-10	came in	Brilliant Black Crystal Clear Coat
 232	The redesigned 2006 Ram SRT-10	came in	Mineral Gray Metallic
 232	The redesigned 2006 Ram SRT-10	came in	Inferno Red
-232	The redesigned 2006 Ram SRT-10	came in	Brilliant Black Crystal Clear Coat
-233	The residue	can be reprocessed	for more dripping
 233	The residue	can be reprocessed	for a fine beef stock
-233	The residue	can be reprocessed	for a fine beef stock
-233	The residue	strained through	a cheesecloth lined sieve
-233	The residue	strained through	a cheesecloth lined sieve
 233	The residue	strained through	as an ingredient for a fine beef stock
 233	The residue	as an ingredient for	a fine beef stock
-235	The riders	climbed off	and began walking
-235	The riders	and began walking	and shouting protests
+233	The residue	strained through	a cheesecloth lined sieve
+233	The residue	can be reprocessed	for more dripping
 235	The riders	and shouting protests	in general and in particular abuse at the race doctor
 235	The riders	in particular abuse	at the race doctor
+235	The riders	climbed off	and began walking
 235	The riders	in particular abuse	Pierre Dumas
-235	The riders	whom some demanded	should also take a test
 235	The riders	whom some demanded	to see if he 'd been drinking wine or taking aspirin to make his own job easier
+235	The riders	whom some demanded	should also take a test
+235	The riders	and began walking	and shouting protests
 236	The station	has	a concourse and ticket office area
 236	The station	has	internally redesigned and reopened in mid-2012
-237	The third known version	is	part number 2189014-00-212
 237	The third known version	is	with at least one model being produced in February 1993
+237	The third known version	is	part number 2189014-00-212
 237	at least one model	being produced	in February 1993
-238	fillets	are put	in a mix of olive oil, vinegar, sugar, garlic, chill peppers, and lots of parsley or celery
 238	fillets	are put	in a mix
+238	fillets	are put	in a mix of olive oil, vinegar, sugar, garlic, chill peppers, and lots of parsley or celery
 239	35.00 %	had	children under the age of 18 living with them
-239	56.30 %	were	married couples living together
 239	7.50 %	had	a female householder with no husband present
+239	56.30 %	were	married couples living together
 239	32.50 %	were	non-families
 241	These	were often related	to European conflict
 241	Stuart Pretenders	were aided	by Britain's continental enemies
-242	They	beat	Milligan 1-0
 242	They	beat	Grand View 3-0
+242	They	beat	Milligan 1-0
 242	They	beat	Webber International 1-0
-242	They	beat	Azusa Pacific 0-0
 242	They	win	the NAIA National Championships
+242	They	beat	Azusa Pacific 0-0
 243	This engine	was equipped	with an electronically controlled carburetor
 244	This	had	considerable implications for the Welsh language
 244	This	had	implications for the Welsh language as it was the main language of the nonconformist churches in Wales
 245	Total ` Fresh Food Story '	constructed	at the end of the North Mall
 246	Watson	was	the founder
 246	Watson	was	the editor
+246	Watson	shuttered	in June
 246	Watson	launched	newcritics.com
 246	Watson	launched	in January
-246	Watson	shuttered	in June
 247	When civilian government was introduced in Romblon by the Americans	Banton was	one of 11 new municipalities reinstated or created
 247	When civilian government was introduced in Romblon by the Americans	one of 11 new municipalities	reinstated or created
 248	the Cosmos	expressed	concern
 248	the Cosmos	expressed	for what Battra might do
 250	A similar technique	is	almost impossible to apply
 250	A similar technique	is	to other crops
+251	the Gauguin	may be	lost . ''
 251	Heathrow authorities	have been	watching a group of allegedly crooked baggage handlers
 251	Heathrow authorities	have been	watching a group of allegedly crooked baggage handlers for some time
 251	the Gauguin	may be	lost
-251	the Gauguin	may be	lost . ''
 253	he	said	he will examine the Marcos documents sought by the prosecutors
 253	he	said	he will examine the Marcos documents sought by the prosecutors to determine whether turning over the filings is self - incrimination
-253	he	said	he will examine the Marcos documents sought by the prosecutors to determine whether turning over the filings
 253	he	said	is self - incrimination
-254	As the London trading session drew to a close	the market	was still listening to the parliamentary debate on the economy
-254	As the London trading session drew to a close	the market	was still listening to the parliamentary debate
+253	he	said	he will examine the Marcos documents sought by the prosecutors to determine whether turning over the filings
 254	new Chancellor of the Exchequer John Major	is	expected to clarify his approach to the British economy and currency issues
-255	patients	require	less attention from nurses and other staff
+254	As the London trading session drew to a close	the market	was still listening to the parliamentary debate
+254	As the London trading session drew to a close	the market	was still listening to the parliamentary debate on the economy
 255	room charges	are	lower
+255	patients	require	less attention from nurses and other staff
 255	room charges	are	about $ 100 less per day than a regular room
 256	Both reflect	the dismissal of	lower - level and shorter - tenure executives
-256	lower - level	and	shorter - tenure executives
 256	lower - level	or	shorter - tenure executives
-257	new accounts	new sales	inquiries
+256	lower - level	and	shorter - tenure executives
 257	new accounts	new sales	subsequent sales of stock funds
+257	new accounts	new sales	inquiries
 259	wire transfers from a standing account	are	reported
-260	Coca - Cola Co.	aiming	to boost soft - drink volume in Singapore
-260	Coca - Cola Co.	discussing	a joint venture with Fraser & Neave Ltd.
-260	Coca - Cola Co.	franchisee	in that country
 260	Fraser & Neave Ltd.	its bottling	in that country
+260	Coca - Cola Co.	aiming	to boost soft - drink volume in Singapore
+260	Coca - Cola Co.	franchisee	in that country
+260	Coca - Cola Co.	discussing	a joint venture with Fraser & Neave Ltd.
 261	the filings required under the proposed rules	will be	at least as effective
 261	the filings required under the proposed rules	will be	if not more so
 263	Despite the modest gains	traders said	the market remains dull
 263	Despite the modest gains	traders said	with investors remaining cautiously on the sidelines
-263	modest gains	the market remains	dull
 263	modest gains	with investors remaining	cautiously on the sidelines
+263	modest gains	the market remains	dull
 264	Early in the morning	Mr. Sider	pores over last wills and testaments
 264	Early in the morning	Mr. Sider an estate lawyer	pores over last wills and testaments
-265	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores
-265	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp.
 265	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp., a unit of Dylex Ltd.
-265	229 Foxmoor women 's apparel stores	from	Foxmoor Specialty Stores Corp.
+265	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp.
 265	Foxmoor Specialty Stores Corp.	a unit	of Dylex Ltd.
+265	229 Foxmoor women 's apparel stores	from	Foxmoor Specialty Stores Corp.
 265	Dylex Ltd.	of	Toronto
-266	Few people in the advertising business	have raised	as many hackles
+265	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores
 266	Few people in the advertising business	have raised	as Alvin A. Achenbaum
+266	Few people in the advertising business	have raised	as many hackles
 267	a passenger	can fly	from Chardon , Neb. , to Denver
-267	a passenger	can fly	for as little as $ 89 to $ 109
 267	prices quoted by the company	indicate that	a passenger can fly for as little as $ 89 to $ 109
+267	a passenger	can fly	for as little as $ 89 to $ 109
+268	Hani Zayadi	succeeding	Frank Robertson
 268	Hani Zayadi	was appointed	president
 268	Hani Zayadi	was appointed	chief executive officer
-268	Hani Zayadi	was appointed	of this financially troubled department store chain
-268	Hani Zayadi	succeeding	Frank Robertson
 268	Hani Zayadi	succeeding	who is retiring early
+268	Hani Zayadi	was appointed	of this financially troubled department store chain
 269	problem	is that once most poison pills are adopted	they survive forever
 269	However	the problem is that once most poison pills are adopted	they survive forever
 270	Hungary 's Parliament	voted	to hold a national referendum on an election to fill the new post of president
 270	to fill	new post of	president
+271	In Japan	those functions	a third of the software market
 271	those functions	account for	only about a third of the software market
 271	In Japan	those functions account for	only about a third of the software market
-271	In Japan	those functions	a third of the software market
-272	more than half the PC software sold	is	for spreadsheets or for database analysis
 272	more than half the PC software sold	is	for database analysis
 272	in the U.S.	more than half the PC software sold	is for spreadsheets or for database analysis
-273	It	was	the most active of the 100 - share index
+272	more than half the PC software sold	is	for spreadsheets or for database analysis
 273	It	traded	6.5 million of which were traded by midday
-274	Japanese office workers	use	PCs at half the rate of their European counterparts
+273	It	was	the most active of the 100 - share index
 274	Japanese office workers	use	PCs at one - third that of the Americans
+274	Japanese office workers	use	PCs at half the rate of their European counterparts
 275	Labor costs	are climbing	in the health care industry
 275	Labor costs	are climbing	in other industries
 276	at home	Mitsubishi has control	of some major projects
-277	cooperatives	are banned from providing	general - practitioner services
-277	cooperatives	are banned from providing	their main source of income
-277	cooperatives	are banned from providing	carrying out surgery
 277	cooperatives	are banned from providing	treating cancer patients
-277	cooperatives	are banned from providing	drug addicts
+277	cooperatives	are banned from providing	carrying out surgery
+277	cooperatives	are banned from providing	their main source of income
 277	cooperatives	are banned from providing	pregnant women
-278	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated
+277	cooperatives	are banned from providing	general - practitioner services
+277	cooperatives	are banned from providing	drug addicts
 278	Mr. Mulford	said	reports of tension between the Treasury and Fed
-278	Mr. Mulford	said	they involved '' nuances ''
 278	Mr. Mulford	insisting	that they involved '' nuances . ''
-279	Mr. Ridley 's decision	fires	the starting pistol
+278	Mr. Mulford	said	they involved '' nuances ''
+278	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated
 279	Mr. Ridley 's decision	firing	a costly contest
 279	a costly contest	for	Britain 's leading luxury - car maker
-280	Mr. Stoll	suspected	the intruder was one of those precocious students who has fun breaking into computers
+279	Mr. Ridley 's decision	fires	the starting pistol
 280	precocious students	has fun breaking into	computers
-281	Now Mr. Broberg	claims	he'd play for free
+280	Mr. Stoll	suspected	the intruder was one of those precocious students who has fun breaking into computers
 281	Now Mr. Broberg	a lawyer	claims he'd play for free
+281	Now Mr. Broberg	claims	he'd play for free
 282	Prime Minister Lee Kuan Yew	Singapore's leader and one of Asia's leading statesmen	recently announced his intention to retire next year
 282	Prime Minister Lee Kuan Yew	Singapore's leader and one of Asia's leading statesmen	not necessarily to end his influence
 283	Repeat customers	can purchase	luxury items
 283	Repeat customers	can purchase	reduced prices
 284	Richard Newsom	examined	Lincoln's parent
 284	Richard Newsom	examined	American Continental Corp.
-284	Richard Newsom	saw evidence	that crimes had been committed
 284	Lincoln's parent	is	American Continental Corp.
+284	Richard Newsom	saw evidence	that crimes had been committed
 285	Sen. Mitchell	is confident	he has sufficient votes
 285	Sen. Mitchell	is confident	to block such a measure
 285	Sen. Mitchell	is confident	to block such a measure with procedural actions
-286	The Chemical spokeswoman	said	the bank has examined its methodologies and internal controls
 286	The Chemical spokeswoman	said	the bank has examined its methodologies
-286	The Chemical spokeswoman	said	the bank has examined its internal controls
 286	the bank	has examined	its methodologies and internal controls
+286	The Chemical spokeswoman	said	the bank has examined its methodologies and internal controls
+286	The Chemical spokeswoman	said	the bank has examined its internal controls
 287	Lone Star Technologies	is	jointly responsible for a $ 4.5 million Lone Star Steel pension payment
 287	Lone Star Technologies	is	jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due, but wasn't paid, in September
 287	Lone Star Technologies	is	jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due, but wasn't paid, in September, and that the parent company can't recover the amount from its subsidiary if the parent company makes the payment
-288	that pilots	set	the plane 's wing flaps and slats
 288	that pilots	set	properly for takeoff
 288	that pilots	failed to make	mandatory preflight checks that would have detected the error
+288	that pilots	set	the plane 's wing flaps and slats
 289	The discount rate on three - month Treasury bills	rose slightly	from the average rate at Monday 's auction
 289	The discount rate on three - month Treasury bills	rose slightly	to 7.79 % for a bond - equivalent yield of 8.04 %
 290	The effect	is	that lawsuits that might have been barred because they were filed too late could proceed because of the one - year extension
 290	The effect	is	that lawsuits that might have been barred because they were filed too late could proceed
 290	The effect	is	because of the one - year extension
-291	The executives	had profited handsomely	by building American National Can Co.
 291	The executives	profited handsomely	by building American National Can Co.
 291	Triangle 's chief asset	is	American National Can Co.
-292	The market	was helped	by the dollar
-292	The market	was helped	by the dollar's resiliency
-292	The market	was helped	by the dollar's resiliency
+291	The executives	had profited handsomely	by building American National Can Co.
 292	he	said	The market's tempo was helped by the dollar's resiliency
+292	The market	was helped	by the dollar's resiliency
+292	The market	was helped	by the dollar
+293	multinational clients	on	international law and general matters
 293	The office	may	also be able to advise foreign and multinational clients on international law and general matters
 293	The office	may	also be able to advise foreign and multinational clients
-293	multinational clients	on	international law and general matters
-294	The three existing plants	will be	sold
 294	The three existing plants and their land	will be	sold
+294	The three existing plants	will be	sold
 295	New York City	announced	a 10 - point policy
 295	New York City	announced	patterned on the federal bill of rights for taxpayers
+296	the 19 - story facility	moves	to a new quarters
 296	USG Corp.	agreed	to sell its headquarters building here
 296	USG Corp.	agreed	to Manufacturers Life Insurance Co. of Toronto
+296	Manufacturers Life Insurance Co. of Toronto	will lease	until it moves to a new quarters
 296	USG Corp.	agreed	and will lease the 19 - story facility until it moves to a new quarters
 296	USG Corp.	agreed	in 1992
 296	Manufacturers Life Insurance Co. of Toronto	will lease	the 19 - story facility
-296	Manufacturers Life Insurance Co. of Toronto	will lease	until it moves to a new quarters
-296	the 19 - story facility	moves	to a new quarters
 297	Business across the country	is spending	more time addressing this issue
 297	Sen. Edward Kennedy (D., Mass.)	says	Business across the country is spending more time addressing this issue
 299	he	said	If working capital financing is not provided the RTC may have to slow { S&L sales } or dump acquired assets through fire sales

@@ -30,7 +30,7 @@ def load_dataset(path):
     data = json.load(f)
   return data
 
-path = 'visualiser/model_results/t5_0epoch_by_runs.json'
+path = 'visualiser/model_results/gpt3_syntax_by_runs.json'
 data = load_dataset(path)
 
 for model in benchie.scores:
