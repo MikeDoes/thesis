@@ -37,7 +37,10 @@ model.train(train_df=train_data,
             batch_size=4, max_epochs=40, use_gpu=True)
 
 # Create Predictions
-for epoch in os.listdir('outputs'):
+def epoch_number(elem):
+    return int(elem.split('-')[2])
+    
+for epoch in sorted(os.listdir('outputs'), key=epoch_number):
   
   model = SimpleT5()
   model.load_model("t5",f"/content/thesis/outputs/{epoch}", use_gpu=True)
@@ -56,12 +59,13 @@ for epoch in os.listdir('outputs'):
     prompt_string = prompt_string_train + source_pre_processing(source_text)
 
 
-    for runs in range(20):
-        response = forward(prompt_string)
-        # Updating the results dictionary
-        predicted_labels[i]['choices'] += [ {'text':response[0]} ]
-    
+    responses = forward(prompt_string, num_return_sequences=3, num_beams=4, top_p=1, top_k=50, repetition_penalty = 1.5,)
+    # Updating the results dictionary
+    for response in responses:
+      predicted_labels[i]['choices'] += [ {'text':response} ]
+
     prompt_strings += [source_text]
+
 
   # Exporting results to JSON for further processing and visualisation
   results = {'hyperparameters': 'model=t5-base, separator=,,', 
