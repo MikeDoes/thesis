@@ -3,3 +3,7 @@
 .DS_Store
 *.pyc
 *.pyc
+evaluators/benchie/src/__pycache__/gold_annotations.cpython-39.pyc
+evaluators/benchie/src/__pycache__/gold_annotations.cpython-39.pyc
+evaluators/benchie/src/__pycache__/benchie.cpython-39.pyc
+evaluators/benchie/src/__pycache__/utils.cpython-39.pyc
