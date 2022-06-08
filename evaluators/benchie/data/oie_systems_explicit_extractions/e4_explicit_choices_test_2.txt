@@ -1,0 +1,242 @@
+2	Bert Campaneris	once Oakland's master thief	crouched at shortstop
+2	Bert Campaneris	flips it to second	effortlessly scoops up a groundball
+2	a groundball	flips it to second	effortlessly
+2	Bert Campaneris	once Oakland's master thief, is crouched at shortstop and	effortlessly scoops up a groundball
+2	Bert Campaneris	once Oakland's master thief	is crouched at shortstop
+2	Bert Campaneris	once Oakland's master thief crouched at	shortstop
+2	Bert Campaneris	flips it to second after effortlessly scooping up	a groundball
+2	Bert Campaneris	once Oakland's master thief, is crouched at shortstop and effortlessly flips	it to second
+2	Bert Campaneris	once Oakland's master thief, is crouched at shortstop and effortlessly	scoops up a groundball
+2	Bert Campaneris	effortlessly scoops up a groundball and flips it to second	crouched at shortstop
+2	Bert Campaneris	once Oakland's master thief	effortlessly scoops up a groundball and flips it to second
+3	traders said the market	remains	dull
+3	investors	remaining	cautiously on the sidelines
+3	traders said	the market	remains dull
+3	the market	with investors remaining	cautiously on the sidelines
+3	traders said the market remains	dull with	investors remaining cautiously on the sidelines
+3	gains	said the market remains	dull
+3	gains	remain	dull
+3	traders	with investors remaining	cautiously on the sidelines
+3	traders	said the market remains dull Despite the	modest gains
+4	Mr. Sider	an estate lawyer	pores over last wills and testaments
+4	Mr. Sider	early in the morning	pores over last wills and testaments
+4	an estate lawyer	pores over last wills and testaments	Mr. Sider
+4	an estate lawyer	pores over last wills and testaments	Early in the morning
+4	Mr. Sider	pores over last wills and testaments	early in the morning
+4	Mr. Sider	pores over last wills and testaments	Early in the morning
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp. from Dylex Ltd. of	Toronto
+5	a unit of Dylex Ltd. of Toronto	was the seller of	229 Foxmoor women 's apparel stores
+5	Edison Brothers Stores Inc.	agreed to buy	229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp. from Dylex Ltd. of Toronto
+5	Edison Brothers Stores Inc.	agreed to buy 229	Foxmoor women's apparel stores
+5	Edison Brothers Stores Inc.	agreed to buy	229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp. from Dylex Ltd.
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor women's	apparel stores
+5	a unit of Dylex Ltd. of Toronto	agreed to buy 229 Foxmoor women's apparel stores from	Foxmoor Specialty Stores Corp.
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor	women's apparel stores
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores	from Foxmoor Specialty Stores Corp.
+5	Edison Brothers Stores Inc.	said it agreed to buy 229 Foxmoor women 's apparel stores from	Foxmoor Specialty Stores Corp.
+5	Edison Brothers Stores Inc.	said it agreed to buy	229 Foxmoor women 's apparel stores
+5	Edison Brothers Stores Inc. said it agreed to buy 229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp.	a unit of	Dylex Ltd. of Toronto
+5	Edison Brothers Stores Inc.	agreed to buy	229 Foxmoor women's apparel stores
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp. from	Dylex Ltd.
+5	Edison Brothers Stores Inc.	said it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp.	a unit of Dylex Ltd. of Toronto
+5	Edison Brothers Stores Inc.	agreed to buy	229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp.
+6	Alvin A. Achenbaum	has raised as many	hackles
+6	Few people in the advertising business	have raised as many hackles	as Alvin A. Achenbaum
+6	Alvin A. Achenbaum	has raised as many hackles as	Few people in the advertising business
+6	Alvin A. Achenbaum	has raised	as many hackles
+7	a passenger	can fly from Chardon to Denver	for
+7	a passenger	can fly from	Chardon
+7	a passenger	can fly from Chardon to Denver for as little as	$ 89 to $ 109
+7	Chardon to Denver	for as little as $ 109	according to prices quoted by the company
+7	a passenger	can fly from Chardon to Denver for as little as	$ 89
+7	a passenger	can fly from Chardon to Denverfor	as little as $89 to $109
+7	a passenger	can fly from Chardon to	Denver
+7	Chardon to Denver for as little as $89 to $109	according to prices quoted by the company	For example
+8	Hani Zayadi	was appointed president and chief executive officer of this financially troubled department store chain effective Nov. 15	succeeding Frank Robertson
+8	Hani Zayadi	succeeding Frank Robertson who is	retiring early
+8	Hani Zayadi	effective Nov. 15 succeeding	Frank Robertson
+8	Hani Zayadi	effective Nov. 15	succeeding Frank Robertson
+8	Hani Zayadi	was appointed president	and chief executive officer
+8	Hani Zayadi	was appointed president and chief executive officer of	this financially troubled department store chain
+8	Hani Zayadi	was appointed president and chief executive officer	of this financially troubled department store chain
+8	Hani Zayadi	was appointed	president
+8	who	is retiring early	Hani Zayadi was appointed president and chief executive officer of this financially troubled department store chain effective Nov. 15 succeeding Frank Robertson
+9	the problem is that	they survive forever	once most poison pills are adopted
+9	once most poison pills are adopted	they survive forever	However
+9	However	the problem is that once most poison pills are adopted	they survive forever
+10	Hungary's Parliament	voted to hold a national referendum	on an election
+10	Hungary's Parliament	voted to hold a national referendum	on an election to fill the new post of president
+10	Hungary's Parliament	voted to hold a national referendum on an election	to fill the new post of president
+10	Hungary's Parliament	voted to hold	a national referendum on an election to fill the new post of president
+11	In Japan those functions	account for only about a third	of the software market
+11	In Japan	those functions account for only about a third of the	software market
+11	In Japan	those functions	account for only about a third of the software market
+11	those functions	account for only about	a third of the software market
+12	U.S.	more than half the PC software sold is	for spreadsheets or for database analysis
+12	U.S.	more than half	the PC software sold is either for spreadsheets or for database analysis
+12	U.S.	more than half the PC software sold is either for spreadsheets or	for database analysis
+12	more than half the PC software sold in the U.S. is	for spreadsheets or for database analysis	according to Lotus
+12	U.S.	more than half the	PC software sold is either for spreadsheets or for database analysis
+12	U.S.	according to Lotus	more than half the PC software sold is either for spreadsheets or for database analysis
+12	U.S.	more than half the PC software sold is either for spreadsheets or for database analysis	according to Lotus
+13	It	traded	6.5 million shares
+13	It	was the most active of the 100 - share index at 8.3 million shares traded by	midday
+13	It	was the most active of the 100 - share index at	8.3 million shares
+13	It	was the most active of the 100 - share index at 8.3 million shares	6.5 million of which were traded by midday
+13	It	was the most active of the 100 - share index at 8.3 million shares 6.5 million of which were traded	by midday
+13	6.5 million	were traded by	midday
+13	It	was the most active of the 100 - share index at 8.3 million shares 6.5 million of which	were traded by midday
+13	It	was the most active of	the 100 - share index
+14	Japanese office workers	use PCs at half the rate of their counterparts	and one-third that of the Americans
+14	Japanese office workers	use PCs at half the rate of	their European counterparts
+14	Japanese office workers	use PCs at	half the rate of their European counterparts
+14	Japanese office workers	use PCs	at half the rate of their European counterparts
+15	Labor costs	are climbing at	a far more rapid pace
+15	Labor costs are climbing	at a far more rapid pace	in the health care industry
+15	Labor costs are climbing	at a far more rapid pace in	the health care industry
+15	Labor costs are climbing at a far more rapid pace	in the health care industry	than in other industries
+15	Labor costs are climbing at	a far more rapid pace in	the health care industry
+15	Labor costs are	climbing at a far more rapid pace	in the health care industry
+16	at home	Mitsubishi has control of	some major projects
+16	Mitsubishi	has control of some major projects	at home
+16	Mitsubishi	has control of	some major projects
+16	Meantime	at home	Mitsubishi has control of some major projects
+16	at home Meanwhile	Mitsubishi has control of	some major projects
+16	Mitsubishi	has control of some	major projects
+16	Mitsubishi	has control of some major projects at	home
+16	Meantime	Mitsubishi has control of	some major projects
+17	Medical cooperatives	are banned from providing	general - practitioner services
+17	Medical cooperatives	are banned from	providing general - practitioner services
+17	Medical cooperatives	are banned from treating	drug addicts
+17	they	providing general - practitioner services	their main source of income
+17	Medical cooperatives	are banned from treating	pregnant women
+17	Medical cooperatives	are banned from treating	cancer patients
+18	Mr. Mulford	said reports of tension between the Treasury and	Fed have been exaggerated
+18	Mr. Mulford	said reports of tension between	the Treasury and Fed have been exaggerated
+18	Mr. Mulford	said reports of tension between the Treasury and Fed have been	exaggerated
+18	reports of tension between the Treasury and Fed	have been exaggerated	Mr. Mulford said
+18	reports of tension between the Treasury and Fed have been	exaggerated	insisting that they involved '' nuances . ''
+18	nuances	were involved in the tension between the Treasury and Fed that Mr. Mulford said had been	exaggerated
+18	Mr. Mulford	said reports of	tension between the Treasury and Fed have been exaggerated
+19	Mr. Ridley 's decision	firing the starting pistol for perhaps a costly	contest
+19	Mr. Ridley's decision	fires the starting pistol for a costly contest between the world's auto giants for	Britain's leading luxury-car maker
+19	Mr. Ridley's decision	fires the starting pistol for perhaps a costly contest between the world's auto giants for	Britain's leading luxury
+19	Mr. Ridley 's decision	fires the starting pistol	for perhaps a costly contest
+19	Mr. Ridley 's decision	fires the starting pistol for	perhaps a costly contest
+19	Mr. Ridley's decision	fires the starting pistol for a costly contest between the world's auto giants for Britain's leading	luxury-car maker
+19	Mr. Ridley	fires the starting pistol for perhaps a costly contest	between the world's auto giants
+19	Mr. Ridley's decision	fires the starting pistol for perhaps a costly contest between	the world's auto giants
+19	Mr. Ridley's decision	fires the starting pistol for perhaps a costly contest	between the world's auto giants
+19	Mr. Ridley 's decision	fires the starting pistol for perhaps a	costly contest
+19	Mr. Ridley's decision	fires the starting pistol for perhaps a costly contest between the world's auto giants for Britain's	leading luxury-car maker
+19	Mr. Ridley	fires the starting pistol for perhaps a costly contest between the world's auto giants for	Britain's leading luxury-car maker
+19	Mr. Ridley's decision	fires the starting pistol for	a costly contest between the world's auto giants
+19	Mr. Ridley's decision	fires the starting pistol for perhaps a costly contest between the world's auto giants for Britain's leading	luxury-car maker
+19	Mr. Ridley's decision	fires the starting pistol for a costly contest	between the world's auto giants
+19	Mr. Ridley's decision	fires the starting pistol for a costly contest between	the world's auto giants
+19	Mr. Ridley's decision	fires the starting pistol for a costly contest between the world's auto giants for Britain's leading luxury-car	maker
+19	Mr. Ridley	fires the starting pistol for perhaps a costly contest between	the world's auto giants
+20	Mr. Stoll	suspected the intruder was one of those	precocious students
+20	Mr. Stoll	suspected the intruder was one of those precocious students who	has fun breaking into computers
+20	the intruder	was one of those precocious students who	has fun breaking into computers
+20	Mr. Stoll	suspected	the intruder
+20	Mr. Stoll	suspected	the intruder was one of those precocious students who has fun breaking into computers
+20	Mr. Stoll	suspected the intruder was	one of those precocious students
+20	the intruder	was one of those precocious students who has fun breaking into	computers
+20	Mr. Stoll suspected	the intruder was one of those precocious students who has fun breaking into	computers
+21	Mr. Broberg	a lawyer	claims
+21	Mr. Broberg	claims he 'd play for	free
+21	Mr. Broberg	claims he 'd play	for free
+21	Mr. Broberg	claims	he 'd play for free
+21	Mr. Broberg	a lawyer	claims he'd play for free
+21	Mr. Broberg	a lawyer	claims he 'd play for free
+22	Lee Kuan Yew	Singapore's leader	one of Asia's leading statesmen for 30 years
+22	Lee Kuan Yew	recently announced his intention	to retire next year
+22	Lee Kuan Yew	one of Asia's leading statesmen	for 30 years
+22	Lee Kuan Yew	recently announced his intention to retire next	year
+22	Prime Minister Lee Kuan Yew	recently announced his intention to	retire next year
+22	Prime Minister Lee Kuan Yew	recently announced his intention to retire	next year
+22	Lee Kuan Yew	one of Asia's leading statesmen for	30 years
+22	Lee Kuan Yew	recently announced his intention to retire	next year
+23	Repeat customers also	can purchase	luxury items at reduced prices
+24	Richard Newsom	said he also saw evidence	that crimes had been committed
+24	Richard Newsom	examined Lincoln's parent	American Continental Corp.
+24	Richard Newsom	examined	Lincoln's parent
+24	Richard Newsom	a California state official who last year examined Lincoln's parent	American Continental Corp.
+24	Richard Newsom	said	he also saw evidence that crimes had been committed
+24	Richard Newsom	said he also saw	evidence that crimes had been committed
+24	Richard Newsom	said he also saw evidence that	crimes had been committed
+25	Sen. Mitchell	is confident he has sufficient votes to	block such a measure
+25	Sen. Mitchell	is confident he has	sufficient votes
+25	Sen. Mitchell is confident	he has	sufficient votes
+25	Sen. Mitchell	is confident he has sufficient votes to block such a measure with	procedural actions
+25	Sen. Mitchell	is confident he	has sufficient votes
+25	Sen. Mitchell	is confident	he has sufficient votes
+25	Sen. Mitchell	is confident he has sufficient votes to block such a	measure
+25	procedural actions	to block such a measure with	Sen. Mitchell is confident he has sufficient votes
+26	The Chemical spokeswoman	said	the bank has examined its internal controls
+26	The Chemical spokeswoman	said	the bank has examined its methodologies
+26	the Chemical spokeswoman said	the bank has examined	its methodologies
+27	the parent company	can't recover the amount from its subsidiary	if the parent company makes the payment
+27	Lone Star Technologies	is jointly responsible for	a $ 4.5 million Lone Star Steel pension payment
+27	Lone Star Technologies	is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due in September	but wasn't paid
+27	Lone Star Technologies	is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due but	wasn't paid
+27	Lone Star Technologies	is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that	was due
+27	the parent company	can't recover the amount from its subsidiary if the parent company	makes the payment
+27	Lone Star Technologies	is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due but wasn't paid in	September
+27	Lone Star Technologies	is jointly responsible for a $ 4.5 million	Lone Star Steel pension payment
+27	Lone Star Technologies	is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due in	September
+28	The National Transportation Safety Board	ruled that pilots failed to make	mandatory preflight checks that would have detected the error
+28	The National Transportation Safety Board	ruled that pilots failed to	set the plane 's wing flaps and slats properly for takeoff
+29	The discount rate on three - month Treasury bills rose slightly from	the average rate	at Monday 's auction
+29	The discount rate on three - month Treasury bills rose slightly from the average rate at	Monday 's auction	to 7.79 %
+29	The discount rate on three - month Treasury bills rose slightly from the average rate at Monday 's auction to 7.79 % for a	bond - equivalent yield	of 8.04 %
+29	The discount rate on three - month Treasury bills	rose slightly from	the average rate at Monday's auction
+29	The discount rate on three - month Treasury bills	rose slightly	from the average rate
+29	The discount rate on three - month Treasury bills	rose slightly from the average rate at Monday 's auction to	7.79 % for a bond - equivalent yield of 8.04 %
+30	The effect is that lawsuits that might have been barred because they were filed too late could	proceed because of	the one-year extension
+30	The effect is that lawsuits that might have been	barred because they were filed too late could	proceed because of the one - year extension
+31	Triangle	chief asset	The executives had profited handsomely by building American National Can Co.
+31	The executives	had profited handsomely by building American National Can Co. for	Triangle's chief asset
+31	The executives	had profited handsomely by	building American National Can Co.
+31	The executives	had profited handsomely by building	American National Can Co.
+31	The executives	had profited handsomely by building American National Can Co. for Triangle's	chief asset
+32	The dollar's resiliency	was helped by the market's tempo	he said
+32	by the dollar 's resiliency	the market 's tempo	was helped
+32	The dollar	was helped by the market's tempo	he said
+33	The office	may also be able to	advise foreign and multinational clients
+33	The office	may also be able to advise	foreign and multinational clients
+33	The office	may also be able to advise foreign and multinational	clients
+33	The office	may also be able to advise foreign and multinational clients on	general matters
+33	foreign and multinational	clients on	international law
+33	The office	may also	be able to advise
+33	foreign	clients on	international law
+33	The office	may also be able to advise foreign and multinational clients on general	matters
+33	The office	may also be able to advise foreign and multinational clients on	international law
+33	The office	may also be able to advise foreign and	multinational clients
+33	The office	may also be able to	advise clients
+33	The office	may also be able to	advise
+34	The three existing plants	will be sold	along with their land
+34	The three existing plants	will be sold	and their land
+35	New York City	announced a 10 - point	policy
+35	New York City	announced	a 10 - point policy
+35	New York City	announced a 10	- point policy
+35	New York City	announced a 10 - point policy patterned on	the federal bill of rights for taxpayers
+35	This week	New York City announced	a 10 - point policy patterned on the federal bill of rights for taxpayers
+35	New York City	announced a 10 -	point policy
+35	New York City	announced	a 10 - point policy patterned on the federal bill of rights for taxpayers
+35	New York City	announced a	10 - point policy
+35	New York City	announced a 10 - point policy	patterned on the federal bill of rights for taxpayers
+35	This week	New York City announced a 10 - point policy	patterned on the federal bill of rights for taxpayers
+36	USG Corp. agreed to sell its headquarters building	and will lease the 19-story facility until it moves to a new quarters	in 1992
+36	USG Corp. will lease the 19-story facility	until it moves to a new quarters	in 1992
+36	Manufacturers Life Insurance Co. of Toronto	agreed to buy	the headquarters building
+37	Business	is spending more time addressing this issue	says Sen. Edward Kennedy
+37	Business across the country is spending more time	addressing this issue	says Sen. Edward Kennedy
+37	Business across the country is spending more time addressing	this issue	says Sen. Edward Kennedy
+37	D.	Mass	says Sen. Edward Kennedy
+37	Business across the country	is spending more time addressing this issue	says Sen. Edward Kennedy
+39	RTC	may have to	dump acquired assets through fire sales
+39	RTC	may have to slow	S&L sales
+40	''	says an official close to the case who asked not to be named	Nobody told us ; nobody called us

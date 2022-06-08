@@ -214,16 +214,16 @@ def visualisation_to_benchie(
 accuracies = {}
 number_of_choices = 3
 for i in range(number_of_choices):
-    accuracies_by_runs = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
-            results_path = f'models/E4/results/benchie_en_separation_2_commas.json',
-            output_path = f'visualiser/datasets/benchie_en_e4_choices_{i}.json',
+    accuracies_by_runs = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en_test_set.json',
+            results_path = f'models/E4/results/benchie_en_test_set.json',
+            output_path = f'visualiser/datasets/benchie_en_e4_bench_context_choices_{i}.json',
             max_number_runs= i+1)
 
     accuracies[str(i)] = accuracies_by_runs
     
 
-    visualisation_to_benchie(in_path=f'visualiser/datasets/benchie_en_e4_choices_{i}.json', 
-            out_path=f'evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit_choices_{i}.txt')
+    visualisation_to_benchie(in_path=f'visualiser/datasets/benchie_en_e4_bench_context_choices_{i}.json', 
+            out_path=f'evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit_choices_test_{i}.txt')
 
 with open('visualiser/model_results/gpt3_syntax_by_runs.json', 'w') as f:
     json.dump(accuracies, f)
