@@ -52,10 +52,11 @@ for epoch in sorted(os.listdir('outputs'), key=epoch_number):
   
   model = SimpleT5()
   model.load_model("t5",f"/content/thesis/outputs/{epoch}", use_gpu=True)
-
+  forward = model.predict
+  
   epoch = epoch.split('-')[2]
   output_file = f'models/E1/results/benchie_en_separation_2_commas_{epoch}.json'
-  forward = model.predict
+  
   prompt_strings, predicted_labels = [], []
   prompt_string_train = ''
   test_data = pd.DataFrame(load_dataset(input_file_test))
