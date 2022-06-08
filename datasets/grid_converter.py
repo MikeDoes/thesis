@@ -214,7 +214,7 @@ def visualisation_to_benchie(
 
 accuracies = {}
 number_choices = 4
-number_epoch = 5
+number_epoch = 40
 
 
 for i in range(number_choices):

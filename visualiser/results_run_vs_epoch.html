@@ -22,7 +22,7 @@
       var metric
       function get_data() {
         const Http = new XMLHttpRequest();
-        metric='Recall'
+        metric='f1'
         const url = "model_results/t_5_grid_" + metric.toLowerCase() +".json";
         Http.open("GET", url);
         Http.send();
