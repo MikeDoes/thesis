@@ -1,26 +1,37 @@
 # This model is a zero-shot GPT-3 using the OpenAI application point interface
+from cgi import test
 import openai
 from tqdm import tqdm
-from ..utils import generate_train_prompt, assert_maximum_prompt_length, pre_process, load_dataset, export_dict
+import sys, os
+cwd=os.getcwd()
+sys.path.append(r"{}".format(cwd))
+from models.utils import generate_train_prompt, assert_maximum_prompt_length, pre_process, load_dataset, export_dict
+
 
 MAX_PROMPT_LENGTH = 4096
 MAX_TOKEN_PREDICTION = 358
 SEPERATION_TOKEN = ",,"
 STOP_SEQUENCE = ["\n\n"]
 
-output_file = 'models/E4/results/benchie_en_seperation_2_commas.json'
-input_file_train = 'visualiser/datasets/oie2016_spanoie_dataset.json'
+output_file = 'models/E4/results/benchie_en_test_set.json'
+input_file_train = 'datasets/benchie/annotations/benchie_en.json'
 input_file_test = 'datasets/benchie/annotations/benchie_en.json'
 
 train_data = load_dataset(input_file_train)
 test_data = load_dataset(input_file_test)
 
-prompt_string_train = generate_train_prompt(train_data, 8, SEPERATION_TOKEN)
+test_data = {
+  'text': test_data['text'][-40:],
+  'labels': test_data['labels'][-40:]
+}
+
+prompt_string_train = generate_train_prompt(train_data, 6, SEPERATION_TOKEN)
+
 assert_maximum_prompt_length(test_data, prompt_string_train, MAX_PROMPT_LENGTH)
 
 # Defining the forward function of GPT-3
 def forward(prompt_string):
-  openai.api_key = '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'
+  openai.api_key = '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'
   response = openai.Completion.create(
     engine="text-davinci-002",
     prompt=prompt_string,

@@ -40,7 +40,7 @@ model = SimpleT5()
 model.from_pretrained(model_type="t5", model_name="t5-base")
 model.train(train_df=train_data,
             eval_df=test_data, 
-            source_max_token_len=200, 
+            source_max_token_len=350, 
             target_max_token_len=350, 
             batch_size=4, max_epochs=40, use_gpu=True)
 

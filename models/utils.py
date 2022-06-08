@@ -2,7 +2,7 @@ import json
 
 def generate_train_prompt(train_data, number_example_sentences=8, separation_token=',,'):
   prompt_string_train = ""  
-  number_example_sentences = min(len(train_data['labels'], number_example_sentences))
+  number_example_sentences = min(len(train_data['labels']), number_example_sentences)
   for i in range(number_example_sentences):
       prompt_string_train += source_pre_processing(train_data['text'][i])
       prompt_string_train += label_pre_processing(train_data['labels'][i], separation_token)
