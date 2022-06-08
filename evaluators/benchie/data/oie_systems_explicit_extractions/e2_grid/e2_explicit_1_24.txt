@@ -1,0 +1,20 @@
+2	feet	dangling off	the floor
+9	the laser	cuts	a portion of the prostate
+9	a portion of the prostate	is cut into	smaller pieces
+17	this adoption over mainline gimp	was over	mainline gimp
+17	this adoption over mainline gimp	support for	high bit depths
+18	possible power supplies	can be	even higher
+18	they	have	a large range of possible power supplies
+18	They	have	a large range of possible power supplies
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	dance
+28	The culture of Bhutan	is fully reflected in	the capital city
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	the monastic practices of the monasteries
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	music
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	media
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	customs
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	national dress code
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	religion
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	literature
+30	attempted murder	carries a maximum penalty of	life imprisonment
+30	attempted murder	is	an indictable offence
+30	attempted murder	is an indictable offence as	an attempt

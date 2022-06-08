@@ -22,7 +22,7 @@
       var metric
       function get_data() {
         const Http = new XMLHttpRequest();
-        metric='f1'
+        metric='F1'
         const url = "model_results/t_5_grid_" + metric.toLowerCase() +".json";
         Http.open("GET", url);
         Http.send();
@@ -48,7 +48,7 @@
         ];
 
         var layout = {
-          title: "Epoch vs Runs",
+          title: "T5-Base: fine-tuned on ReOie2016 and tested on BenchIE " + metric+" scores",
           autosize: false,
           width: 800,
           height: 800,
@@ -60,7 +60,7 @@
                 size: 22,
               },
               nticks: 5,
-              //range: [-200, 100],
+              range: [0, 39],
             },
             yaxis: {
               title: "Runs",
@@ -69,6 +69,7 @@
                 size: 22,
               },
               nticks: 4,
+              range: [0,2],
             },
             zaxis: {
               title: metric,

@@ -72,7 +72,8 @@ def model_output_to_visualiser(
         test_dataset_path = 'models/E4/results/benchie_en.json',
         results_path = 'models/E4/results/benchie_en_seperation_2_commas.json',
         output_path = 'visualiser/datasets/benchie_e4.json',
-        max_number_runs = 999):
+        max_number_runs = 999,
+        slice_index=0):
     # Transforms output from language models to visualiser
     data = load_json(test_dataset_path)
     # missing_indices = list(range(len(test_data['text'])))
@@ -90,7 +91,7 @@ def model_output_to_visualiser(
 
     for i, predicted_label in enumerate(evaluations_1['predicted_labels']):
         sentence_level_triple_list = []
-        sentence = data['text'][i]
+        sentence = data['text'][slice_index:][i]
 
         for j, choice in enumerate(predicted_label["choices"]):
             try:
@@ -219,17 +220,18 @@ number_epoch = 40
 
 for i in range(number_choices):
     for j in range(number_epoch):
-        out_path = f"evaluators/benchie/data/oie_systems_explicit_extractions/e1_grid/e1_explicit_{i}_{j}.txt"
+        out_path = f"evaluators/benchie/data/oie_systems_explicit_extractions/e2_grid/e2_explicit_{i}_{j}.txt"
 
         accuracies_by_runs = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
-                results_path = f'models/E1/results/4runs/benchie_en_separation_2_commas_{j}.json',
-                output_path = f'visualiser/model_results/e1_grid/e1_explicit_{i}_{j}.json',
-                max_number_runs= i+1)
+                results_path = f'models/E2/results/4runs/benchie_en_separation_2_commas_{j}.json',
+                output_path = f'visualiser/model_results/e2_grid/e2_explicit_{i}_{j}.json',
+                max_number_runs= i+1,
+                slice_index=-40)
 
         accuracies[str(i)] = accuracies_by_runs
         
 
-        visualisation_to_benchie(in_path=f'visualiser/model_results/e1_grid/e1_explicit_{i}_{j}.json', 
+        visualisation_to_benchie(in_path=f'visualiser/model_results/e2_grid/e2_explicit_{i}_{j}.json', 
                 out_path=out_path)
 
 with open('visualiser/model_results/t5_epochs.json', 'w') as f:

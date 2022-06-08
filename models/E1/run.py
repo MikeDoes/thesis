@@ -27,8 +27,13 @@ train_data['target_text'] = [label_pre_processing(text, separation_token=SEPARAT
 test_data['source_text'] = [source_pre_processing(text) for text in test_data['text']]
 test_data['target_text'] = [label_pre_processing(text, separation_token=SEPARATION_TOKEN) for text in test_data['labels']]
 
-train_data = train_data.iloc[:260]
 test_data = train_data.iloc[-40:]
+train_data = train_data.iloc[:260]
+
+print("Train Data Length", len(train_data))
+print(train_data.head())
+print("Test Data Length", len(test_data))
+print(test_data.head())
 
 #Training 
 model = SimpleT5()
