@@ -14,8 +14,8 @@ SEPARATION_TOKEN = ",,"
 
 # Loading the data
 output_file = 'models/E1/results/benchie_en_separation_2_commas.json'
-input_file_train = 'visualiser/datasets/reoie2016_test.json'
-input_file_test = 'datasets/benchie/annotations/benchie_en.json'
+input_file_train = 'visualiser/datasets/benchie_en.json'
+input_file_test = 'visualiser/datasets/benchie_en.json'
 train_data = pd.DataFrame(load_dataset(input_file_train))
 test_data = pd.DataFrame(load_dataset(input_file_test))
 
@@ -26,6 +26,9 @@ train_data['target_text'] = [label_pre_processing(text, separation_token=SEPARAT
 
 test_data['source_text'] = [source_pre_processing(text) for text in test_data['text']]
 test_data['target_text'] = [label_pre_processing(text, separation_token=SEPARATION_TOKEN) for text in test_data['labels']]
+
+train_data = train_data.iloc[:260]
+test_data = train_data.iloc[-40:]
 
 #Training 
 model = SimpleT5()

@@ -31,7 +31,7 @@ def assert_maximum_prompt_length(test_data, prompt_string_train, maximum_prompt_
 
 def pre_process(text):
   text = str(text)
-  text = text.replace('[', '(').replace(']', ')').replace('``','\'\'')
+  text = text.replace('[', '').replace(']', '').replace('``','\'\'')
   return text
 
 def load_dataset(path):
