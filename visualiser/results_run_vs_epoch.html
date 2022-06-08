@@ -22,8 +22,8 @@
       var metric
       function get_data() {
         const Http = new XMLHttpRequest();
-        metric='precision'
-        const url = "model_results/t_5_grid_" + metric+".json";
+        metric='Recall'
+        const url = "model_results/t_5_grid_" + metric.toLowerCase() +".json";
         Http.open("GET", url);
         Http.send();
 
@@ -54,21 +54,21 @@
           height: 800,
           scene: {
             xaxis: {
-              title: "Runs",
-              titlefont: {
-                family: "Arial, Open Sans",
-                size: 22,
-              },
-              nticks: 39,
-              //range: [-200, 100],
-            },
-            yaxis: {
               title: "Epochs",
               titlefont: {
                 family: "Arial, Open Sans",
                 size: 22,
               },
-              nticks: 22,
+              nticks: 5,
+              //range: [-200, 100],
+            },
+            yaxis: {
+              title: "Runs",
+              titlefont: {
+                family: "Arial, Open Sans",
+                size: 22,
+              },
+              nticks: 4,
             },
             zaxis: {
               title: metric,
