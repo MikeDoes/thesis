@@ -19,6 +19,9 @@ for i in range(number_epoch):
     e1_extractions_file = f"evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit_choices_test_{i}.txt"
     benchie.add_oie_system_extractions(oie_system_name=f"gpt_runs_{i}", filename=e1_extractions_file)
 
+benchie.add_oie_system_extractions(oie_system_name=f"clause", filename='evaluators/benchie/data/oie_systems_explicit_extractions/e4_explicit_choices_re_bench_test.txt')
+
+
 # Compute scores
 
 benchie.compute_precision()

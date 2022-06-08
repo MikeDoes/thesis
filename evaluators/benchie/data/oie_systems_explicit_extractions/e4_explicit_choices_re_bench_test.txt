@@ -1,0 +1,182 @@
+1	the filings required under the proposed rules	will be	at least as effective
+1	the filings required under the proposed rules	will be	if not more so
+2	Bert Campaneris	once Oakland's master thief	flips it to second
+2	Bert Campaneris	once Oakland's master thief	effortlessly scoops up a groundball and flips it to second
+2	Bert Campaneris	once Oakland's master thief	scoops up a groundball
+3	investors	remaining	on the sidelines
+3	traders	said	with investors remaining cautiously on the sidelines
+3	the modest gains	traders said	the market remains dull
+3	modest gains	with investors remaining	cautiously on the sidelines
+3	traders	said	the market remains dull
+3	Despite the modest gains	traders said	the market remains dull
+3	the modest gains	traders said	with investors remaining cautiously on the sidelines
+3	Despite the modest gains	traders said	with investors remaining cautiously on the sidelines
+3	modest gains	the market remains	dull
+4	Early in the morning	Mr. Sider	pores over last wills and testaments
+4	Early in the morning	Mr. Sider an estate lawyer	pores over last wills and testaments
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp., a unit of Dylex Ltd.
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp.
+5	Foxmoor Specialty Stores Corp.	a unit	of Dylex Ltd.
+5	229 Foxmoor women 's apparel stores	from	Foxmoor Specialty Stores Corp.
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp. , a unit of Dylex Ltd. of Toronto
+5	Dylex Ltd.	of	Toronto
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores
+6	Few people in the advertising business	have raised	as Alvin A. Achenbaum
+6	Few people in the advertising business	have raised	as many hackles
+7	For example	a passenger	fly from Chardon , Neb. , to Denver for as little as $ 89 to $ 109
+7	For example	a passenger	fly
+7	prices quoted by the company	indicate that	a passenger can fly for as little as $ 89 to $ 109
+7	For example	a passenger	fly from Chardon , Neb. , to Denver for as little as $ 89
+7	For example	a passenger	fly from Chardon , Neb. , to Denver for as little as $ 109
+7	a passenger	can fly	from Chardon , Neb. , to Denver
+7	For example	a passenger	fly from Chardon , Neb. , to Denver
+7	a passenger	can fly	for as little as $ 89 to $ 109
+8	Hani Zayadi	was appointed	effective Nov. 15
+8	Hani Zayadi	succeeding	Frank Robertson
+8	Hani Zayadi	was appointed	president
+8	Hani Zayadi	was appointed	president and chief executive officer
+8	Hani Zayadi	was appointed	chief executive officer
+8	Hani Zayadi	succeeding	who is retiring early
+8	Hani Zayadi	was appointed	of this financially troubled department store chain
+9	the problem	is that once most poison pills are adopted	they survive forever
+9	problem	is that once most poison pills are adopted	they survive forever
+9	However	the problem is that once most poison pills are adopted	they survive forever
+9	poison pills	are adopted	they survive forever
+10	Hungary	voted	to hold a national referendum
+10	Hungary	voted	to fill the new post of president
+10	Hungary 's Parliament	voted	to hold a national referendum on an election to fill the new post of president
+10	to fill	new post of	president
+10	Hungary	voted	on an election
+11	In Japan	those functions	a third of the software market
+11	those functions	account for	only about a third of the software market
+11	In Japan	those functions account for	only about a third of the software market
+11	In Japan	account for only about a third of	the software market
+11	In Japan	those functions	account for only about a third of the software market
+12	in the U.S.	more than half the PC software sold	is for spreadsheets or for database analysis
+12	Lotus	according to	In the U.S. , more than half the PC software sold is either for spreadsheets or for database analysis
+12	more than half the PC software sold	is	for database analysis
+12	more than half the PC software sold	is	for spreadsheets or for database analysis
+12	more than half the PC software sold	is	for spreadsheets
+13	It	traded	6.5 million of which were traded by midday
+13	It	was	the most active of the 100 - share index
+13	8.3 million shares	were	traded
+14	Japanese office workers	use	PCs at one - third that of the Americans
+14	Japanese office workers	use	PCs at half the rate of their European counterparts
+15	Labor costs	are climbing	in the health care industry
+15	Labor costs	are climbing	in other industries
+16	Mitsubishi	has control	of some major projects
+16	at home	Mitsubishi has control	of some major projects
+17	cooperatives	are banned from providing	treating cancer patients
+17	cooperatives	are banned from providing	carrying out surgery
+17	pregnant women	are	banned from being treated
+17	cooperatives	are banned from providing	their main source of income
+17	cooperatives	are	banned from treating cancer patients
+17	cooperatives	are banned from providing	pregnant women
+17	cooperatives	are	banned from providing general - practitioner services
+17	cooperatives	are	banned from treating drug addicts and pregnant women
+17	cooperatives	are banned from providing	general - practitioner services
+17	cooperatives	are	banned from carrying out surgery
+17	cooperatives	are banned from providing	drug addicts
+18	Mr. Mulford	said	tension between the Treasury and Fed
+18	Mr. Mulford	said	reports of tension
+18	Mr. Mulford	said	reports of tension between the Treasury and Fed
+18	Mr. Mulford	insisting	that they involved '' nuances . ''
+18	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated
+18	Mr. Mulford	said	they involved '' nuances ''
+19	Mr. Ridley 's decision	firing	a costly contest
+19	Mr. Ridley 's decision	fires	for perhaps a costly contest between the world 's auto giants for Britain 's leading luxury - car maker
+19	Mr. Ridley 's decision	fires	for perhaps a costly contest between the world 's auto giants
+19	Mr. Ridley 's decision	fires	the starting pistol
+19	a costly contest	for	Britain 's leading luxury - car maker
+20	precocious students	has fun breaking into	computers
+20	Mr. Stoll	suspected	the intruder was one of those precocious students who has fun breaking into computers
+21	Now Mr. Broberg	a lawyer	claims he'd play for free
+21	Now Mr. Broberg	claims	he'd play for free
+21	Mr. Broberg	a lawyer	claims he 'd play for free
+22	to retire next year	not necessarily	to end his influence
+22	Prime Minister Lee Kuan Yew	Singapore's	one of Asia's leading statesmen
+22	Prime Minister Lee Kuan Yew	Singapore's leader and one of Asia's leading statesmen	recently announced his intention to retire next year
+22	Prime Minister Lee Kuan Yew	Singapore's leader and one of Asia's leading statesmen	not necessarily to end his influence
+22	Prime Minister Lee Kuan Yew	one of Asia's leading statesmen	recently announced his intention to retire next year
+23	Repeat customers	can purchase	luxury items at reduced prices
+23	Repeat customers	can purchase	luxury items
+23	Repeat customers	can purchase	reduced prices
+24	Richard Newsom	examined	American Continental Corp.
+24	Richard Newsom	examined	Lincoln's parent
+24	Lincoln's parent	is	American Continental Corp.
+24	Richard Newsom	saw evidence	that crimes had been committed
+24	Richard Newsom	said	he also saw evidence that crimes had been committed
+24	a California state official	examined	American Continental Corp.
+24	a California state official	examined	Lincoln's parent
+25	Sen. Mitchell	is confident	he has sufficient votes
+25	Sen. Mitchell	is confident	to block such a measure
+25	Sen. Mitchell	is confident	to block such a measure with procedural actions
+26	The Chemical spokeswoman	said	the bank has examined its methodologies
+26	the bank	has examined	its methodologies and internal controls
+26	The Chemical spokeswoman	said	the bank has examined its methodologies and internal controls
+26	The Chemical spokeswoman	said	the bank has examined its internal controls
+27	Lone Star Technologies	is	jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due, but wasn't paid, in September
+27	Lone Star Technologies	is	jointly responsible
+27	Lone Star Technologies	is	jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due, but wasn't paid, in September, and that the parent company can't recover the amount from its subsidiary if the parent company makes the payment
+27	Lone Star Technologies	is	jointly responsible for a $ 4.5 million Lone Star Steel pension payment
+27	The Lone Star Steel lawsuit	also asks	the court to rule that Lone Star Technologies is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due , but was n't paid , in September and that the parent company ca n't recover the amount from its subsidiary if the parent company makes the payment
+27	The Lone Star Steel lawsuit	asks	the court
+28	that pilots	set	properly for takeoff
+28	that pilots	set	the plane 's wing flaps and slats
+28	The National Transportation Safety Board	ruled	that pilots failed to set the plane 's wing flaps and slats properly for takeoff
+28	The National Transportation Safety Board	mandatory preflight checks	that would have detected the error
+28	pilots	failed to make	mandatory preflight checks
+28	The National Transportation Safety Board	ruled	that pilots failed to make mandatory preflight checks that would have detected the error
+28	that pilots	failed to make	mandatory preflight checks that would have detected the error
+28	pilots	failed to set	the plane 's wing flaps and slats
+29	The discount rate on three - month Treasury bills	rose	from the average rate at Monday's auction
+29	The discount rate on three - month Treasury bills	rose slightly	from the average rate at Monday 's auction
+29	The discount rate on three - month Treasury bills	rose slightly	to 7.79 % for a bond - equivalent yield of 8.04 %
+29	The discount rate on three - month Treasury bills	rose	slightly
+29	The discount rate on three - month Treasury bills	rose	to 7.79%
+29	The discount rate on three - month Treasury bills	for	a bond-equivalent yield of 8.04%
+30	The effect	is	that lawsuits that might have been barred because they were filed too late could proceed because of the one - year extension
+30	The effect	is	that lawsuits that might have been barred because they were filed too late could proceed
+30	The effect	is	because of the one - year extension
+31	The executives	profited handsomely	by building American National Can Co.
+31	Triangle 's chief asset	is	American National Can Co.
+31	The executives	had profited handsomely	by building American National Can Co.
+31	The executives	had profited handsomely	by building Triangle 's chief asset
+32	The market	was helped	by the dollar's resiliency
+32	The market 's tempo	was	helped by the dollar 's resiliency
+32	The market	was helped	by the dollar
+32	The market 's tempo	was helped by	the dollar 's resiliency
+32	The market 's tempo	was helped by	he said
+32	he	said	The market's tempo was helped by the dollar's resiliency
+33	multinational clients	on	international law and general matters
+33	The office	may	also be able to advise foreign and multinational clients
+33	The office	may	be able to advise foreign and multinational clients
+33	The office	may	on international law and general matters
+33	The office	may	also be able to advise foreign and multinational clients on international law and general matters
+34	The three existing plants and their land	will be	sold
+34	The three existing plants	will be	sold
+35	This week	a 10 - point policy	patterned on the federal bill of rights for taxpayers
+35	This week	a 10 - point policy	patterned
+35	This week	New York City announced	a 10 - point policy
+35	This week	New York City announced	patterned on the federal bill of rights for taxpayers
+35	New York City	announced	a 10 - point policy
+35	New York City	announced	patterned on the federal bill of rights for taxpayers
+35	This week	a 10 - point policy	patterned on the federal bill of rights
+36	the 19 - story facility	moves	to a new quarters
+36	USG Corp.	agreed	to sell its headquarters building here
+36	USG Corp.	agreed	to Manufacturers Life Insurance Co. of Toronto
+36	Manufacturers Life Insurance Co. of Toronto	will lease	until it moves to a new quarters
+36	USG Corp.	agreed	and will lease the 19 - story facility until it moves to a new quarters
+36	USG Corp.	agreed	in 1992
+36	Manufacturers Life Insurance Co. of Toronto	will lease	the 19 - story facility
+37	Business across the country	is spending	more time addressing this issue
+37	Sen. Edward Kennedy (D., Mass.)	says	Business across the country is spending more time addressing this issue
+38	he	says	I wo n't be throwing 90 mph but I will throw 80 - plus
+39	the RTC	may have to	slow { S&L sales }
+39	If working capital financing is not provided	the RTC may have to	dump acquired assets through fire sales
+39	If working capital financing is not provided	the RTC may have to	slow { S&L sales } or dump acquired assets through fire sales
+39	he	said	If working capital financing is not provided the RTC may have to slow { S&L sales } or dump acquired assets through fire sales
+39	If working capital financing is not provided	he said	the RTC may have to slow { S&L sales } or dump acquired assets through fire sales
+39	the RTC	may have to	dump acquired assets through fire sales
+40	an official close to the case	says	Nobody told us ; nobody called us
+40	an official close to the case	asked	not to be named

@@ -22,7 +22,6 @@ for i in range(number_choices):
 # Compute scores
 
 benchie.compute_precision()
-
 benchie.compute_recall()
 benchie.compute_f1()
 benchie.print_scores()

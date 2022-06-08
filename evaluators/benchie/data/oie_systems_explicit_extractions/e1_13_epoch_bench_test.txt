@@ -1,0 +1,84 @@
+1	Mr. Lane	said	the filings required under the proposed rules '' will be at least as effective, if not more so, for investors following transactions. ''
+1	the filings required under the proposed rules	will be	at least as effective
+2	Bert Campaneris	effortlessly scoops up	a groundball
+2	Bert Campaneris	flips	a groundball
+2	Bert Campaneris	flips	to second
+3	traders	said	the market remains dull, with investors remaining cautiously on the sidelines
+3	the market	remains	dull
+3	investors	remaining cautiously on	the sidelines
+4	Mr. Sider	pores over	last wills and testaments
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp.
+5	it	agreed to buy	229 Foxmoor women's apparel stores
+5	it	agreed to buy	from Foxmoor Specialty Stores Corp.
+6	Few people in the advertising business	have raised	as many hackles
+6	Few people in the advertising business	have raised	as Alvin A. Achenbaum
+7	a passenger	can fly from	Chardon, Neb.
+7	a passenger	can fly from	to Denver
+8	Hani Zayadi	was appointed	president and chief executive officer of this financially troubled department store chain
+8	Hani Zayadi	succeeding	Frank Robertson
+9	the problem	is	that once most poison pills are adopted, they survive forever
+10	Hungary's Parliament	voted to hold	a national referendum on an election
+10	Hungary's Parliament	voted to hold	to fill the new post of president
+11	those functions	account for	only about a third of the software market
+12	more than half the PC software sold	is	either for spreadsheets or for database analysis
+13	It	was	the most active of the 100 - share index at 8.3 million shares
+14	Japanese office workers	use	PCs
+14	Japanese office workers	use	at half the rate of their European counterparts and one - third that of the Americans
+15	Labor costs	are climbing at	a far more rapid pace
+15	Labor costs	are climbing at	than in other industries
+16	Mitsubishi	has control of	some major projects
+17	Medical cooperatives	are banned from	providing general - practitioner services ( their main source of income ), carrying out surgery, and treating cancer patients, drug addicts and pregnant women
+17	Medical cooperatives	are banned from	providing general - practitioner services ( their main source of income
+18	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated
+18	Mr. Mulford	insisting	that they involved '' nuances. ''
+19	Mr. Ridley's decision	fires	the starting pistol
+19	Mr. Ridley's decision	fires	for perhaps a costly contest between the world's auto giants for Britain's leading luxury - car maker
+20	the intruder	was	one of those precocious students who has fun breaking into computers
+20	precocious students	has fun breaking into	computers
+21	Mr. Broberg	claims	he 'd play for free
+22	Lee Kuan Yew	announced	his intention to retire next year
+22	his intention to retire next year	not necessarily to end	his influence
+23	Repeat customers	can purchase	luxury items
+23	Repeat customers	can purchase	at reduced prices
+24	Richard Newsom	examined	Lincoln's parent, American Continental Corp.
+24	Richard Newsom	said	he also saw evidence that crimes had been committed
+24	he	saw	evidence that crimes had been committed
+25	Sen. Mitchell	is confident	he has sufficient votes to block such a measure with procedural actions
+25	he	has	sufficient votes
+25	he	has	to block such a measure with procedural actions
+25	he	block	such a measure
+25	he	block	with procedural actions
+26	The Chemical spokeswoman	said	the bank has examined its methodologies and internal controls
+26	the bank	has examined	its methodologies and internal controls
+27	The Lone Star Steel lawsuit	asks	the court
+27	The Lone Star Steel lawsuit	asks	to rule that Lone Star Technologies is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due, but wasn't paid, in September and that the parent company can't recover the amount from its subsidiary if the parent company makes the payment
+27	the court	rule	that Lone Star Technologies is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due, but wasn't paid, in September and that the parent company can't recover the amount from its subsidiary if the parent company makes the payment
+27	Lone Star Technologies	is jointly responsible for	a $ 4.5 million Lone Star Steel pension payment
+27	a $ 4.5 million Lone Star Steel pension payment	was	due
+27	the parent company	can't recover	the amount
+27	the parent company	makes	the payment
+28	The National Transportation Safety Board	ruled	that pilots failed to set the plane's wing flaps and slats properly for takeoff and failed to make mandatory preflight checks that would have detected the error
+28	pilots	failed to set	the plane's wing flaps and slats properly
+28	pilots	failed to set	for takeoff
+28	mandatory preflight checks	would have detected	the error
+30	The effect	is	that lawsuits that might have been barred because they were filed too late could proceed because of the one - year extension
+32	The market's tempo	was helped by	the dollar's resiliency
+32	he	said	The market's tempo was helped by the dollar's resiliency
+33	The office	may also be able to advise	foreign and multinational clients
+33	The office	may also be able to advise	on international law and general matters
+35	New York City	announced	a 10 - point policy patterned
+35	New York City	announced	on the federal bill of rights for taxpayers
+36	USG Corp.	agreed to sell	its headquarters building here
+36	USG Corp.	agreed to sell	to Manufacturers Life Insurance Co. of Toronto
+36	USG Corp.	will lease	the 19 - story facility
+36	it	moves to	a new quarters
+37	Sen. Edward Kennedy ( D., Mass. )	says	'' Business across the country is spending more time addressing this issue, ''
+37	Business across the country	is spending	more time
+37	Business across the country	is spending	addressing this issue
+37	Business across the country	addressing	this issue
+38	he	says	'' I won't be throwing 90 mph, but I will throw 80 - plus, ''
+38	I	won't be throwing	90 mph
+38	I	will throw	80 - plus
+400	an official close to the case	says	'' Nobody told us ; nobody called us, ''
+400	Nobody	told	us
+400	nobody	called	us

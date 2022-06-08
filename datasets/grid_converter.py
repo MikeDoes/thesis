@@ -121,7 +121,8 @@ def model_output_to_visualiser(
                                 args[i] = args[i][:-1]
 
                             for word in arg:
-                                if word not in sentence or arg == '' or arg is None:
+                                #word not in sentence or
+                                if word == '' or word is None:
                                     in_sentence = False
 
 

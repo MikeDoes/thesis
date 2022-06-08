@@ -1,13 +1,124 @@
+1	He	served as	the first Prime Minister of Australia
+1	He	became a founding justice of	the High Court of Australia
+2	Graner	handcuffed	him
+2	Graner	handcuffed	him to the bars of a cell window
+2	he	left him there for	nearly five hours
 2	he	left him	foes dangling off the floor
+3	It	deals with cases of fraud in relation to	the United Nations trade sanctions
+3	It	deals with cases involving	United Nations trade sanctions
+3	It	deals with cases of fraud in relation to	conflict diamonds
+3	It	deals with cases of fraud in relation to	drug smuggling
+3	It	deals with cases involving	CITES
+3	It	deals with cases of fraud in relation to	tax credits
+3	It	deals with cases of fraud in relation to	United Nations trade sanctions
+3	It	deals with cases of fraud in relation to	direct taxes
+3	It	deals with cases of fraud in relation to	CITES
+4	the river	being named for	him
+4	St. Michael	was considered to be	the patron saint of colonial Maryland
+5	The show	was designed to appear as if the viewer was happening upon	short sketches
+5	The show	was designed to appear as if the viewer was happening upon	recurring show elements
+5	The show	was designed to appear as if the viewer was happening upon	spoof adverts
+6	the remaining trackage at Charles City	was abandoned	Several years later
+6	The remaining trackage at Charles City	was abandoned	Several years later
+7	Dr. Jagan himself	helped to raise funds across	the country
+7	Dr. Jagan himself	helped to raise funds to	it
+7	Dr. Jagan himself	was personally involved in	the organization of the strike
+8	the Philippine Autonomy Act of 1916	provided for greater autonomy under	American colonial rule
+8	the municipality	was renamed	Jones
+8	the Philippine Autonomy Act of 1916	provided for greater autonomy for	the Philippines
 9	the laser	cuts	a portion of the prostate
 9	a portion of the prostate	is then cut into	smaller pieces
+10	'' Kormoran ''	was the only Axis ship to conduct attacks in	Australian waters
+10	'' Kormoran ''	was the last Axis surface raider to enter	Australian waters
+10	'' Kormoran ''	was the last Axis surface raider to enter Australian waters until	1943
+11	He	were said to have made	bombs
+11	His friends	were said to have made bombs on	the outskirts of Murray, Utah
+11	He	were said to have made bombs for	fun
+12	A large gravestone	was erected over 100 years after	his death
+12	A large gravestone	was erected in	1866
+13	he	was	re-elected U.S. Senator
+13	he	was tipped as	a Presidential candidate
+13	he	died suddenly after giving a speech in	Chicago
+13	he	was re-elected U.S. Senator In	1879
+13	he	was tipped as a Presidential candidate In	1879
+14	this	lead morning show host Ryan Cameron to lobby for	a frequency change
+14	This	lead morning show host Ryan Cameron to lobby for	a frequency change
+14	this	lead morning show host Ryan Cameron to lobby for	a frequency change for WHTA
+15	each of the programs	described on	the foundation's web site
+15	Each of the programs	uses	a combination of geographic requirements
+15	Each of the programs	uses a combination of geographic requirements to select	grants
+15	Each of the programs	uses	a combination of funding priorities
+15	each of the programs	uses a combination of geographic requirements to select	grants
+16	The Institut Constant de Rebecque	is	a Swiss free-market classical liberal and libertarian think tank
+16	The Institut Constant de Rebecque	is a Swiss free-market classical liberal think tank founded in	January 2005
 17	this adoption over mainline gimp	was its support for	high bit depths
+17	this adoption over mainline gimp	was its support for	film work
+17	The main reason for this adoption over mainline gimp	was its support for	high bit depths
 18	They	have	a large range of possible power supplies
+19	She	began her film career in 1947 in	the film '' A New Oath ''
+19	She	began	her film career in 1947
+19	She	began her film career in	1947
+20	Alpha Serpentis	marks	the snake's heart
+20	Alpha Serpentis	is	a red giant of spectral type K2III
+21	This manual for warriors	describes the necessity for striking in	moments of weakness
+21	This manual for warriors	describes	the necessity for using spies
+21	This manual for warriors	describes	the necessity for understanding an opponent's weaknesses
+22	It	was club policy to promote talent into	the senior team
+23	Vaccinations against other viral diseases	including	the successful rabies vaccination
+23	Vaccinations against other viral diseases	including the successful rabies vaccination by Louis Pasteur in	1886
+24	the Photographic Model	follows	more of a step-by-step process
+24	The Photographic Model	follows more of a step-by-step process in	the development of flashbulb accounts
+24	the Photographic Model	follows more of a step-by-step process in	the development of flashbulb accounts
 24	the variables	demonstrates an interconnected relationship between	the variables
+24	the Comprehensive Model	demonstrates an interconnected relationship between	the variables
+24	The Photographic Model	follows	more of a step-by-step process
+25	300 soldiers of the 1st SS Battalion	were able to defeat several attacks on	the building
+25	300 soldiers of the 1st SS Battalion	were able to reinforce	the hotel
+25	300 soldiers	were able to reinforce	the hotel
+26	His son	was killed in	a feud
+26	His son	was killed in	Grainger County
+26	His son	was	an early aviation pioneer
+27	Arminius	now had	a free hand
 28	The culture of Bhutan	is fully reflected in	the capital city
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	music
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	customs
 28	The culture of Bhutan	is fully reflected in the capital city in respect of	religion
 28	The culture of Bhutan	is fully reflected in the capital city in respect of	literature
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	music
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	customs
+29	'' My Classical Way ''	was released on	21 September 2010
+29	'' My Classical Way ''	was released on	Marc's own label
 30	attempted murder	is	an offence
 30	attempted murder	is	an indictable offence
+30	attempted murder	is an indictable offence under section 1 of	the Criminal Attempts Act 1981
+31	Lozano	continue to reside in	Venezuela
+31	Lugo	continue to reside in	Venezuela
+31	Lugo	were released in	93
+32	objects	do not contribute significantly to	the final image
+32	objects	are often	so far away
+32	they	do not contribute significantly to	the final image
+33	a group of Milwaukee German Americans	included	educationist Peter Engelmann
+33	a group of Milwaukee German Americans	included	hardware wholesaler William Frankfurth
+33	The school	was founded in	1851
+33	The school	was founded in 1851 as	the German-English Academy
+34	They	held	the first Triangle workshop
+34	They	held the first Triangle workshop for thirty painters from	the UK
+34	They	held the first Triangle workshop for thirty sculptors from	the US
+34	They	held the first Triangle workshop for	thirty sculptors
+34	They	held the first Triangle workshop for thirty painters from	the US
+34	They	held the first Triangle workshop for thirty sculptors from	the UK
+35	The town	were hit by	two moderate earthquakes
+35	The town	were hit by two moderate earthquakes within	ten years
+36	She	received her Master Degree from	I.I.T Madras
+36	She	received her Master Degree in	the field of Controls, Guidance and Instrumentation
+36	She	received her Ph.d degree from	the department of Aerospace engineering
+36	She	received	her Master Degree
+37	The theatrical flourishes	went beyond established burlesque routines like	the balloon dance
+37	The theatrical flourishes	went beyond established burlesque routines like	the fan dance
+37	The theatrical flourishes	went beyond	established burlesque routines
+38	The RIAA	lists it as	one of the Best Selling Albums of All Time
+38	The RIAA	lists it as one of the Best Selling Albums of	All Time
+39	The Cathedral	were thoroughly renovated from	2008
+39	the belfry	were thoroughly renovated from	2008
+39	The Cathedral	were thoroughly renovated from	2006
+39	The belfry	were thoroughly renovated from	2008
+40	Peter Bywaters	offers personal English	as a second language tuition
+40	the band	offers personal English on	live-in basis

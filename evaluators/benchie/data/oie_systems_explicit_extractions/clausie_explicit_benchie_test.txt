@@ -1,0 +1,95 @@
+1	Mr. Lane	said	Considered as a whole the filings required under the proposed rules will be at least as effective if not more so for investors following transactions
+1	the filings	be required	under the proposed rules
+1	the filings required under the proposed rules	will be	Considered as a whole effective if not more so
+2	Bert Campaneris once Oakland 's master thief	scoops up	a groundball
+2	Bert Campaneris once Oakland 's master thief	flips	it
+3	traders	said	the market remains dull with investors remaining cautiously on the sidelines
+3	the market	remains	dull
+4	Mr. Sider	pores	over last wills
+4	Mr. Sider	pores	over last testaments
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women 's apparel stores from Foxmoor Specialty Stores Corp.
+5	it	agreed	to buy 229 Foxmoor women 's apparel stores
+6	Few people in the advertising business	have raised	as many hackles
+7	a passenger	can fly	from Chardon Neb.
+8	Hani Zayadi	was	appointed president
+8	Hani Zayadi	was	appointed chief executive officer
+8	Frank Robertson	is retiring	early
+9	the problem	is	that once most poison pills are adopted they survive forever
+9	they	survive	forever
+10	Hungary 's Parliament	voted	to hold a national referendum
+11	those functions	account	for only about a third of the software market
+12	more than half the PC software sold	is	for spreadsheets
+12	more than half the PC software sold	is	for database analysis
+13	It	was	the active share index at 8.3 million shares
+13	6.5 million of which	were traded	8.3 million shares
+14	Japanese office workers	use	PCs
+15	Labor costs	are climbing	at a far more rapid pace in the health care industry
+16	Mitsubishi	has	control of some major projects
+17	Medical cooperatives	are banned	from providing general practitioner services their main source of income
+17	Medical cooperatives	are banned	from carrying out surgery
+17	Medical cooperatives	are banned	from treating cancer patients
+17	Medical cooperatives	are banned	from treating drug addicts
+17	Medical cooperatives	are banned	from treating pregnant women
+18	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated insisting that they involved nuances
+18	reports of tension between the Treasury and Fed	have been	exaggerated insisting that they involved nuances
+18	they	involved	nuances
+19	Mr. Ridley 's decision	fires	the starting pistol for perhaps a costly contest between the world 's auto giants
+20	Mr. Stoll	suspected	the intruder was one of those precocious students
+20	the intruder	was	one
+20	those precocious students	has	fun breaking into computers
+21	Mr. Broberg	claims	he 'd play for free
+21	he	'd play	for free
+22	Prime Minister Lee Kuan Yew	announced	his intention to retire next year though not necessarily to end his influence
+23	Repeat customers	can purchase	luxury items
+24	last year	examined	a California state official Lincoln 's parent American Continental Corp.
+24	Richard Newsom	said	he also saw evidence that crimes had been committed
+24	he	saw	evidence that crimes had been committed
+25	Sen. Mitchell	is	confident he has sufficient votes to block such a measure with procedural actions
+25	he	has	sufficient votes to block such a measure with procedural actions
+26	The Chemical spokeswoman	said	the bank has examined its methodologies
+26	The Chemical spokeswoman	said	the bank has examined its internal controls
+26	the bank	has examined	its methodologies
+26	the bank	has examined	its internal controls
+26	its	has	methodologies
+27	The Lone Star Steel lawsuit	asks	the court to rule that Lone Star Technologies is jointly responsible for a $ 4.5 million Lone Star Steel pension payment in September
+27	The Lone Star Steel lawsuit	asks	the court to rule that the parent company ca n't recover the amount from its subsidiary if the parent company makes the payment
+27	Lone Star Technologies	is	responsible
+27	a $ 4.5 million Lone Star Steel pension payment	was	due
+27	the parent company	ca n't recover	the amount
+27	the parent company	makes	the payment
+28	The National Transportation Safety Board	ruled	that pilots failed to set the plane 's wing flaps properly for takeoff
+28	The National Transportation Safety Board	ruled	that pilots failed to set the plane 's wing slats properly for takeoff and failed to make mandatory preflight checks
+28	The National Transportation Safety Board	ruled	that pilots failed to make mandatory preflight checks
+28	pilots	failed	to set the plane 's wing flaps properly for takeoff
+28	pilots	failed	to set the plane 's wing slats properly for takeoff
+28	pilots	failed	to make mandatory preflight checks
+28	mandatory preflight checks	would have detected	the error
+29	Treasury bills	rose	month equivalent yield of 8.04 %
+30	The effect	is	that lawsuits could proceed because of the one year extension
+30	lawsuits	might have been barred	because they were filed too late
+30	they	were filed	too late
+30	lawsuits	could proceed	because of the one year extension
+31	The executives	had profited	handsomely
+32	The market 's tempo	was helped	by the dollar 's resiliency
+32	he	said	The market 's tempo was helped by the dollar 's resiliency
+33	The office	may be	able to advise foreign clients
+33	The office	may be	able to advise multinational clients
+35	New York City	announced	a 10 point policy patterned on the federal bill of rights for taxpayers
+36	USG Corp.	agreed	to sell its headquarters building
+36	USG Corp.	will lease	the 19 story facility until it moves to a new quarters in 1992
+36	it	moves	to a new quarters in 1992
+37	Business across the country	is spending	more time addressing this issue
+37	Sen. Edward Kennedy	says	Business across the country is spending more time addressing this issue
+37	Sen. Edward Kennedy	is	D. Mass
+38	I	wo n't be throwing	90 mph
+38	I	will throw	80
+38	he	says	I wo n't be throwing 90 mph
+38	he	says	I will throw 80 plus
+39	he	said	If working capital financing is not provided the RTC may have to slow S&L sales
+39	he	said	If working capital financing is not provided the RTC may have to dump acquired assets through fire sales
+39	the RTC	may have	to slow S&L sales
+39	the RTC	may have	to dump acquired assets
+40	Nobody	told	us
+40	nobody	called	us
+40	an official close to the case	says	Nobody told us
+40	an official close to the case	asked	not to be named

@@ -1,21 +1,219 @@
+1	He	served as	the first Prime Minister of Australia
+1	He	became a founding justice of	the High Court of Australia
+1	He	became a founding justice of the High Court of	Australie
+1	He	became a founding justice of the High Court of	Australia
+1	He	became	a founding justice
+1	He	served as the first Prime Minister of	Australia
+2	Graner	handcuffed him to	the bars of a cell window
+2	Graner	left him there for	nearly five hours
+2	Graner	handcuffed	him
+2	Graner	handcuffed him to the bars of	a cell window
+2	Graner	left	him
+2	feet	dangling off the floor for	nearly five hours
 2	feet	dangling off	the floor
+3	It	deals with cases of fraud in relation to	money laundering
+3	It	deals with cases involving	United Nations trade sanctions
+3	It	deals with cases of fraud in relation to	drug smuggling
+3	It	deals with cases involving	CITES
+3	It	deals with cases of fraud in relation to	tax credits
+3	cases	involving	conflict diamonds
+3	It	deals with cases of fraud in relation to	indirect taxes
+3	It	deals with cases of fraud in relation to	direct taxes
+3	cases	involving	United Nations trade sanctions
+3	cases	involving	CITES
+3	It	deals with cases involving	conflict diamonds
+4	St. Michael	was considered to be the patron saint Because of	this association
+4	the river	being named for	him
+4	St. Michael	was honored by	the river being named for him
+4	St. Michael	was considered to be	the patron saint of colonial Maryland
+4	St. Michael	was considered to be the patron saint of colonial Maryland Because of	this association
+5	The show	was designed to appear as if the viewer was happening upon	short sketches
+5	The show	was designed to appear as if the viewer was happening upon	recurring show elements
+5	The viewer	was happening upon	recurring show elements
+5	the viewer	was channel surfing through	a multi-channel wasteland
+5	The show	was designed to appear as if the viewer was happening upon	spoof adverts
+5	The viewer	was happening upon	spoof adverts
+5	The viewer	was happening upon	short sketches
+6	the remaining trackage at Charles City	was abandoned	Several years later
+6	the remaining trackage at Charles City	was abandoned	Quelques années later
+7	Dr. Jagan himself	helped to raise funds across	the country
+7	Dr. Jagan himself	helped to raise	funds to it
+7	Dr. Jagan himself	was personally involved in	the organization of the strike
+7	Dr. Jagan himself	was personally involved in the organization of	the strike
+8	the Philippine Autonomy Act of 1916	provided for greater autonomy for	the Philippines
+8	the municipality	was renamed Jones in honor of	American congressman William Jones
+8	the municipality	was renamed Jones In	1918
+8	the Philippine Autonomy Act of 1916	provided for greater autonomy for the Philippines under	American colonial rule
+8	American congressman William Jones	authored	the Philippine Autonomy Act of 1916
+8	the Philippine Autonomy Act of 1916	provided for	greater autonomy
+9	a portion of the prostate	is flushed with	irrigation fluid
+9	the laser	cuts a portion of prostate Instead of ablating	the tissue
 9	the laser	cuts	a portion of the prostate
 9	a portion of the prostate	is cut into	smaller pieces
-17	this adoption	over	mainline gimp
-17	this adoption	was over	mainline gimp
+9	the laser	ablating	the tissue
+9	a portion of prostate	is flushed with	irrigation fluid
+10	 Kormoran '	was the only Axis ship to conduct	attacks in Australian waters
+10	 Kormoran '	to conduct attacks in Australian waters during	1943
+10	 Kormoran '	to conduct attacks in Australian waters during	1941
+10	 Kormoran '	conduct attacks in	Australian waters during 1941
+10	 Kormoran '	was	the only Axis ship
+10	 Kormoran '	was the last Axis surface raider to enter Australian waters until	1943
+11	He	were said to have made bombs on	the outskirts of Murray, Utah
+11	He	were said to have made	bombs
+11	his friends	were said to have made bombs on the outskirts of	Murray, Utah
+11	his friends	were said to have made bombs on	the outskirts of Murray, Utah
+11	his friends	were said to have made bombs for	fun
+11	his friends	were said to have made	bombs
+12	A large gravestone	was erected in	1886
+12	A large gravestone	was erected over 100 years after	his death
+12	A large gravestone	was erected in	1866
+13	he	died suddenly after	giving a speech in Chicago
+13	he	giving	a speech
+13	he	was re-elected U.S. Senator In	1879
+13	he	giving a speech in	Chicago
+13	he	was tipped as	a Presidential candidate
+13	he	was re-elected	U.S. Senator
+13	he	was tipped as a Presidential candidate In	1879
+14	This	led morning show host Ryan Cameron to lobby for	a frequency change for WHTA
+14	morning show host Ryan Cameron	to lobby for a frequency change for	WHTA
+14	morning show host Ryan Cameron	to lobby for a frequency change for WHTA by putting together	a petition
+14	morning show host Ryan Cameron	to lobby for a frequency change for WHTA at the risk of losing his job under	Radio One's management
+14	morning show host Ryan Cameron	to lobby for	a frequency change for WHTA
+14	morning show host Ryan Cameron	lobby by putting together	a petition
+14	morning show host Ryan Cameron	lobby by putting together a petition from	listeners
+14	morning show host Ryan Cameron	to lobby for a frequency change for WHTA at the risk of losing	his job
+15	Each of the programs	uses a combination of	funding priorities to select grants
+15	Each of the programs	uses a combination of geographic requirements to select	grants
+15	Each of the programs	uses a combination of	geographic requirements to select grants
+15	Each of the programs	uses a combination of funding priorities to select	grants
+15	grants	described on	the foundation's web site
+16	The Institut Constant de Rebecque	is	a Swiss free-market classical liberal libertarian think tank
+16	The Institut Constant de Rebecque	is named after	writer Benjamin Constant
+16	The Institut Constant de Rebecque	is founded in January 2005 in	Lausanne
+16	The Institut Constant de Rebecque	is founded in Lausanne in	January 2005
+17	high bit depths	can be required for	film work
+17	The main reason for this adoption over mainline gimp	was	its support for high bit depths
 17	this adoption over mainline gimp	support for	high bit depths
+17	this adoption	was over	mainline gimp
+17	this adoption	over	mainline gimp
 18	They	have	a large range
 18	possible power supplies	can be	even higher
+18	possible power supplies	can be	1000V
+18	possible power supplies	can be	380V
 18	They	have	a large range of possible power supplies
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	dance
+19	She	began in 1947	her film career
+19	She	began in 1947 in	the film A New Oath
+19	She	began her film career in	1947
+19	She	began her film career in 1947 in	the film A New Oath
+20	Alpha Serpentis	marks	the snake's heart
+20	Alpha Serpentis	is located approximately away which marks	the snake's heart
+20	The brightest star in Serpens	is located	approximately away
+20	The brightest star in Serpens	is	a red giant of spectral type K2III
+21	This manual for warriors	describes the necessity for understanding	an opponent's weaknesses
+21	This manual for warriors	describes the necessity for using	spies
+21	This manual for warriors	describes the necessity for striking in	moments of weakness
+21	This manual for warriors	describs the necessity for understanding	an opponent's weaknesses
+22	It	was	club policy to promote talent into the senior team
+22	It	was club policy to promote	talent
+22	club policy	was adopted by	Bill Dimovski
+22	club policy	to promote talent into	the senior team
+22	It	was club policy to promote talent into	the senior team
+23	Vaccinations against other viral diseases	including	the successful rabies vaccination
+23	Vaccinations against other viral diseases	including the successful rabies vaccination by	Louis Pasteur
+23	Vaccinations against other viral diseases	including the successful rabies vaccination by Louis Pasteur in	1886
+24	the Photographic Model	follows	more of a step-by-step process
+24	One major difference	is that the Photographic Model follows	more of a step-by-step process
+24	the Photographic Model	follows more of a step-by-step process in the development of	flashbulb accounts
+24	the Comprehensive Model	demonstrates	an interconnected relationship
+24	the Photographic Model	follows more of a step-by-step process in	the development of flashbulb accounts
+24	the Comprehensive Model	demonstrates an interconnected relationship between	the variables
+25	, 300 soldiers of the 1st SS Battalion	were able To reinforce That night	the hotel
+25	, 300 soldiers of the 1st SS Battalion	were able to defeat several attacks That night on	the building
+25	, 300 soldiers of the 1st SS Battalion	were able to defeat	several attacks
+25	, 300 soldiers of the 1st SS Battalion	were able to reinforce That night	the hotel
+25	, 300 soldiers of the 1st SS Battalion	were able to defeat several attacks on the building	That night
+25	, 300 soldiers of the 1st SS Battalion	were able to reinforce the hotel	That night
+26	an early aviation pioneer	began building a human-powered flying machine in	the 1890s
+26	His son	was	killed in a feud in Grainger County
+26	John Crozier, Jr.	began building in the 1890s	a human-powered flying machine
+26	He	began building a human-powered flying machine in	the 1890s
+26	His son	was	an early aviation pioneer
+26	His son	was killed in	Grainger County
+26	His son	was killed before he could complete	it
+27	Arminius	now had	a free hand
+27	Arminius	had now	a free hand
 28	The culture of Bhutan	is fully reflected in	the capital city
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	music
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	media
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	the monastic practices of the monasteries
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	customs
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	national dress code
 28	The culture of Bhutan	is fully reflected in the capital city in respect of	religion
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	dance
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	national dress code
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	the monastic practices of the monasteries
 28	The culture of Bhutan	is fully reflected in the capital city in respect of	literature
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	media
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	music
+28	The culture of Bhutan	is fully reflected in the capital city in respect of	customs
+29	 My Classical Way '	was released on	21 September 2010
+29	 My Classical Way '	was released on	Marc's own label
+29	 My Classical Way''	was released on	21 September 2010
+30	attempted murder	is an indictable offence as	an attempt
+30	attempted murder	is an indictable offence as per	section 1 of the Criminal Attempts Act 1981
 30	attempted murder	carries a maximum penalty of	life imprisonment
 30	attempted murder	is	an indictable offence
-30	attempted murder	is an indictable offence as	an attempt
+30	attempted murder	is an indictable offence under	section 1 of the Criminal Attempts Act 1981
+30	attempted murder	is an indictable offence In	Wales
+30	attempted murder	is an indictable offence under section 1 of	the Criminal Attempts Act 1981
+30	attempted murder	is an indictable offence In	England
+31	Lozano	were released in	1993
+31	Lozano	continue to reside in	Venezuela
+31	Lugo	continue to reside in	Venezuela
+31	Lugo	were released in	1993
+32	objects	are	Often so far away
+32	objects	are	Frequently so far away
+32	they	do not contribute significantly to	the final image
+33	a group of Milwaukee German Americans	included	educationist Peter Engelmann
+33	The school	was founded in	1881
+33	The school	was founded in 1851 by	a group of Milwaukee German Americans
+33	The school	was founded in 1851 as	the German-English Academy
+33	a group of Milwaukee German Americans	included	hardware wholesaler William Frankfurth
+33	The school	was founded in	1851
+34	They	held	the first Triangle workshop
+34	They	held the first Triangle workshop for thirty painters from	the UK
+34	They	held the first Triangle workshop for thirty sculptors from	Canada
+34	They	held the first Triangle workshop in	1982
+34	They	held the first Triangle workshop for thirty sculptors from	the US
+34	They	held the first Triangle workshop for thirty painters from	Canada
+34	They	held the first Triangle workshop at	Pine Plains, New York
+34	They	held the first Triangle workshop for thirty painters from	the US
+34	They	held the first Triangle workshop for thirty sculptors from	the UK
+34	They	held the first Triangle workshop at	New York
+34	They	held the first Triangle workshop for	thirty painters
+35	surrounding villages	were hit by	two moderate earthquakes
+35	surrounding villages	were hit by two moderate earthquakes within	ten years
+35	The town	were hit by two moderate earthquakes within	ten years
+35	The town	were hit by	two moderate earthquakes
+36	She	received	her Ph.d degree
+36	She	received	her Master Degree
+36	She	received her Master Degree in the field of	Controls, Guidance and Instrumentation
+36	She	received her Master Degree from	I.I.T Madras
+36	She	received her Ph.d degree from the department of	Aerospace engineering
+37	The theatrical flourishes	used in	her stage show
+37	The theatrical flourishes she used in her stage show	went beyond established burlesque routines like	the fan dance
+37	The unique gimmicks she used in her stage show	went beyond established burlesque routines like	the fan dance
+37	The unique gimmicks she used in her stage show	went beyond	established burlesque routines
+37	The unique gimmicks she used in her stage show	went beyond established burlesque routines like	the balloon dance
+37	The unique gimmicks	used in	her stage show
+37	The theatrical flourishes she used in her stage show	went beyond	established burlesque routines
+37	she	used	The unique gimmicks
+37	she	used	The theatrical flourishes
+38	The RIAA	lists it as one of	the Best Selling Albums of All Time
+38	The RIAA	lists It as one of	the Best Selling Albums of All Time
+38	The RIAA	lists it as one of the Best Selling Albums of	All Time
+39	the belfry	were thoroughly renovated from	2006
+39	The Cathedral	were thoroughly renovated from 2006 to	2008
+39	the belfry	were thoroughly renovated from 2006 to	2008
+39	The Cathedral	were thoroughly renovated from	2006
+40	Peter Bywaters	offers personal English on	a live-in basis at his home in Brighton
+40	Peter Bywaters	offers personal English as	a second language tuition
+40	Peter Bywaters	offers	personal English
+40	Peter Bywaters	offers personal English on	a live-in basis
+40	Peter Bywaters	offers personal English at	his home in Brighton
+40	Peter Bywaters	offers personal English at his home in	Brighton
