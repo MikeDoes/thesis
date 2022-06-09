@@ -22,8 +22,8 @@
       var metric
       function get_data() {
         const Http = new XMLHttpRequest();
-        metric='Recall'
-        const url = "model_results/t_5_grid_" + metric.toLowerCase() +".json";
+        metric='F1'
+        const url = "model_results/t_5_grid_2_" + metric.toLowerCase() +".json";
         Http.open("GET", url);
         Http.send();
 
@@ -48,7 +48,7 @@
         ];
 
         var layout = {
-          title: "T5-Base: fine-tuned on ReOie2016 and tested on BenchIE " + metric+" scores",
+          title: "T5-Base: fine-tuned on BenchIE and tested on BenchIE " + metric+" scores",
           autosize: false,
           width: 800,
           height: 800,

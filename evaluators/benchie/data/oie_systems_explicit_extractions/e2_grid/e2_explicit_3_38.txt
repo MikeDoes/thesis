@@ -1,256 +1,207 @@
-1	He	became	a founding justice
-1	He	served as	the first Prime Minister of Australia
-1	He	became a founding justice of	the High Court of Australia
-1	He	served as the first Prime Minister of	Australia
-2	Graner	handcuffed him to	the bars of a cell window
-2	Graner	left him there for	nearly five hours
-2	Graner	handcuffed	him
-2	Graner	handcuffed him to the bars of	a cell window
-2	Graner	left	him
-2	feet	dangling off the floor for	nearly five hours
-2	feet	dangling off	the floor
-3	It	deals with cases of fraud in relation to	money laundering
-3	It	deals with cases involving	United Nations trade sanctions
-3	It	deals with	cases of fraud
-3	It	deals with cases of fraud in relation to	drug smuggling
-3	It	deals with cases involving	CITES
-3	It	deals with	cases
-3	It	deals with cases of fraud in relation to	tax credits
-3	cases	involving	conflict diamonds
-3	It	deals with cases of fraud in relation to	direct taxes
-3	It	deals with cases of	fraud
-3	cases	involving	United Nations trade sanctions
-3	cases	involving	CITES
-3	It	deals with cases involving	conflict diamonds
-4	St. Michael	was considered to be the patron saint by	this association
-4	the river	being named for	him
-4	St. Michael	was honored by	the river being named for him
-4	St. Michael	was considered to be the patron saint	of colonial Maryland
-4	St. Michael	was considered to be	the patron saint of colonial Maryland
-4	St. Michael	was considered to be the patron saint of colonial Maryland Because of	this association
-5	The show	was designed to appear as if the viewer was channel surfing through	a multi-channel wasteland
-5	The show	was designed to appear as if the viewer was happening upon	short sketches
-5	The show	was designed to appear as if the viewer was happening upon	recurring show elements
-5	The viewer	was happening upon	recurring show elements
-5	The show	was designed to appear as though the viewer was channel surfing through	a multi-channel wasteland
-5	the viewer	was channel surfing through	a multi-channel wasteland
-5	The show	was designed to appear as if the viewer was happening upon	spoof adverts
-5	The viewer	was happening upon	spoof adverts
-5	The viewer	was happening upon	short sketches
-6	the remaining trackage at Charles City	was abandoned	Several years later
-6	The remaining trackage at Charles City	was abandoned	Several years later
-7	Dr. Jagan himself	was personally involved in the organization of	the strike
-7	Dr. Jagan himself	helped to raise money to	it
-7	Dr. Jagan himself	helped to raise funds across	the country
-7	Dr. Jagan himself	helped to raise funds to	it
-7	Dr. Jagan himself	helped to raise	funds to it
-7	Dr. Jagan himself	became personally involved in the organization of	the strike
-7	Dr. Jagan himself	was personally involved in	the organization of the strike
-8	the Philippine Autonomy Act of 1916	provided for greater autonomy for	the Philippines
-8	the municipality	was renamed Jones in honor of	American congressman William Jones
-8	the municipality	was renamed Jones In	1918
-8	the municipality	was renamed	Jones
-8	the Philippine Autonomy Act of 1916	provided for greater autonomy for the Philippines under	American colonial rule
-8	American congressman William Jones	authored	the Philippine Autonomy Act of 1916
-8	the municipality	was renamed Jones In	1988
-8	the Philippine Autonomy Act of 1916	provided for	greater autonomy
-8	the municipality	was renamed Jones In	1981
-9	a portion of the prostate	is flushed with	irrigation fluid
-9	the laser	cuts a portion of prostate Instead of ablating	the tissue
-9	a portion of the prostate	is then cut into	smaller pieces
-9	the laser	cuts	a portion of the prostate
-9	a portion of the prostate	is cut into	smaller pieces
-9	the laser	ablating	the tissue
-9	a portion of prostate	is flushed with	irrigation fluid
-10	 Kormoran''	conduct attacks in	Australian waters during 1941
-10	 Kormoran''	was	the only Axis ship
-10	 Kormoran''	was the last Axis surface raider to enter	Australian waters
-10	 Kormoran''	to conduct attacks in Australian waters during	1941
-10	 Kormoran''	was the only Axis ship to conduct	attacks in Australian waters
-10	 Kormoran''	to conduct attacks in Australian waters during	1939
-10	 Kormoran''	was the last Axis surface raider to enter Australian waters until	1943
-10	 Kormoran''	was	the last Axis surface raider
-11	He	were said to have made bombs on	the outskirts of Murray, Utah
-11	He	were said to have made	bombs
-11	his friends	were said to have made bombs on	the outskirts of Murray, Utah
-11	his friends	were said to have made bombs on the outskirts of	Murray, Utah
-11	his friends	were said to have made bombs for	fun
-11	his friends	were said to have made	bombs
-11	He	were said to have made bombs on the outskirts of	Murray, Utah
-11	He	were said to have made bombs on the outskirts of Murray for	fun
-12	A large gravestone	was erected in	1886
-12	A large gravestone	was erected over 100 years after	his death
-12	A large gravestone	was erected in	1866
-12	A large gravestone	was erected in	1876
-13	he	died suddenly after	giving a speech in Chicago
-13	he	giving	a speech
-13	he	was re-elected U.S. Senator In	1879
-13	he	giving a speech in	Chicago
-13	he	was re-elected U.S. Senator In	1889
-13	he	was tipped as	a Presidential candidate
-13	he	was tipped as a Presidential candidate In	1889
-13	he	was re-elected	U.S. Senator
-13	he	was tipped as a Presidential candidate In	1879
-14	This	led morning show host Ryan Cameron to lobby for	a frequency change for WHTA
-14	morning show host Ryan Cameron	to lobby by putting together a petition from listeners at the risk of losing	his job
-14	morning show host Ryan Cameron	risk losing	his job under Radio One's management
-14	morning show host Ryan Cameron	lobby by putting together a petition from listeners at the risk of losing his job under	Radio One's management
-14	morning show host Ryan Cameron	to lobby by putting together a petition from	listeners
-14	morning show host Ryan Cameron	to lobby for a frequency change for WHTA at the risk of losing his job under	Radio One's management
-14	morning show host Ryan Cameron	lobby by putting together a petition from listeners at the risk of losing	his job
-14	morning show host Ryan Cameron	to lobby for	a frequency change for WHTA
-14	morning show host Ryan Cameron	lobby by putting together	a petition
-14	morning show host Ryan Cameron	lobby by putting together a petition from	listeners
-15	Each of the programs	uses a combination of	funding priorities to select grants
-15	Each of the programs	uses a combination of geographic requirements to select	grants
-15	Each of the programs	uses a combination of geographical requirements to select	grants
-15	Each of the programs	uses a combination of	geographic requirements to select grants
-15	Each of the programs	uses a combination of funding priorities to select	grants
-15	grants	described on	the foundation's web site
-15	Each of the programs	uses a combination of	funding priorities
-16	The Institut Constant de Rebecque	is founded in Lausanne in	January 2005
-16	The Institut Constant de Rebecque	is	a Swiss free-market classical liberal libertarian think tank
-16	The Institut Constant de Rebecque	is founded in January 2005 in	Lausanne
-16	The Institut Constant de Rebecque	is named after	writer Benjamin Constant
-17	high bit depths	can be required for	film work
-17	its support for high bit depths	can be required for	film work
-17	The main reason for this adoption over mainline gimp	was	its support for high bit depths
-17	this adoption over mainline gimp	support for	high bit depths
-17	this adoption	was over	mainline gimp
-18	possible power supplies	can be	1 000V
-18	possible power supplies	can be	even higher
-18	possible power supplies	can be	1000V
-18	possible power supplies	can be	380V
-18	possible power supplies	can be	1,000V
-18	They	have	a large range of possible power supplies
-19	She	began her film career in 1946 in	the film A New Oath
-19	She	began her film career in	1947
-19	She	began in 1947	her film career
-19	She	began her film career in 1948 in	the film A New Oath
-19	She	began her film career in 1947 in	the film A New Oath
-20	The brightest star in Serpens	marks	the snake's heart
-20	The brightest star in Serpens	is located	approximately away
-20	The brightest star in Serpens	is	a red giant of spectral type K2III
-20	The brightest star in Serpens	is a red giant of	spectral type K2III
-20	Alpha Serpentis	marks	the snake's heart
-21	This manual for warriors	describes the necessity for understanding	an opponent's weaknesses
-21	This manual for warriors	desscribes the necessity for using	spies
-21	This manual for warriors	describes the necessity for striking in	moments of weakness
-21	This manual for warriors	describs the necessity for understanding	an opponent's weaknesses
-21	This manual for warriors	describes the necessity for using	spies
-22	It	was club policy to promote talent into	the senior team
-22	It	was	club policy to promote talent into the senior team
-22	It	was club policy to promote	talent
-22	club policy	was adopted by	Bill Dimovski
-22	club policy	to promote talent into	the senior team
-22	it	was club policy to promote talent into	the senior team
-23	Vaccinations against other viral diseases	including the successful rabies vaccination in 1886 by	Louis Pasteur
-23	Vaccinations against other viral diseases	including the successful rabies vaccination by Louis Pasteur in	1886
-23	Vaccinations against other viral diseases	including	the successful rabies vaccination
-23	Vaccinations against other viral diseases	including the successful rabies vaccination by	Louis Pasteur
-23	Vaccinations against other viral diseases	including the successful rabies vaccination in 1886 by Louis Pasteur in	1886
-24	the Photographic Model	follows	more of a step-by-step process
-24	One major difference	is that the Photographic Model follows	more of a step-by-step process
-24	the Photographic Model	follows more of a step-by-step process in the development of	flashbulb accounts
-24	the Comprehensive Model	demonstrates	an interconnected relationship
-24	the Photographic Model	follows more of a step-by-step process in	the development of flashbulb accounts
-24	the Comprehensive Model	demonstrates an interconnected relationship between	the variable
-24	the Photographic Model	follows less of a step-by-step process in the development of	flashbulb accounts
-24	the Comprehensive Model	demonstrates an interconnected relationship between	the variables
-25	, 300 soldiers of the 1st SS Battalion	were able To reinforce That night	the hotel
-25	, 300 soldiers of the 1st SS Battalion	were able to defeat several attacks That night on	the building
-25	, 300 soldiers of the 1st SS Battalion	were able to defeat	several attacks
-25	, 300 soldiers of the 1st SS Battalion	were able to reinforce That night	the hotel
-25	, 300 soldiers of the 1st SS Battalion	were able to defeat several attacks on the building	That night
-25	, 300 soldiers of the 1st SS Battalion	were able to reinforce the hotel	That night
-26	an early aviation pioneer	began building a human-powered flying machine in	the 1890s
-26	His son	was	killed in a feud in Grainger County
-26	His son	was killed before he could finish	it
-26	John Crozier, Jr.	began building in the 1890s	a human-powered flying machine
-26	John Crozier, Jr.	began in the 1890s building	a human-powered flying machine
-26	His son	was	an early aviation pioneer
-26	His son	was killed in	Grainger County
-26	His son	was killed before he could complete	it
-27	Arminius	had	a free hand
-27	Arminius	now had	a free hand
-27	Arminius	had now	a free hand
-28	The culture of Bhutan	is fully reflected in	the capital city
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	religion
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	Dance
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	media
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	dance
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	national dress code
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	literature
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	the monastic practices of the monasteries
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	music
-28	The culture of Bhutan	is fully reflected in the capital city in respect of	customs
-29	 My Classical Way''	was released on	21 September 2010
-30	attempted murder	is an indictable offence as	an attempt
-30	attempted murder	carries a maximum penalty of	life imprisonment
-30	attempted murder	is	an indictable offence
-30	attempted murder	is an indictable offence under	section 1 of the Criminal Attempts Act 1981
-30	attempted murder	is an indictable offence In	Wales
-30	attempted murder	is an indictable offence under section 1 of	the Criminal Attempts Act 1981
-30	attempted murder	is an indictable offence In	England
-31	Lugo	continue to reside in	Venezuela
-31	Lugo	were released in	1983
-31	Lugo	were released in	1993
-31	Lozano	continue to reside in	Venezuela
-31	Lozano	were released in	1993
-32	objects	are	Often so far away
-32	objects	are	Frequently so far away
-32	they	do not contribute significantly to	the final image
-32	objects	are	Usually so far away
-33	a group of Milwaukee German Americans	included	educationist Peter Engelmann
-33	The school	was founded in 1851 as	the German-English Academy
-33	The school	was founded in 1851 by	a group of Milwaukee German Americans
-33	a group of Milwaukee German Americans	included	hardware wholesaler William Frankfurth
-33	The school	was founded by	a group of Milwaukee German Americans
-33	The school	was founded in	1851
-34	They	held	the first Triangle workshop
-34	They	held the first Triangle workshop for thirty painters from	the UK
-34	They	held the first Triangle workshop for thirty sculptors from	Canada
-34	They	held the first Triangle workshop in	1982
-34	They	held the first Triangle workshop for thirty sculptors from	the US
-34	They	held the first Triangle workshop for thirty painters from	Canada
-34	They	held the first Triangle workshop for	thirty sculptors
-34	They	held the first Triangle workshop for thirty painters from	the US
-34	They	held the first Triangle workshop for thirty sculptors from	the UK
-34	They	held the first Triangle workshop at	New York
-34	They	held the first Triangle workshop for	thirty painters
-35	surrounding villages	were hit by	two moderate earthquakes
-35	surrounding villages	were hit by two moderate earthquakes within	ten years
-35	The town	were hit by two moderate earthquakes within	ten years
-35	The town	were hit by	two moderate earthquakes
-36	She	received	her Ph.d degree
-36	She	received	her Master Degree
-36	She	received her Master Degree in the field of	Controls, Guidance and Instrumentation
-36	She	graduated from the department of	Aerospace engineering
-36	She	received her Master Degree from	I.I.T Madras
-36	She	received her PhD degree from the department of	Aerospace engineering
-36	She	received her Ph.d degree from the department of	Aerospace engineering
-37	The theatrical flourishes she used in her stage show	went beyond established burlesque routines like	the fan dance
-37	she	used The theatrical flourishes in	her stage show
-37	she	used The unique gimmicks in	her stage show
-37	theatrical flourishes	used in	her stage show
-37	The unique gimmicks she used in her stage show	went beyond established burlesque routines like	the fan dance
-37	The unique gimmicks she used in her stage show	went beyond established burlesque routines like	the balloon dance
-37	The unique gimmicks she used in her stage show	went beyond	established burlesque routines
-37	The theatrical flourishes she used in her stage show	went beyond	established burlesque routines
-37	she	used	The unique gimmicks
-37	she	used	The theatrical flourishes
-37	The theatrical flourishes she used in her stage show	went beyond established burlesque routines like	the balloon dance
-38	The RIAA	lists It as one of the Best Selling Albums of	All Time
-38	The RIAA	lists it as one of	the Best Selling Albums of All Time
-38	The RIAA	lists It as one of	the Best Selling Albums of All Time
-38	The RIAA	lists it as one of the Best Selling Albums of	All Time
-39	the belfry	were thoroughly renovated from	2006
-39	The Cathedral	were thoroughly renovated from 2006 to	2008
-39	the belfry	were thoroughly renovated from 2006 to	2008
-39	The Cathedral	were thoroughly renovated from	2006
-40	Peter Bywaters	offers personal English on	a live-in basis at his home in Brighton
-40	Peter Bywaters	offers personal English as	a second language tuition
-40	Peter Bywaters	offers	personal English
-40	Peter Bywaters	offers personal English at	his home in Brighton
-40	Peter Bywaters	offers personal English at his home in	Brighton
-40	Peter Bywaters	offers personal English at his home in	Bedford
+1	Mr. Lane	said	the filings required under the proposed rules '' will be at least as effective for investors following transactions ''
+1	the filings required under the proposed rules	will be at least as effective for investors following	transactions
+1	Mr. Lane	said	the filings required under the proposed rules will be at least as effective for investors following transactions
+1	the filings required under	the proposed rules '' will be at least as effective for	investors following transactions
+2	Bert Campaneris	crouched at	shortstop
+2	Bert Campaneris	effortlessly scoops up	a groundball
+2	Bert Campaneris	accelerately scoops up	a groundball
+2	Bert Campaneris	accelerately flips	it
+2	Bert Campaneris	flips it to	second
+2	Bert Campaneris	flips it to	second base
+3	investors	remain cautious on	the sidelines
+3	the market	is dull Despite	the modest gains
+3	investors	remaining cautious on	the sidelines
+3	traders	said	the market remains dull
+3	traders	said	the market remains dull despite the modest gains
+4	Mr. Sider	porneşte over	last wills
+4	Mr. Sider	pores over	last testaments
+4	Mr. Sider	pores over last wills	mortgages
+4	Mr. Sider	pores over	last wills
+5	Edward Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp.
+5	Edward Brothers Stores Inc.	a unit of Dylex Ltd. of	Toronto
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores from	Foxmoor Specialty Stores Corp.
+5	Edison Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women's apparel stores from Foxmoor Specialty Stores Corp.
+5	Edward Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores from	Foxmoor Specialty Stores Corp.
+5	Edward Brothers Stores Inc.	said	it agreed to buy 229 Foxmoor women's apparel stores
+6	Four people in the advertising business	have raised as many hackles as	Alvin A. Achenbaum
+6	Five people in the advertising business	have raised	as many hackles
+6	Five people in the advertising business	have raised	so many hackles
+6	Four people in the advertising business	have raised	so many hackles
+6	Five people in the advertising business	have raised as many hackles as	Alvin Achenbaum
+6	Five people in the advertising business	have raised as many hackles as	Alvin A. Achenbaum
+7	a passenger	can fly from	Chardon, Neb.
+7	the company	quotes	prices quoted by the company
+7	a passenger	can fly from Chardon, Neb. to	Denver
+7	the company	quotes	prices
+7	a passenger	can fly from Chardon, Neb. to Denver for	as little as $ 89
+7	a passenger	can fly to Denver for	$ 109
+8	Hani Zayadi	was succeeded	Frank Robertson
+8	Hani Zayadi	was appointed	president
+8	Hani Zayadi	was appointed chief executive officer of	this financial troubled department store chain
+8	Hani Zayadi	is retiring	early
+8	Hani Zayadi	was appointed president of	this financially troubled department store chain
+8	Hani Zayadi	was appointed president of this financially troubled department store chain effective	Nov. 15
+8	Hani Zayadi	was appointed chief executive officer of	this financially troubled department store chain
+9	most poison pills	are adopted once	once
+9	the problem	is that once most poison pills are adopted	they survive forever
+10	an election	to fill the new post of	president
+10	Hungary's Parliament	voted to hold	a national referendum
+10	Hungary's Parliament	voted to hold a national referendum on an election to fill	the new post of president
+10	an election	to fill	the new post of president
+10	Hungary's Parliament	voted to hold a national referendum on	an election
+11	these functions	account for only about a third of	the software market
+11	these functions	represent only about a third of	the software market
+11	these functions	account for	only about a third of the software market
+11	that functions	account for	only about a third of the software market
+11	that functions	account for only about a third of	the software market
+11	these functions	represent only about a third of the software market In	Japan
+12	more than half of the PC software sold	is for	database analysis
+12	more than half of the PC software sold In the U.S.	is either for spreadsheets or for	database analysis
+12	more than half of the PC software sold	is for spreadsheets In	the U.S.
+13	It	was the most active of the 100 - share index at	6.5 million shares
+13	It	was	the most active 100 - share index
+13	6.5 million of which	were traded by	midday
+13	It	was the most active of the 100 - share index at	8.3 million shares
+13	It	was	the most active of the 100 - share index
+13	It	was the most active of	the 100 - share index
+14	Japanese office workers	use PCs at one-third that of	the Americans
+14	Japanese office workers	use PCs at	half the rate
+14	Japanese office workers	use PCs at one - third that of	the Americans
+14	Japanese office workers	use PCs at half the rate of	their European counterparts
+14	Japanese office workers	use	PCs
+14	Japanese office workers	use PCs at	half the rate of their European counterparts
+15	Labor costs	are climbing at a far more rapid pace in	the health care industry
+15	Labour costs	are climbing at	a far more rapid pace
+15	Labor costs	are climbing at a far more rapid pace in	other industries
+15	Labour costs	are climbing at a far more rapid pace in	the health care industry
+15	Labor costs	are climbing at	a far more rapid pace
+15	Labour costs	are climbing at a far more rapid pace in	other industries
+16	Mitsubishi	has control of	some major projects
+16	Mobilius	has control of	some major projects
+16	Mazda	has control of	some major projects
+16	Motorola	has control of	some major projects
+17	Medical cooperatives	are banned from providing general-practice services in	the U.S.S.R.
+17	Medical cooperatives	are banned from carrying out	cancer patients
+17	Medical cooperatives	are banned from providing	general practitioner services
+17	Medical cooperatives	are banned from providing general practitioner services in	the U.S.S.R.
+17	Medical cooperatives	are banned from treating	pregnant women
+17	Medical cooperatives	are banned from carrying out	operations
+17	Medical cooperatives	are banned from providing	general-practice services
+17	Medical cooperatives	are banned from treating	drug addicts
+17	Medical cooperatives	are banned from providing	general - practitioner services
+17	Medical cooperatives	are banned from providing general - practitioner services in	the U.S.S.R.
+17	Medical cooperatives	are banned from treating	cancer patients
+18	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated
+18	they	implied	'' nuances
+18	Mr. Mulford	said	that they involved '' nuances
+18	reports of tension	have been exaggerated	insistence
+18	they	involving	'' nuances
+19	perhaps a costly contest	between	the world's auto giants
+19	Mr. Ridley's decision	fires	the starting pistol
+19	perhaps a costly contest	between the world's auto giants for	Britain's leading luxury - car maker
+19	Mr. Ridley's decision	fires the starting pistol for	perhaps a costly contest
+20	Mr. Stoll	suspected	the intruder was one of those precocious students
+20	the intruder	was one of those precocious students who has fun breaking into	computers
+20	Mr. Stoll	suspects the intruder was one of	these precocious students
+20	the intruder	had	fun breaking into computers
+20	Mr. Stoll	suspects	the intruder was one of those precocious students
+20	the intruder	has	fun breaking into computers
+20	the intruder	was	one of those precocious students
+21	he	'd play for	free
+21	mr. Broberg	claims he 'd play for	free
+21	Mr. Broberg	claims he 'd play for free	free
+21	Mr. Broberg	claims he 'd play for free	now
+22	Prime Minister Lee Kuan Yew	recently announced	his intention to retire next year
+22	Prime Minister Lee Kuan Yew	recently announced his intention to retire next year to end	his influence
+22	Prime Minister Lee Kuan Yew	recently announced his intention to retire	this year
+22	Prime Minister Lee Kuan Yew	recently announced his intention to end	his influence
+22	Prime Minister Lee Kuan Yew	is not necessarily to end	his influence
+23	Repeated customers	also can purchase	luxury items
+23	Repeat customers	also can purchase luxury items at	reduced prices
+23	Repeat customers	also can purchase	luxury items
+23	Repeated customers	also can purchase luxury items at	reduced prices
+24	he	examined	Lincoln's parent
+24	he	seeed	evidence
+24	Richard Newsom	said	he also saw evidence that crimes had been committed
+24	Richard Newsom	last year examined	Lincoln's parent
+24	he	also saw evidence that crimes had been committed	last year
+24	crimes	had been committed	last year
+24	he	also saw	evidence
+25	Sen. Mitchell	is confident he has sufficient votes to block such a measure with	procedural actions
+25	Sen. Mitchell	has sufficient votes to block such a measure with	procedural actions
+25	Sen. Mitchell	is confident he has	sufficient votes
+25	he	has sufficient votes to block	such a measure
+25	Sen. Mitchell	is confident he has sufficient votes to block	such a measure
+25	he	has	sufficient votes
+25	he	has sufficient votes to block such a measure with	procedural actions
+26	The Chemical spokeswoman	said	the bank has examined its methodologies
+26	the bank	has examined	its internal controls
+26	The Chemical spokeswoman	said	the bank has examined its internal controls
+26	The Chemical spokeswoman	said	the bank has examined its methodologies and internal controls
+26	The Chemical spokesperson	said	the bank has examined its methodologies
+26	the bank	has examined	its methodologies
+27	The Lone Star Steel lawsuit	also asks the court to rule that Lone Star Technologies is jointly responsible for a $ 4.5 million Lone Star Steel pension payment that was due in	September
+27	a $ 4.5 million Lone Star Steel pension payment	was due in	September
+27	the parent company	can't recover	the amount
+27	the parent company	makes	the payment
+27	the parent company	can't recover the amount from	its subsidiary
+27	Lone Star Technologies	is jointly responsible for	a $ 4.5 million Lone Star Steel pension payment
+27	The Lone Star Steel lawsuit	also asks the court to rule that Lone Star Technologies is jointly responsible for	a $ 4.5 million Lone Star Steel pension payment
+27	a $ 4.5 million Lone Star Steel pension payment	wasn't paid in	September
+28	pilots	failed to make	mandatory preflight checks
+28	mandate preflight checks	would have detected	the error
+28	The National Transportation Safety Board	ruled that pilots failed to set the plane's slats properly for	takeoff
+28	pilots	fail to make	mandatory preflight checks
+28	The National Transportation Safety Board	ruled that pilots failed to set	the plane's slats properly
+28	The National Transportation Safety Board	ruled	that pilots failed to set the plane's wing flaps properly for takeoff
+28	pilots	fail to make	mandate preflight checks
+28	mandatory preflight checks	would have detected	the error
+29	The discount rate	rose slightly from the average rate at Monday's auction to 7.79 % for	a bond
+29	The discount rate on three - month Treasury bills	rose slightly from the average rate at	Monday's auction
+29	The discount rate	rose slightly from 7.79 % for	a bond
+29	The discount rate for a bond	equivalent yield of	8.04 %
+29	The discount rate	rose slightly from the average rate at Monday's auction to	7.79 %
+29	The discount rate on three - month Treasury bills	rose slightly from	the average rate
+31	The executives	had profited handsomely by building	American National Can Co.
+32	The market's tempo	was helped by	the dollar's resiliency
+32	The market's tempo	was helped by	the dollar's resilience
+32	he	says	The market's tempo was helped by the dollar's resiliency
+32	He	said	The market's tempo was helped by the dollar's resiliency
+32	he	said	The market's tempo was helped by the dollar's resiliency
+33	The office	may also be able to advise	french clients
+33	The office	may also be able to advise multinational clients on	general matters
+33	The office	may also be able to advise foreign clients on	international law
+33	The office	may also be able to advise	foreign clients
+34	their land	will be sold	In the sentence
+34	their land	will be sold	The three existing plants
+34	The three existing plants	will be sold	and their land will be sold
+35	New York City	announced a 10 - point policy This week patterned on	the federal bill of rights for taxpayers
+35	New York City	announced a 10 - point policy patterned on the federal bill of rights for	taxpayers
+35	New York City	announced a 10 - point policy This week patterned on the federal bill of rights for	taxpayers
+35	New York City	announced	a 10 - point policy
+35	New York City	announced a 10 - point policy This week patterned on the federal bill of rights for	takers
+35	New York City	announced a 10-point policy This week patterned on the federal bill of rights for	taxpayers
+36	USG Corp.	will lease	the 19 - story facility
+36	USG Corp.	will lease the 19 - story facility until it moves to	a new quarters
+36	USG Corp.	agreed to sell	its headquarters building
+36	USG Corp.	agreed to sell its headquarters building here to	Manufacturers Life Insurance Co. of Toronto
+36	USG Corp.	agreed to sell its headquarters building here to	Makers Life Insurance Co. of Toronto
+36	USG Corp.	will lease the 19 - story facility until it moves to	a new quarters in 1992
+37	Sen. Edward Kennedy	says	Business across the country is spending more time addressing this issue
+37	Business across the country	is spending more time addressing	this issue
+37	 Business across the country	is spending more time addressing	this issue
+38	i	will throw	80 - plus
+38	he	says	I won't be throwing 90 mph
+38	I	won't be throwing 90 mph	but I will throw 80 - plus
+38	I	will throw	80 - plus
+38	he	says	I will throw 80 - plus
+39	the RTC	may have to dump	acquired assets
+39	he	said	 If working capital financing is not provided''
+39	the RTC	may have to slow	S&L sales
+39	he	said	'' If working capital financing is not provided ''
+39	the RTC	may have to dump acquired assets through	fire sales
+40	an official close to the case	asked not to be named	at this time
+40	nobody	called	us
+40	an official	says	Nobody told us
+40	an official	asked not to be named	at this time
+40	an official	close to	the case

@@ -145,9 +145,14 @@ def model_output_to_visualiser(
         sentence_level_triple_list = list(set(tuple(i) for i in sentence_level_triple_list))
         data['labels'] += [sentence_level_triple_list]
 
-    in_sentence_accuracy = float(successful_parsing)/(successful_parsing+not_in_sentence_prediction)
-    syntax_accuracy = float(valid_syntax_count)/(valid_syntax_count + invalid_syntax_count)
-    
+    try:
+        in_sentence_accuracy = float(successful_parsing)/(successful_parsing+not_in_sentence_prediction)
+        syntax_accuracy = float(valid_syntax_count)/(valid_syntax_count + invalid_syntax_count)
+    except:
+        print('error in calculating parsing accuracies')
+        in_sentence_accuracy = None
+        syntax_accuracy = None
+
     accuracies_by_epoch = {
         'model':results_path.split('_')[-1].split('.')[0],
         'in_sentence_accuracy':in_sentence_accuracy,
@@ -224,7 +229,7 @@ for i in range(number_choices):
         out_path = f"evaluators/benchie/data/oie_systems_explicit_extractions/e2_grid/e2_explicit_{i}_{j}.txt"
 
         accuracies_by_runs = model_output_to_visualiser(test_dataset_path = 'models/E4/results/benchie_en.json',
-                results_path = f'models/E2/results/4runs/benchie_en_separation_2_commas_{j}.json',
+                results_path = f'models/E1/results/4runs/benchie_en_separation_2_commas_{j}.json',
                 output_path = f'visualiser/model_results/e2_grid/e2_explicit_{i}_{j}.json',
                 max_number_runs= i+1,
                 slice_index=-40)

@@ -1,68 +1,59 @@
-1	He	served as	the first Prime Minister of Australia
-1	He	became a founding justice of	the High Court of Australia
-2	Graner	left him there for	nearly five hours
-2	he	left him there	feet dangling off the floor
-2	Graner	handcuffed him to	the bars of a cell window
-3	It	deals with cases of fraud in relation to	money laundering
-3	It	deals with cases of fraud in relation to	tax credits
-3	It	deals with	cases of fraud
-3	It	deals with cases of fraud in relation to	direct taxes
-4	St. Michael	was honored by	the river being named for him
-4	St. Michael	was considered to be	the patron saint of colonial Maryland
-6	the remaining trackage at Charles City	was abandoned	Several years later
-7	Dr. Jagan himself	was personally involved in	the organization of the strike
-8	the Philippine Autonomy Act of 1916	provided for greater autonomy for	the Philippines
-8	the municipality	was renamed Jones in honor of	American congressman William Jones
-9	the laser	cuts	a portion of the prostate
-11	He	were said to have made	bombs
-11	He	were said to have made bombs for fun on	the outskirts of Murray, Utah
-12	A large gravestone	was erected in	his death
-12	A large gravestone	was erected in	1866
-13	he	was tipped as	a Presidential candidate
-15	Each of the programs	uses	a combination of geographic requirements
-15	Each of the programs	uses	a combination of funding priorities
-16	The Institut Constant de Rebecque	is	a Swiss free-market classical liberal and libertarian think tank
-16	The Institut Constant de Rebecque	is a Swiss free-market classical liberal think tank founded in	January 2005
-17	this adoption over mainline gimp	was its support for	high bit depths
-17	The main reason for this adoption over mainline gimp	was its support for	high bit depths
-18	They	have	a large range of possible power supplies
-19	She	began her film career in 1947 in	the film '' A New Oath ''
-19	She	began her film career in	1947
-20	The brightest star	is	a red giant
-20	The brightest star	is	a red giant of spectral type K2III
-20	The brightest star in Serpens	is	a red giant of spectral type K2III located approximately away
-21	This manual for warriors	describes the necessity for striking in	moments of weakness
-21	This manual for warriors	describes	the necessity for using spies
-21	This manual for warriors	describes	the necessity for understanding an opponent's weaknesses
-21	This manual for warriors	describes the necessity for using	spies
-22	it	was club policy to promote talent into	the senior team
-24	the Photographic Model	follows	more of a step-by-step process in the development of flashbulb accounts
-24	the Comprehensive Model	demonstrates an interconnected relationship between	the variables
-25	300 soldiers of the 1st SS Battalion	were able to defeat several attacks on	the building
-25	300 soldiers of the 1st SS Battalion	were able to reinforce	the hotel
-25	300 soldiers	were able to reinforce	the hotel
-26	His son	was	an early aviation pioneer
-27	Arminius	now had	a free hand
-28	The culture of Bhutan	is fully reflected in	the capital city
-30	attempted murder	is	an indictable offence
-30	attempted murder	is an offence under	section 1 of the Criminal Attempts Act 1981
-31	Lozano	continue to reside in	Venezuela
-31	Lugo	were released in	93
-32	objects	are so far away	do not contribute significantly to the final image
-32	objects	are so far away that they do not contribute significantly to	the final image
-33	The school	was founded in	1851
-33	The school	was founded in 1851 as	the German-English Academy
-34	They	held	the first Triangle workshop
-34	They	held the first Triangle workshop for thirty sculptors and painters from	the UK
-34	They	held the first Triangle workshop in 1982 for thirty sculptors and painters from	the US
-34	They	held the first Triangle workshop in 1982 for	thirty sculptors and painters
-34	They	held the first Triangle workshop in	1982
-35	The town	were hit by two moderate earthquakes within	ten years
-35	The town	were hit by	two moderate earthquakes
-36	She	received her Master Degree from	I.I.T Madras
-36	She	received her Ph.d degree from	the department of Aerospace engineering
-37	The unique gimmicks she used in her stage show	went beyond established burlesque routines like	the balloon dance
-37	The theatrical flourishes	went beyond established burlesque routines like	the fan dance
-37	The theatrical flourishes	went beyond	established burlesque routines
-38	The RIAA	lists it as	one of the Best Selling Albums of All Time
-40	Peter Bywaters	offers personal English as	a second language tuition
+2	Bert Campaneris	flipped	it to second
+2	Bert Campaneris	instantaneously scoops up	a groundball
+3	traders	said	the market remains dull
+4	Mr. Sider	pores over	last wills
+5	Edison Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores from	Foxmoor Specialty Stores Corp.
+5	Edward Brothers Stores Inc.	agreed to buy 229 Foxmoor women's apparel stores from	Foxmoor Specialty Stores Corp.
+6	Four people in	have raised	as many hackles
+6	Four people in the advertising business	have raised	as many hackles
+6	Four people in	have raised	hatles
+6	Four people in	the advertising business	have raised as many hackles
+7	a passenger	can fly from	Chardon, Neb.
+8	Hani Zayadi	was appointed president and chief executive officer of	this financially troubled department store chain
+8	Hani Zayadi	was appointed president of	this financially troubled department store chain
+9	the problem	is that once most poison pills	are adopted
+10	Hungary's Parliament	voted to hold a national referendum on	an election to fill the new post of president
+10	Hungary's Parliament	voted to hold a national referendum on an election to fill	the new post of president
+11	Those functions	account for	only about a third of the software market
+13	It	was the most active of	the 100 - share indexes
+13	It	was the most active of	the 100 - share index
+15	Labour costs	are climbing at a far more rapid pace in	the health care industry
+15	Labor costs	are climbing at a far more rapid pace in	the health care industry
+15	Labour costs	are climbing at a far more rapid pace in	other industries
+16	Mitsubishi	has control of	some major projects
+16	Motorola	has control of	some major projects
+17	Medical cooperatives	are banned from treating	cancer patients
+17	Medical cooperatives	are banned from treating cancer patients	drug addicts
+18	reports of tension between	the Treasury and Fed	have been exaggerated
+18	Mr. Mulford	said	reports of tension between the Treasury and Fed have been exaggerated
+19	Mr. Ridley's decision	fires	the starting pistol
+19	Mr. Ridley's decision	fires the starting pistol for	perhaps a costly contest
+21	Mr. Broberg	claims	he 'd play for free
+22	Prime Minister Lee Kuan Yew	recently announced	his intention to retire next year
+22	Prime Minister Lee Kuan Yew	recently announced	his intention to retire
+23	Repeat customers	also can purchase	luxury items at reduced prices
+25	Sen. Mitchell	is confident	he has sufficient votes
+25	Sen. Mitchell	is confident	he has sufficient votes to block such a measure with procedural actions
+26	The Chemical spokeswoman	has examined	its internal controls
+26	The Chemical spokeswoman	said	the bank has examined its methodologies
+26	The Chemical spokeswoman	said	the bank has examined its internal controls
+26	The Chemical spokeswoman	says	the bank has examined its methodologies
+26	The Chemical spokeswoman	says	the bank has examined its internal controls
+27	The Lone Star Steel lawsuit	also asks the court to rule that Lone Star Technologies is jointly responsible for	a $ 4.5 million Lone Star Steel pension payment
+28	pilots	failed to make mandatory preflight checks that would have detected	the error
+28	pilots	failed to set	the plane's wing flaps and slats properly for takeoff
+29	The discount rate on three - month Treasury bills	rose slightly from	the average rate at Monday's auction
+30	suits	that might have been barred because they	were filed too late
+30	suits	that might have been barred because	they were filed too late
+31	The executives	had profited handsomely by building	American National Can Co.
+32	The market's tempo	was helped by	the dollar's resiliency
+33	The office	may also be able to advise	multinational clients
+33	The office	may also be able to advise	international clients
+33	The office	may also be able to advise foreign clients on	general matters
+33	The office	may also be able to advise foreign clients on	international law
+35	New York City	invited a 10 - point policy patterned on	the federal bill of rights for taxpayers
+35	New York City	announced	a 10 - point policy
+35	New York City	invited	a 10 - point policy
+36	USG Corp.	will lease the 19 - story facility until it moves to a new quarters in	1992
+36	USG Corp.	agreed to sell	his headquarters building
+39	he	may have to dump acquired assets through	fire sales
