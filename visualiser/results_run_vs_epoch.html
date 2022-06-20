@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=
-    , initial-scale=1.0"
-    />
-    <title>Document</title>
-    <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-  </head>
 
-  <body>
-    <div id="myDiv">
-      <!-- Plotly chart will be drawn inside this DIV -->
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=
+    , initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+</head>
 
-    <script>
-      var metric
-      function get_data() {
-        const Http = new XMLHttpRequest();
-        metric='recall'
-        const url = "model_results/t_5_grid_" + metric.toLowerCase() +".json";
-        Http.open("GET", url);
-        Http.send();
+<body>
+  <div id="myDiv">
+    <!-- Plotly chart will be drawn inside this DIV -->
+  </div>
 
-        Http.onreadystatechange = (e) => {
-          if (Http.readyState == 4 && Http.status == 200) {
-            dataset = JSON.parse(Http.responseText);
-            build_graph(dataset);
-          }
-        };
-      }
+  <script>
+    var metric
 
-      // Literally row by column, numbers are strings tho
+    function get_data() {
+      const Http = new XMLHttpRequest();
+      metric = 'recall'
+      const url = "model_results/t_5_grid_" + metric.toLowerCase() + ".json";
+      Http.open("GET", url);
+      Http.send();
 
-      function build_graph(dataset) {
-        
-        console.log(dataset)
-        var data = [
-          {
-            z: dataset,
-            type: "surface",
+      Http.onreadystatechange = (e) => {
+        if (Http.readyState == 4 && Http.status == 200) {
+          dataset = JSON.parse(Http.responseText);
+          build_graph(dataset);
+        }
+      };
+    }
+
+    // Literally row by column, numbers are strings tho
+
+    function build_graph(dataset) {
+
+      console.log(dataset)
+      var data = [{
+        z: dataset,
+        type: "surface",
+      }, ];
+
+      var layout = {
+        title: "T5-Base: fine-tuned on ReOie2016 and tested on BenchIE " + metric + " scores",
+        autosize: false,
+        width: 800,
+        height: 800,
+        scene: {
+          xaxis: {
+            title: "Epochs",
+            titlefont: {
+              family: "Arial, Open Sans",
+              size: 22,
+            },
+            nticks: 5,
+            range: [0, 39],
           },
-        ];
-
-        var layout = {
-          title: "T5-Base: fine-tuned on ReOie2016 and tested on BenchIE " + metric+" scores",
-          autosize: false,
-          width: 800,
-          height: 800,
-          scene: {
-            xaxis: {
-              title: "Epochs",
-              titlefont: {
-                family: "Arial, Open Sans",
-                size: 22,
-              },
-              nticks: 5,
-              range: [0, 39],
+          yaxis: {
+            title: "Runs",
+            titlefont: {
+              family: "Arial, Open Sans",
+              size: 22,
             },
-            yaxis: {
-              title: "Runs",
-              titlefont: {
-                family: "Arial, Open Sans",
-                size: 22,
-              },
-              nticks: 4,
-              range: [0,2],
-            },
-            zaxis: {
-              title: metric,
-              titlefont: {
-                family: "Arial, Open Sans",
-                size: 22,
-              },
+            nticks: 4,
+            range: [0, 2],
+          },
+          zaxis: {
+            title: metric,
+            titlefont: {
+              family: "Arial, Open Sans",
+              size: 22,
             },
           },
+        },
 
-          margin: {
-            l: 65,
-            r: 65,
-            b: 65,
-            t: 65,
-          },
-        };
-        Plotly.newPlot("myDiv", data, layout);
-      }
+        margin: {
+          l: 65,
+          r: 65,
+          b: 65,
+          t: 65,
+        },
+      };
+      Plotly.newPlot("myDiv", data, layout);
+    }
 
-      get_data()
-    </script>
-  </body>
+    get_data()
+  </script>
+</body>
+
 </html>

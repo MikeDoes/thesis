@@ -376,12 +376,12 @@
 				edges: edges,
 			};
 			var options = {
-  physics:{
+  /* physics:{
     enabled: true,
     barnesHut: {
       theta: 0.5,
       gravitationalConstant: -2000,
-      centralGravity: 0.3,
+      centralGravity: 0.5,
       springLength: 95,
       springConstant: 0.04,
       damping: 0.09,
@@ -424,7 +424,7 @@
     timestep: 0.5,
     adaptiveTimestep: true,
     wind: { x: 0, y: 0 }
-  }
+  } */
 };
 			var network = new vis.Network(container, data, options);
 		}
